@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/home/vtx/projects/pokeditor/logs/.e72e7780ffb014859cc94db2352010e6a77ce200-audit.json",
+    "files": [
+        {
+            "date": 1756343360919,
+            "name": "/home/vtx/projects/pokeditor/logs/mcp-puppeteer-2025-08-27.log",
+            "hash": "2cffd94879e2867a7dc23b21eadea0b677ed242a8765b0e91ec9fbe6fe89d07c"
+        },
+        {
+            "date": 1756357030373,
+            "name": "/home/vtx/projects/pokeditor/logs/mcp-puppeteer-2025-08-28.log",
+            "hash": "b840cfc2cf6895e14137ac25191f4c4ae274a49feafbdd6be7cce2f35f61e321"
+        }
+    ],
+    "hashType": "sha256"
+}

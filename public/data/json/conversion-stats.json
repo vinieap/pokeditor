@@ -1,0 +1,90 @@
+{
+  "timestamp": "2025-08-28T09:02:45.061Z",
+  "files": {
+    "Pokemon": {
+      "count": 722,
+      "originalSize": 614444,
+      "jsonSize": 3374928
+    },
+    "Moves": {
+      "count": 621,
+      "originalSize": 93655,
+      "jsonSize": 522822
+    },
+    "Items": {
+      "count": 630,
+      "originalSize": 87857,
+      "jsonSize": 443162
+    },
+    "Trainers": {
+      "count": 467,
+      "originalSize": 59054,
+      "jsonSize": 436340
+    },
+    "Encounters": {
+      "count": 86,
+      "originalSize": 25177,
+      "jsonSize": 277679
+    },
+    "Types": {
+      "count": 19,
+      "originalSize": 2229,
+      "jsonSize": 11310
+    },
+    "Abilities": {
+      "count": 188,
+      "originalSize": 12979,
+      "jsonSize": 63389
+    },
+    "pikacuptr": {
+      "count": 300,
+      "originalSize": 85687,
+      "jsonSize": 437882
+    },
+    "pikacuppm": {
+      "count": 0,
+      "originalSize": 20444,
+      "jsonSize": 30
+    },
+    "pokecuptr": {
+      "count": 200,
+      "originalSize": 35223,
+      "jsonSize": 158736
+    },
+    "pokecuppm": {
+      "count": 0,
+      "originalSize": 26246,
+      "jsonSize": 30
+    },
+    "littlecuptr": {
+      "count": 200,
+      "originalSize": 35752,
+      "jsonSize": 160982
+    },
+    "littlecuppm": {
+      "count": 0,
+      "originalSize": 26340,
+      "jsonSize": 30
+    },
+    "fancycuptr": {
+      "count": 0,
+      "originalSize": 82841,
+      "jsonSize": 30
+    },
+    "fancycuppm": {
+      "count": 0,
+      "originalSize": 44382,
+      "jsonSize": 30
+    },
+    "fancycupsingletr": {
+      "count": 300,
+      "originalSize": 67313,
+      "jsonSize": 277696
+    },
+    "fancycupsinglepm": {
+      "count": 0,
+      "originalSize": 18062,
+      "jsonSize": 30
+    }
+  }
+}

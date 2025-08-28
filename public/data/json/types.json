@@ -1,0 +1,655 @@
+{
+  "byId": {
+    "0": {
+      "id": 0,
+      "name": "Normal\r",
+      "internalName": "NORMAL\r",
+      "weaknesses": [
+        "FIGHTING\r"
+      ],
+      "resistances": [],
+      "immunities": [
+        "GHOST"
+      ]
+    },
+    "1": {
+      "id": 1,
+      "name": "Fighting\r",
+      "internalName": "FIGHTING\r",
+      "weaknesses": [
+        "FLYING",
+        "PSYCHIC",
+        "FAIRY\r"
+      ],
+      "resistances": [
+        "ROCK",
+        "BUG",
+        "DARK"
+      ],
+      "immunities": []
+    },
+    "2": {
+      "id": 2,
+      "name": "Flying\r",
+      "internalName": "FLYING\r",
+      "weaknesses": [
+        "ROCK",
+        "ELECTRIC",
+        "ICE\r"
+      ],
+      "resistances": [
+        "FIGHTING",
+        "BUG",
+        "GRASS\r"
+      ],
+      "immunities": [
+        "GROUND"
+      ]
+    },
+    "3": {
+      "id": 3,
+      "name": "Poison\r",
+      "internalName": "POISON\r",
+      "weaknesses": [
+        "GROUND",
+        "PSYCHIC\r"
+      ],
+      "resistances": [
+        "FIGHTING",
+        "POISON",
+        "BUG",
+        "GRASS",
+        "FAIRY"
+      ],
+      "immunities": []
+    },
+    "4": {
+      "id": 4,
+      "name": "Ground\r",
+      "internalName": "GROUND\r",
+      "weaknesses": [
+        "WATER",
+        "GRASS",
+        "ICE\r"
+      ],
+      "resistances": [
+        "POISON",
+        "ROCK\r"
+      ],
+      "immunities": [
+        "ELECTRIC"
+      ]
+    },
+    "5": {
+      "id": 5,
+      "name": "Rock\r",
+      "internalName": "ROCK\r",
+      "weaknesses": [
+        "FIGHTING",
+        "GROUND",
+        "STEEL",
+        "WATER",
+        "GRASS\r"
+      ],
+      "resistances": [
+        "NORMAL",
+        "FLYING",
+        "POISON",
+        "FIRE"
+      ],
+      "immunities": []
+    },
+    "6": {
+      "id": 6,
+      "name": "Bug\r",
+      "internalName": "BUG\r",
+      "weaknesses": [
+        "FLYING",
+        "ROCK",
+        "FIRE\r"
+      ],
+      "resistances": [
+        "FIGHTING",
+        "GROUND",
+        "GRASS"
+      ],
+      "immunities": []
+    },
+    "7": {
+      "id": 7,
+      "name": "Ghost\r",
+      "internalName": "GHOST\r",
+      "weaknesses": [
+        "GHOST",
+        "DARK\r"
+      ],
+      "resistances": [
+        "POISON",
+        "BUG\r"
+      ],
+      "immunities": [
+        "NORMAL",
+        "FIGHTING"
+      ]
+    },
+    "8": {
+      "id": 8,
+      "name": "Steel\r",
+      "internalName": "STEEL\r",
+      "weaknesses": [
+        "FIGHTING",
+        "GROUND",
+        "FIRE\r"
+      ],
+      "resistances": [
+        "NORMAL",
+        "FLYING",
+        "ROCK",
+        "BUG",
+        "STEEL",
+        "GRASS",
+        "PSYCHIC",
+        "ICE",
+        "DRAGON",
+        "FAIRY\r"
+      ],
+      "immunities": [
+        "POISON"
+      ]
+    },
+    "9": {
+      "id": 9,
+      "name": "???\r",
+      "internalName": "QMARKS\r",
+      "weaknesses": [],
+      "resistances": [],
+      "immunities": []
+    },
+    "10": {
+      "id": 10,
+      "name": "Fire\r",
+      "internalName": "FIRE\r",
+      "weaknesses": [
+        "GROUND",
+        "ROCK",
+        "WATER\r"
+      ],
+      "resistances": [
+        "BUG",
+        "STEEL",
+        "FIRE",
+        "GRASS",
+        "ICE",
+        "FAIRY"
+      ],
+      "immunities": []
+    },
+    "11": {
+      "id": 11,
+      "name": "Water\r",
+      "internalName": "WATER\r",
+      "weaknesses": [
+        "GRASS",
+        "ELECTRIC\r"
+      ],
+      "resistances": [
+        "STEEL",
+        "FIRE",
+        "WATER",
+        "ICE"
+      ],
+      "immunities": []
+    },
+    "12": {
+      "id": 12,
+      "name": "Grass\r",
+      "internalName": "GRASS\r",
+      "weaknesses": [
+        "FLYING",
+        "POISON",
+        "BUG",
+        "FIRE",
+        "ICE\r"
+      ],
+      "resistances": [
+        "GROUND",
+        "WATER",
+        "GRASS",
+        "ELECTRIC"
+      ],
+      "immunities": []
+    },
+    "13": {
+      "id": 13,
+      "name": "Electric\r",
+      "internalName": "ELECTRIC\r",
+      "weaknesses": [
+        "GROUND\r"
+      ],
+      "resistances": [
+        "FLYING",
+        "STEEL",
+        "ELECTRIC"
+      ],
+      "immunities": []
+    },
+    "14": {
+      "id": 14,
+      "name": "Psychic\r",
+      "internalName": "PSYCHIC\r",
+      "weaknesses": [
+        "BUG",
+        "GHOST",
+        "DARK\r"
+      ],
+      "resistances": [
+        "FIGHTING",
+        "PSYCHIC"
+      ],
+      "immunities": []
+    },
+    "15": {
+      "id": 15,
+      "name": "Ice\r",
+      "internalName": "ICE\r",
+      "weaknesses": [
+        "FIGHTING",
+        "ROCK",
+        "STEEL",
+        "FIRE\r"
+      ],
+      "resistances": [
+        "ICE"
+      ],
+      "immunities": []
+    },
+    "16": {
+      "id": 16,
+      "name": "Dragon\r",
+      "internalName": "DRAGON\r",
+      "weaknesses": [
+        "ICE",
+        "DRAGON",
+        "FAIRY\r"
+      ],
+      "resistances": [
+        "FIRE",
+        "WATER",
+        "GRASS",
+        "ELECTRIC"
+      ],
+      "immunities": []
+    },
+    "17": {
+      "id": 17,
+      "name": "Dark\r",
+      "internalName": "DARK\r",
+      "weaknesses": [
+        "FIGHTING",
+        "BUG",
+        "FAIRY\r"
+      ],
+      "resistances": [
+        "GHOST",
+        "DARK\r"
+      ],
+      "immunities": [
+        "PSYCHIC"
+      ]
+    },
+    "18": {
+      "id": 18,
+      "name": "Fairy\r",
+      "internalName": "FAIRY\r",
+      "weaknesses": [
+        "POISON",
+        "STEEL\r"
+      ],
+      "resistances": [
+        "FIGHTING",
+        "BUG",
+        "DARK\r"
+      ],
+      "immunities": [
+        "DRAGON"
+      ]
+    }
+  },
+  "list": [
+    {
+      "id": 0,
+      "name": "Normal\r",
+      "internalName": "NORMAL\r",
+      "weaknesses": [
+        "FIGHTING\r"
+      ],
+      "resistances": [],
+      "immunities": [
+        "GHOST"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Fighting\r",
+      "internalName": "FIGHTING\r",
+      "weaknesses": [
+        "FLYING",
+        "PSYCHIC",
+        "FAIRY\r"
+      ],
+      "resistances": [
+        "ROCK",
+        "BUG",
+        "DARK"
+      ],
+      "immunities": []
+    },
+    {
+      "id": 2,
+      "name": "Flying\r",
+      "internalName": "FLYING\r",
+      "weaknesses": [
+        "ROCK",
+        "ELECTRIC",
+        "ICE\r"
+      ],
+      "resistances": [
+        "FIGHTING",
+        "BUG",
+        "GRASS\r"
+      ],
+      "immunities": [
+        "GROUND"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Poison\r",
+      "internalName": "POISON\r",
+      "weaknesses": [
+        "GROUND",
+        "PSYCHIC\r"
+      ],
+      "resistances": [
+        "FIGHTING",
+        "POISON",
+        "BUG",
+        "GRASS",
+        "FAIRY"
+      ],
+      "immunities": []
+    },
+    {
+      "id": 4,
+      "name": "Ground\r",
+      "internalName": "GROUND\r",
+      "weaknesses": [
+        "WATER",
+        "GRASS",
+        "ICE\r"
+      ],
+      "resistances": [
+        "POISON",
+        "ROCK\r"
+      ],
+      "immunities": [
+        "ELECTRIC"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Rock\r",
+      "internalName": "ROCK\r",
+      "weaknesses": [
+        "FIGHTING",
+        "GROUND",
+        "STEEL",
+        "WATER",
+        "GRASS\r"
+      ],
+      "resistances": [
+        "NORMAL",
+        "FLYING",
+        "POISON",
+        "FIRE"
+      ],
+      "immunities": []
+    },
+    {
+      "id": 6,
+      "name": "Bug\r",
+      "internalName": "BUG\r",
+      "weaknesses": [
+        "FLYING",
+        "ROCK",
+        "FIRE\r"
+      ],
+      "resistances": [
+        "FIGHTING",
+        "GROUND",
+        "GRASS"
+      ],
+      "immunities": []
+    },
+    {
+      "id": 7,
+      "name": "Ghost\r",
+      "internalName": "GHOST\r",
+      "weaknesses": [
+        "GHOST",
+        "DARK\r"
+      ],
+      "resistances": [
+        "POISON",
+        "BUG\r"
+      ],
+      "immunities": [
+        "NORMAL",
+        "FIGHTING"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Steel\r",
+      "internalName": "STEEL\r",
+      "weaknesses": [
+        "FIGHTING",
+        "GROUND",
+        "FIRE\r"
+      ],
+      "resistances": [
+        "NORMAL",
+        "FLYING",
+        "ROCK",
+        "BUG",
+        "STEEL",
+        "GRASS",
+        "PSYCHIC",
+        "ICE",
+        "DRAGON",
+        "FAIRY\r"
+      ],
+      "immunities": [
+        "POISON"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "???\r",
+      "internalName": "QMARKS\r",
+      "weaknesses": [],
+      "resistances": [],
+      "immunities": []
+    },
+    {
+      "id": 10,
+      "name": "Fire\r",
+      "internalName": "FIRE\r",
+      "weaknesses": [
+        "GROUND",
+        "ROCK",
+        "WATER\r"
+      ],
+      "resistances": [
+        "BUG",
+        "STEEL",
+        "FIRE",
+        "GRASS",
+        "ICE",
+        "FAIRY"
+      ],
+      "immunities": []
+    },
+    {
+      "id": 11,
+      "name": "Water\r",
+      "internalName": "WATER\r",
+      "weaknesses": [
+        "GRASS",
+        "ELECTRIC\r"
+      ],
+      "resistances": [
+        "STEEL",
+        "FIRE",
+        "WATER",
+        "ICE"
+      ],
+      "immunities": []
+    },
+    {
+      "id": 12,
+      "name": "Grass\r",
+      "internalName": "GRASS\r",
+      "weaknesses": [
+        "FLYING",
+        "POISON",
+        "BUG",
+        "FIRE",
+        "ICE\r"
+      ],
+      "resistances": [
+        "GROUND",
+        "WATER",
+        "GRASS",
+        "ELECTRIC"
+      ],
+      "immunities": []
+    },
+    {
+      "id": 13,
+      "name": "Electric\r",
+      "internalName": "ELECTRIC\r",
+      "weaknesses": [
+        "GROUND\r"
+      ],
+      "resistances": [
+        "FLYING",
+        "STEEL",
+        "ELECTRIC"
+      ],
+      "immunities": []
+    },
+    {
+      "id": 14,
+      "name": "Psychic\r",
+      "internalName": "PSYCHIC\r",
+      "weaknesses": [
+        "BUG",
+        "GHOST",
+        "DARK\r"
+      ],
+      "resistances": [
+        "FIGHTING",
+        "PSYCHIC"
+      ],
+      "immunities": []
+    },
+    {
+      "id": 15,
+      "name": "Ice\r",
+      "internalName": "ICE\r",
+      "weaknesses": [
+        "FIGHTING",
+        "ROCK",
+        "STEEL",
+        "FIRE\r"
+      ],
+      "resistances": [
+        "ICE"
+      ],
+      "immunities": []
+    },
+    {
+      "id": 16,
+      "name": "Dragon\r",
+      "internalName": "DRAGON\r",
+      "weaknesses": [
+        "ICE",
+        "DRAGON",
+        "FAIRY\r"
+      ],
+      "resistances": [
+        "FIRE",
+        "WATER",
+        "GRASS",
+        "ELECTRIC"
+      ],
+      "immunities": []
+    },
+    {
+      "id": 17,
+      "name": "Dark\r",
+      "internalName": "DARK\r",
+      "weaknesses": [
+        "FIGHTING",
+        "BUG",
+        "FAIRY\r"
+      ],
+      "resistances": [
+        "GHOST",
+        "DARK\r"
+      ],
+      "immunities": [
+        "PSYCHIC"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Fairy\r",
+      "internalName": "FAIRY\r",
+      "weaknesses": [
+        "POISON",
+        "STEEL\r"
+      ],
+      "resistances": [
+        "FIGHTING",
+        "BUG",
+        "DARK\r"
+      ],
+      "immunities": [
+        "DRAGON"
+      ]
+    }
+  ],
+  "byInternalName": {
+    "NORMAL\r": 0,
+    "FIGHTING\r": 1,
+    "FLYING\r": 2,
+    "POISON\r": 3,
+    "GROUND\r": 4,
+    "ROCK\r": 5,
+    "BUG\r": 6,
+    "GHOST\r": 7,
+    "STEEL\r": 8,
+    "QMARKS\r": 9,
+    "FIRE\r": 10,
+    "WATER\r": 11,
+    "GRASS\r": 12,
+    "ELECTRIC\r": 13,
+    "PSYCHIC\r": 14,
+    "ICE\r": 15,
+    "DRAGON\r": 16,
+    "DARK\r": 17,
+    "FAIRY\r": 18
+  }
+}

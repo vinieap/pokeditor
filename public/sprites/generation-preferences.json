@@ -1,0 +1,25 @@
+{
+  "pokemon": {
+    "preferredGenerations": [
+      "other/official-artwork",
+      "other/x-y",
+      "other/black-white/animated",
+      "other/black-white",
+      "other/heartgold-soulsilver",
+      "other/diamond-pearl",
+      "other/emerald",
+      "other/ruby-sapphire",
+      "other/crystal",
+      "other/gold-silver",
+      "other/red-blue",
+      ""
+    ],
+    "defaultGeneration": "other/x-y"
+  },
+  "items": {
+    "preferredPath": "sprites/items"
+  },
+  "trainers": {
+    "preferredPath": "sprites/trainers"
+  }
+}

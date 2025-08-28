@@ -1,0 +1,6768 @@
+{
+  "pokemon": {
+    "1": {
+      "internalName": "BULBASAUR",
+      "name": "Bisasam",
+      "spriteId": "bulbasaur"
+    },
+    "2": {
+      "internalName": "IVYSAUR",
+      "name": "Bisaknosp",
+      "spriteId": "ivysaur"
+    },
+    "3": {
+      "internalName": "VENUSAUR",
+      "name": "Bisaflor",
+      "spriteId": "venusaur"
+    },
+    "4": {
+      "internalName": "CHARMANDER",
+      "name": "Glumanda",
+      "spriteId": "charmander"
+    },
+    "5": {
+      "internalName": "CHARMELEON",
+      "name": "Glutexo",
+      "spriteId": "charmeleon"
+    },
+    "6": {
+      "internalName": "CHARIZARD",
+      "name": "Glurak",
+      "spriteId": "charizard"
+    },
+    "7": {
+      "internalName": "SQUIRTLE",
+      "name": "Schiggy",
+      "spriteId": "squirtle"
+    },
+    "8": {
+      "internalName": "WARTORTLE",
+      "name": "Schillok",
+      "spriteId": "wartortle"
+    },
+    "9": {
+      "internalName": "BLASTOISE",
+      "name": "Turtok",
+      "spriteId": "blastoise"
+    },
+    "10": {
+      "internalName": "CATERPIE",
+      "name": "Raupy",
+      "spriteId": "caterpie"
+    },
+    "11": {
+      "internalName": "METAPOD",
+      "name": "Safcon",
+      "spriteId": "metapod"
+    },
+    "12": {
+      "internalName": "BUTTERFREE",
+      "name": "Smettbo",
+      "spriteId": "butterfree"
+    },
+    "13": {
+      "internalName": "WEEDLE",
+      "name": "Hornliu",
+      "spriteId": "weedle"
+    },
+    "14": {
+      "internalName": "KAKUNA",
+      "name": "Kokuna",
+      "spriteId": "kakuna"
+    },
+    "15": {
+      "internalName": "BEEDRILL",
+      "name": "Bibor",
+      "spriteId": "beedrill"
+    },
+    "16": {
+      "internalName": "PIDGEY",
+      "name": "Taubsi",
+      "spriteId": "pidgey"
+    },
+    "17": {
+      "internalName": "PIDGEOTTO",
+      "name": "Tauboga",
+      "spriteId": "pidgeotto"
+    },
+    "18": {
+      "internalName": "PIDGEOT",
+      "name": "Tauboss",
+      "spriteId": "pidgeot"
+    },
+    "19": {
+      "internalName": "RATTATA",
+      "name": "Rattfratz",
+      "spriteId": "rattata"
+    },
+    "20": {
+      "internalName": "RATICATE",
+      "name": "Rattikarl",
+      "spriteId": "raticate"
+    },
+    "21": {
+      "internalName": "SPEAROW",
+      "name": "Habitak",
+      "spriteId": "spearow"
+    },
+    "22": {
+      "internalName": "FEAROW",
+      "name": "Ibitak",
+      "spriteId": "fearow"
+    },
+    "23": {
+      "internalName": "EKANS",
+      "name": "Rettan",
+      "spriteId": "ekans"
+    },
+    "24": {
+      "internalName": "ARBOK",
+      "name": "Arbok",
+      "spriteId": "arbok"
+    },
+    "25": {
+      "internalName": "PIKACHU",
+      "name": "Pikachu",
+      "spriteId": "pikachu"
+    },
+    "26": {
+      "internalName": "RAICHU",
+      "name": "Raichu",
+      "spriteId": "raichu"
+    },
+    "27": {
+      "internalName": "SANDSHREW",
+      "name": "Sandan",
+      "spriteId": "sandshrew"
+    },
+    "28": {
+      "internalName": "SANDSLASH",
+      "name": "Sandamer",
+      "spriteId": "sandslash"
+    },
+    "29": {
+      "internalName": "NIDORANfE",
+      "name": "Nidoran♀",
+      "spriteId": "nidoranfe"
+    },
+    "30": {
+      "internalName": "NIDORINA",
+      "name": "Nidorina",
+      "spriteId": "nidorina"
+    },
+    "31": {
+      "internalName": "NIDOQUEEN",
+      "name": "Nidoqueen",
+      "spriteId": "nidoqueen"
+    },
+    "32": {
+      "internalName": "NIDORANmA",
+      "name": "Nidoran♂",
+      "spriteId": "nidoranma"
+    },
+    "33": {
+      "internalName": "NIDORINO",
+      "name": "Nidorino",
+      "spriteId": "nidorino"
+    },
+    "34": {
+      "internalName": "NIDOKING",
+      "name": "Nidoking",
+      "spriteId": "nidoking"
+    },
+    "35": {
+      "internalName": "CLEFAIRY",
+      "name": "Piepi",
+      "spriteId": "clefairy"
+    },
+    "36": {
+      "internalName": "CLEFABLE",
+      "name": "Pixi",
+      "spriteId": "clefable"
+    },
+    "37": {
+      "internalName": "VULPIX",
+      "name": "Vulpix",
+      "spriteId": "vulpix"
+    },
+    "38": {
+      "internalName": "NINETALES",
+      "name": "Vulnona",
+      "spriteId": "ninetales"
+    },
+    "39": {
+      "internalName": "JIGGLYPUFF",
+      "name": "Pummeluff",
+      "spriteId": "jigglypuff"
+    },
+    "40": {
+      "internalName": "WIGGLYTUFF",
+      "name": "Knuddeluff",
+      "spriteId": "wigglytuff"
+    },
+    "41": {
+      "internalName": "ZUBAT",
+      "name": "Zubat",
+      "spriteId": "zubat"
+    },
+    "42": {
+      "internalName": "GOLBAT",
+      "name": "Golbat",
+      "spriteId": "golbat"
+    },
+    "43": {
+      "internalName": "ODDISH",
+      "name": "Myrapla",
+      "spriteId": "oddish"
+    },
+    "44": {
+      "internalName": "GLOOM",
+      "name": "Duflor",
+      "spriteId": "gloom"
+    },
+    "45": {
+      "internalName": "VILEPLUME",
+      "name": "Giflor",
+      "spriteId": "vileplume"
+    },
+    "46": {
+      "internalName": "PARAS",
+      "name": "Paras",
+      "spriteId": "paras"
+    },
+    "47": {
+      "internalName": "PARASECT",
+      "name": "Parasek",
+      "spriteId": "parasect"
+    },
+    "48": {
+      "internalName": "VENONAT",
+      "name": "Bluzuk",
+      "spriteId": "venonat"
+    },
+    "49": {
+      "internalName": "VENOMOTH",
+      "name": "Omot",
+      "spriteId": "venomoth"
+    },
+    "50": {
+      "internalName": "DIGLETT",
+      "name": "Digda",
+      "spriteId": "diglett"
+    },
+    "51": {
+      "internalName": "DUGTRIO",
+      "name": "Digdri",
+      "spriteId": "dugtrio"
+    },
+    "52": {
+      "internalName": "MEOWTH",
+      "name": "Mauzi",
+      "spriteId": "meowth"
+    },
+    "53": {
+      "internalName": "PERSIAN",
+      "name": "Snobilikat",
+      "spriteId": "persian"
+    },
+    "54": {
+      "internalName": "PSYDUCK",
+      "name": "Enton",
+      "spriteId": "psyduck"
+    },
+    "55": {
+      "internalName": "GOLDUCK",
+      "name": "Entoron",
+      "spriteId": "golduck"
+    },
+    "56": {
+      "internalName": "MANKEY",
+      "name": "Menki",
+      "spriteId": "mankey"
+    },
+    "57": {
+      "internalName": "PRIMEAPE",
+      "name": "Rasaff",
+      "spriteId": "primeape"
+    },
+    "58": {
+      "internalName": "GROWLITHE",
+      "name": "Fukano",
+      "spriteId": "growlithe"
+    },
+    "59": {
+      "internalName": "ARCANINE",
+      "name": "Arkani",
+      "spriteId": "arcanine"
+    },
+    "60": {
+      "internalName": "POLIWAG",
+      "name": "Quapsel",
+      "spriteId": "poliwag"
+    },
+    "61": {
+      "internalName": "POLIWHIRL",
+      "name": "Quaputzi",
+      "spriteId": "poliwhirl"
+    },
+    "62": {
+      "internalName": "POLIWRATH",
+      "name": "Quappo",
+      "spriteId": "poliwrath"
+    },
+    "63": {
+      "internalName": "ABRA",
+      "name": "Abra",
+      "spriteId": "abra"
+    },
+    "64": {
+      "internalName": "KADABRA",
+      "name": "Kadabra",
+      "spriteId": "kadabra"
+    },
+    "65": {
+      "internalName": "ALAKAZAM",
+      "name": "Simsala",
+      "spriteId": "alakazam"
+    },
+    "66": {
+      "internalName": "MACHOP",
+      "name": "Machollo",
+      "spriteId": "machop"
+    },
+    "67": {
+      "internalName": "MACHOKE",
+      "name": "Maschock",
+      "spriteId": "machoke"
+    },
+    "68": {
+      "internalName": "MACHAMP",
+      "name": "Machomei",
+      "spriteId": "machamp"
+    },
+    "69": {
+      "internalName": "BELLSPROUT",
+      "name": "Knofensa",
+      "spriteId": "bellsprout"
+    },
+    "70": {
+      "internalName": "WEEPINBELL",
+      "name": "Ultrigaria",
+      "spriteId": "weepinbell"
+    },
+    "71": {
+      "internalName": "VICTREEBEL",
+      "name": "Sarzenia",
+      "spriteId": "victreebel"
+    },
+    "72": {
+      "internalName": "TENTACOOL",
+      "name": "Tentacha",
+      "spriteId": "tentacool"
+    },
+    "73": {
+      "internalName": "TENTACRUEL",
+      "name": "Tentoxa",
+      "spriteId": "tentacruel"
+    },
+    "74": {
+      "internalName": "GEODUDE",
+      "name": "Kleinstein",
+      "spriteId": "geodude"
+    },
+    "75": {
+      "internalName": "GRAVELER",
+      "name": "Georok",
+      "spriteId": "graveler"
+    },
+    "76": {
+      "internalName": "GOLEM",
+      "name": "Geowaz",
+      "spriteId": "golem"
+    },
+    "77": {
+      "internalName": "PONYTA",
+      "name": "Ponita",
+      "spriteId": "ponyta"
+    },
+    "78": {
+      "internalName": "RAPIDASH",
+      "name": "Gallopa",
+      "spriteId": "rapidash"
+    },
+    "79": {
+      "internalName": "SLOWPOKE",
+      "name": "Flegmon",
+      "spriteId": "slowpoke"
+    },
+    "80": {
+      "internalName": "SLOWBRO",
+      "name": "Lahmus",
+      "spriteId": "slowbro"
+    },
+    "81": {
+      "internalName": "MAGNEMITE",
+      "name": "Magnetilo",
+      "spriteId": "magnemite"
+    },
+    "82": {
+      "internalName": "MAGNETON",
+      "name": "Magneton",
+      "spriteId": "magneton"
+    },
+    "83": {
+      "internalName": "FARFETCHD",
+      "name": "Porenta",
+      "spriteId": "farfetchd"
+    },
+    "84": {
+      "internalName": "DODUO",
+      "name": "Dodu",
+      "spriteId": "doduo"
+    },
+    "85": {
+      "internalName": "DODRIO",
+      "name": "Dodri",
+      "spriteId": "dodrio"
+    },
+    "86": {
+      "internalName": "SEEL",
+      "name": "Jurob",
+      "spriteId": "seel"
+    },
+    "87": {
+      "internalName": "DEWGONG",
+      "name": "Jugong",
+      "spriteId": "dewgong"
+    },
+    "88": {
+      "internalName": "GRIMER",
+      "name": "Sleima",
+      "spriteId": "grimer"
+    },
+    "89": {
+      "internalName": "MUK",
+      "name": "Sleimok",
+      "spriteId": "muk"
+    },
+    "90": {
+      "internalName": "SHELLDER",
+      "name": "Muschas",
+      "spriteId": "shellder"
+    },
+    "91": {
+      "internalName": "CLOYSTER",
+      "name": "Austos",
+      "spriteId": "cloyster"
+    },
+    "92": {
+      "internalName": "GASTLY",
+      "name": "Nebulak",
+      "spriteId": "gastly"
+    },
+    "93": {
+      "internalName": "HAUNTER",
+      "name": "Alpollo",
+      "spriteId": "haunter"
+    },
+    "94": {
+      "internalName": "GENGAR",
+      "name": "Gengar",
+      "spriteId": "gengar"
+    },
+    "95": {
+      "internalName": "ONIX",
+      "name": "Onix",
+      "spriteId": "onix"
+    },
+    "96": {
+      "internalName": "DROWZEE",
+      "name": "Traumato",
+      "spriteId": "drowzee"
+    },
+    "97": {
+      "internalName": "HYPNO",
+      "name": "Hypno",
+      "spriteId": "hypno"
+    },
+    "98": {
+      "internalName": "KRABBY",
+      "name": "Krabby",
+      "spriteId": "krabby"
+    },
+    "99": {
+      "internalName": "KINGLER",
+      "name": "Kingler",
+      "spriteId": "kingler"
+    },
+    "100": {
+      "internalName": "VOLTORB",
+      "name": "Voltobal",
+      "spriteId": "voltorb"
+    },
+    "101": {
+      "internalName": "ELECTRODE",
+      "name": "Lektrobal",
+      "spriteId": "electrode"
+    },
+    "102": {
+      "internalName": "EXEGGCUTE",
+      "name": "Owei",
+      "spriteId": "exeggcute"
+    },
+    "103": {
+      "internalName": "EXEGGUTOR",
+      "name": "Kokowei",
+      "spriteId": "exeggutor"
+    },
+    "104": {
+      "internalName": "CUBONE",
+      "name": "Tragosso",
+      "spriteId": "cubone"
+    },
+    "105": {
+      "internalName": "MAROWAK",
+      "name": "Knogga",
+      "spriteId": "marowak"
+    },
+    "106": {
+      "internalName": "HITMONLEE",
+      "name": "Kicklee",
+      "spriteId": "hitmonlee"
+    },
+    "107": {
+      "internalName": "HITMONCHAN",
+      "name": "Nockchan",
+      "spriteId": "hitmonchan"
+    },
+    "108": {
+      "internalName": "LICKITUNG",
+      "name": "Schlurp",
+      "spriteId": "lickitung"
+    },
+    "109": {
+      "internalName": "KOFFING",
+      "name": "Smogon",
+      "spriteId": "koffing"
+    },
+    "110": {
+      "internalName": "WEEZING",
+      "name": "Smogmog",
+      "spriteId": "weezing"
+    },
+    "111": {
+      "internalName": "RHYHORN",
+      "name": "Rihorn",
+      "spriteId": "rhyhorn"
+    },
+    "112": {
+      "internalName": "RHYDON",
+      "name": "Rizeros",
+      "spriteId": "rhydon"
+    },
+    "113": {
+      "internalName": "CHANSEY",
+      "name": "Chaneira",
+      "spriteId": "chansey"
+    },
+    "114": {
+      "internalName": "TANGELA",
+      "name": "Tangela",
+      "spriteId": "tangela"
+    },
+    "115": {
+      "internalName": "KANGASKHAN",
+      "name": "Kangama",
+      "spriteId": "kangaskhan"
+    },
+    "116": {
+      "internalName": "HORSEA",
+      "name": "Seeper",
+      "spriteId": "horsea"
+    },
+    "117": {
+      "internalName": "SEADRA",
+      "name": "Seemon",
+      "spriteId": "seadra"
+    },
+    "118": {
+      "internalName": "GOLDEEN",
+      "name": "Goldini",
+      "spriteId": "goldeen"
+    },
+    "119": {
+      "internalName": "SEAKING",
+      "name": "Golking",
+      "spriteId": "seaking"
+    },
+    "120": {
+      "internalName": "STARYU",
+      "name": "Sterndu",
+      "spriteId": "staryu"
+    },
+    "121": {
+      "internalName": "STARMIE",
+      "name": "Starmie",
+      "spriteId": "starmie"
+    },
+    "122": {
+      "internalName": "MRMIME",
+      "name": "Pantimos",
+      "spriteId": "mrmime"
+    },
+    "123": {
+      "internalName": "SCYTHER",
+      "name": "Sichlor",
+      "spriteId": "scyther"
+    },
+    "124": {
+      "internalName": "JYNX",
+      "name": "Rossana",
+      "spriteId": "jynx"
+    },
+    "125": {
+      "internalName": "ELECTABUZZ",
+      "name": "Elektek",
+      "spriteId": "electabuzz"
+    },
+    "126": {
+      "internalName": "MAGMAR",
+      "name": "Magmar",
+      "spriteId": "magmar"
+    },
+    "127": {
+      "internalName": "PINSIR",
+      "name": "Pinsir",
+      "spriteId": "pinsir"
+    },
+    "128": {
+      "internalName": "TAUROS",
+      "name": "Tauros",
+      "spriteId": "tauros"
+    },
+    "129": {
+      "internalName": "MAGIKARP",
+      "name": "Karpador",
+      "spriteId": "magikarp"
+    },
+    "130": {
+      "internalName": "GYARADOS",
+      "name": "Garados",
+      "spriteId": "gyarados"
+    },
+    "131": {
+      "internalName": "LAPRAS",
+      "name": "Lapras",
+      "spriteId": "lapras"
+    },
+    "132": {
+      "internalName": "DITTO",
+      "name": "Ditto",
+      "spriteId": "ditto"
+    },
+    "133": {
+      "internalName": "EEVEE",
+      "name": "Evoli",
+      "spriteId": "eevee"
+    },
+    "134": {
+      "internalName": "VAPOREON",
+      "name": "Aquana",
+      "spriteId": "vaporeon"
+    },
+    "135": {
+      "internalName": "JOLTEON",
+      "name": "Blitza",
+      "spriteId": "jolteon"
+    },
+    "136": {
+      "internalName": "FLAREON",
+      "name": "Flamara",
+      "spriteId": "flareon"
+    },
+    "137": {
+      "internalName": "PORYGON",
+      "name": "Porygon",
+      "spriteId": "porygon"
+    },
+    "138": {
+      "internalName": "OMANYTE",
+      "name": "Amonitas",
+      "spriteId": "omanyte"
+    },
+    "139": {
+      "internalName": "OMASTAR",
+      "name": "Amoroso",
+      "spriteId": "omastar"
+    },
+    "140": {
+      "internalName": "KABUTO",
+      "name": "Kabuto",
+      "spriteId": "kabuto"
+    },
+    "141": {
+      "internalName": "KABUTOPS",
+      "name": "Kabutops",
+      "spriteId": "kabutops"
+    },
+    "142": {
+      "internalName": "AERODACTYL",
+      "name": "Aerodactyl",
+      "spriteId": "aerodactyl"
+    },
+    "143": {
+      "internalName": "SNORLAX",
+      "name": "Relaxo",
+      "spriteId": "snorlax"
+    },
+    "144": {
+      "internalName": "ARTICUNO",
+      "name": "Arktos",
+      "spriteId": "articuno"
+    },
+    "145": {
+      "internalName": "ZAPDOS",
+      "name": "Zapdos",
+      "spriteId": "zapdos"
+    },
+    "146": {
+      "internalName": "MOLTRES",
+      "name": "Lavados",
+      "spriteId": "moltres"
+    },
+    "147": {
+      "internalName": "DRATINI",
+      "name": "Dratini",
+      "spriteId": "dratini"
+    },
+    "148": {
+      "internalName": "DRAGONAIR",
+      "name": "Dragonir",
+      "spriteId": "dragonair"
+    },
+    "149": {
+      "internalName": "DRAGONITE",
+      "name": "Dragoran",
+      "spriteId": "dragonite"
+    },
+    "150": {
+      "internalName": "MEWTWO",
+      "name": "Mewtu",
+      "spriteId": "mewtwo"
+    },
+    "151": {
+      "internalName": "MEW",
+      "name": "Mew",
+      "spriteId": "mew"
+    },
+    "152": {
+      "internalName": "CHIKORITA",
+      "name": "Endivie",
+      "spriteId": "chikorita"
+    },
+    "153": {
+      "internalName": "BAYLEEF",
+      "name": "Lorblatt",
+      "spriteId": "bayleef"
+    },
+    "154": {
+      "internalName": "MEGANIUM",
+      "name": "Meganie",
+      "spriteId": "meganium"
+    },
+    "155": {
+      "internalName": "CYNDAQUIL",
+      "name": "Feurigel",
+      "spriteId": "cyndaquil"
+    },
+    "156": {
+      "internalName": "QUILAVA",
+      "name": "Igelavar",
+      "spriteId": "quilava"
+    },
+    "157": {
+      "internalName": "TYPHLOSION",
+      "name": "Tornupto",
+      "spriteId": "typhlosion"
+    },
+    "158": {
+      "internalName": "TOTODILE",
+      "name": "Karnimani",
+      "spriteId": "totodile"
+    },
+    "159": {
+      "internalName": "CROCONAW",
+      "name": "Tyracroc",
+      "spriteId": "croconaw"
+    },
+    "160": {
+      "internalName": "FERALIGATR",
+      "name": "Impergator",
+      "spriteId": "feraligatr"
+    },
+    "161": {
+      "internalName": "SENTRET",
+      "name": "Wiesor",
+      "spriteId": "sentret"
+    },
+    "162": {
+      "internalName": "FURRET",
+      "name": "Wiesenior",
+      "spriteId": "furret"
+    },
+    "163": {
+      "internalName": "HOOTHOOT",
+      "name": "Hoothoot",
+      "spriteId": "hoothoot"
+    },
+    "164": {
+      "internalName": "NOCTOWL",
+      "name": "Noctuh",
+      "spriteId": "noctowl"
+    },
+    "165": {
+      "internalName": "LEDYBA",
+      "name": "Ledyba",
+      "spriteId": "ledyba"
+    },
+    "166": {
+      "internalName": "LEDIAN",
+      "name": "Ledian",
+      "spriteId": "ledian"
+    },
+    "167": {
+      "internalName": "SPINARAK",
+      "name": "Webarak",
+      "spriteId": "spinarak"
+    },
+    "168": {
+      "internalName": "ARIADOS",
+      "name": "Ariados",
+      "spriteId": "ariados"
+    },
+    "169": {
+      "internalName": "CROBAT",
+      "name": "Iksbat",
+      "spriteId": "crobat"
+    },
+    "170": {
+      "internalName": "CHINCHOU",
+      "name": "Lampi",
+      "spriteId": "chinchou"
+    },
+    "171": {
+      "internalName": "LANTURN",
+      "name": "Lanturn",
+      "spriteId": "lanturn"
+    },
+    "172": {
+      "internalName": "PICHU",
+      "name": "Pichu",
+      "spriteId": "pichu"
+    },
+    "173": {
+      "internalName": "CLEFFA",
+      "name": "Pii",
+      "spriteId": "cleffa"
+    },
+    "174": {
+      "internalName": "IGGLYBUFF",
+      "name": "Fluffeluff",
+      "spriteId": "igglybuff"
+    },
+    "175": {
+      "internalName": "TOGEPI",
+      "name": "Togepi",
+      "spriteId": "togepi"
+    },
+    "176": {
+      "internalName": "TOGETIC",
+      "name": "Togetic",
+      "spriteId": "togetic"
+    },
+    "177": {
+      "internalName": "NATU",
+      "name": "Natu",
+      "spriteId": "natu"
+    },
+    "178": {
+      "internalName": "XATU",
+      "name": "Xatu",
+      "spriteId": "xatu"
+    },
+    "179": {
+      "internalName": "MAREEP",
+      "name": "Voltilamm",
+      "spriteId": "mareep"
+    },
+    "180": {
+      "internalName": "FLAAFFY",
+      "name": "Waaty",
+      "spriteId": "flaaffy"
+    },
+    "181": {
+      "internalName": "AMPHAROS",
+      "name": "Ampharos",
+      "spriteId": "ampharos"
+    },
+    "182": {
+      "internalName": "BELLOSSOM",
+      "name": "Blubella",
+      "spriteId": "bellossom"
+    },
+    "183": {
+      "internalName": "MARILL",
+      "name": "Marill",
+      "spriteId": "marill"
+    },
+    "184": {
+      "internalName": "AZUMARILL",
+      "name": "Azumarill",
+      "spriteId": "azumarill"
+    },
+    "185": {
+      "internalName": "SUDOWOODO",
+      "name": "Mogelbaum",
+      "spriteId": "sudowoodo"
+    },
+    "186": {
+      "internalName": "POLITOED",
+      "name": "Quaxo",
+      "spriteId": "politoed"
+    },
+    "187": {
+      "internalName": "HOPPIP",
+      "name": "Hoppspross",
+      "spriteId": "hoppip"
+    },
+    "188": {
+      "internalName": "SKIPLOOM",
+      "name": "Hubelupf",
+      "spriteId": "skiploom"
+    },
+    "189": {
+      "internalName": "JUMPLUFF",
+      "name": "Papungha",
+      "spriteId": "jumpluff"
+    },
+    "190": {
+      "internalName": "AIPOM",
+      "name": "Griffel",
+      "spriteId": "aipom"
+    },
+    "191": {
+      "internalName": "SUNKERN",
+      "name": "Sonnkern",
+      "spriteId": "sunkern"
+    },
+    "192": {
+      "internalName": "SUNFLORA",
+      "name": "Sonnflora",
+      "spriteId": "sunflora"
+    },
+    "193": {
+      "internalName": "YANMA",
+      "name": "Yanma",
+      "spriteId": "yanma"
+    },
+    "194": {
+      "internalName": "WOOPER",
+      "name": "Felino",
+      "spriteId": "wooper"
+    },
+    "195": {
+      "internalName": "QUAGSIRE",
+      "name": "Morlord",
+      "spriteId": "quagsire"
+    },
+    "196": {
+      "internalName": "ESPEON",
+      "name": "Psiana",
+      "spriteId": "espeon"
+    },
+    "197": {
+      "internalName": "UMBREON",
+      "name": "Nachtara",
+      "spriteId": "umbreon"
+    },
+    "198": {
+      "internalName": "MURKROW",
+      "name": "Kramurx",
+      "spriteId": "murkrow"
+    },
+    "199": {
+      "internalName": "SLOWKING",
+      "name": "Laschoking",
+      "spriteId": "slowking"
+    },
+    "200": {
+      "internalName": "MISDREAVUS",
+      "name": "Traunfugil",
+      "spriteId": "misdreavus"
+    },
+    "201": {
+      "internalName": "UNOWN",
+      "name": "Icognito",
+      "spriteId": "unown"
+    },
+    "202": {
+      "internalName": "WOBBUFFET",
+      "name": "Woingenau",
+      "spriteId": "wobbuffet"
+    },
+    "203": {
+      "internalName": "GIRAFARIG",
+      "name": "Girafarig",
+      "spriteId": "girafarig"
+    },
+    "204": {
+      "internalName": "PINECO",
+      "name": "Tannza",
+      "spriteId": "pineco"
+    },
+    "205": {
+      "internalName": "FORRETRESS",
+      "name": "Forstellka",
+      "spriteId": "forretress"
+    },
+    "206": {
+      "internalName": "DUNSPARCE",
+      "name": "Dummisel",
+      "spriteId": "dunsparce"
+    },
+    "207": {
+      "internalName": "GLIGAR",
+      "name": "Skorgla",
+      "spriteId": "gligar"
+    },
+    "208": {
+      "internalName": "STEELIX",
+      "name": "Stahlos",
+      "spriteId": "steelix"
+    },
+    "209": {
+      "internalName": "SNUBBULL",
+      "name": "Snubbull",
+      "spriteId": "snubbull"
+    },
+    "210": {
+      "internalName": "GRANBULL",
+      "name": "Granbull",
+      "spriteId": "granbull"
+    },
+    "211": {
+      "internalName": "QWILFISH",
+      "name": "Baldorfish",
+      "spriteId": "qwilfish"
+    },
+    "212": {
+      "internalName": "SCIZOR",
+      "name": "Scherox",
+      "spriteId": "scizor"
+    },
+    "213": {
+      "internalName": "SHUCKLE",
+      "name": "Pottrott",
+      "spriteId": "shuckle"
+    },
+    "214": {
+      "internalName": "HERACROSS",
+      "name": "Skaraborn",
+      "spriteId": "heracross"
+    },
+    "215": {
+      "internalName": "SNEASEL",
+      "name": "Sniebel",
+      "spriteId": "sneasel"
+    },
+    "216": {
+      "internalName": "TEDDIURSA",
+      "name": "Teddiursa",
+      "spriteId": "teddiursa"
+    },
+    "217": {
+      "internalName": "URSARING",
+      "name": "Ursaring",
+      "spriteId": "ursaring"
+    },
+    "218": {
+      "internalName": "SLUGMA",
+      "name": "Schneckmag",
+      "spriteId": "slugma"
+    },
+    "219": {
+      "internalName": "MAGCARGO",
+      "name": "Magcargo",
+      "spriteId": "magcargo"
+    },
+    "220": {
+      "internalName": "SWINUB",
+      "name": "Quiekel",
+      "spriteId": "swinub"
+    },
+    "221": {
+      "internalName": "PILOSWINE",
+      "name": "Keifel",
+      "spriteId": "piloswine"
+    },
+    "222": {
+      "internalName": "CORSOLA",
+      "name": "Corasonn",
+      "spriteId": "corsola"
+    },
+    "223": {
+      "internalName": "REMORAID",
+      "name": "Remoraid",
+      "spriteId": "remoraid"
+    },
+    "224": {
+      "internalName": "OCTILLERY",
+      "name": "Octillery",
+      "spriteId": "octillery"
+    },
+    "225": {
+      "internalName": "DELIBIRD",
+      "name": "Botogel",
+      "spriteId": "delibird"
+    },
+    "226": {
+      "internalName": "MANTINE",
+      "name": "Mantax",
+      "spriteId": "mantine"
+    },
+    "227": {
+      "internalName": "SKARMORY",
+      "name": "Panzaeron",
+      "spriteId": "skarmory"
+    },
+    "228": {
+      "internalName": "HOUNDOUR",
+      "name": "Hunduster",
+      "spriteId": "houndour"
+    },
+    "229": {
+      "internalName": "HOUNDOOM",
+      "name": "Hundemon",
+      "spriteId": "houndoom"
+    },
+    "230": {
+      "internalName": "KINGDRA",
+      "name": "Seedraking",
+      "spriteId": "kingdra"
+    },
+    "231": {
+      "internalName": "PHANPY",
+      "name": "Phanpy",
+      "spriteId": "phanpy"
+    },
+    "232": {
+      "internalName": "DONPHAN",
+      "name": "Donphan",
+      "spriteId": "donphan"
+    },
+    "233": {
+      "internalName": "PORYGON2",
+      "name": "Porygon2",
+      "spriteId": "porygon2"
+    },
+    "234": {
+      "internalName": "STANTLER",
+      "name": "Damhirplex",
+      "spriteId": "stantler"
+    },
+    "235": {
+      "internalName": "SMEARGLE",
+      "name": "Farbeagle",
+      "spriteId": "smeargle"
+    },
+    "236": {
+      "internalName": "TYROGUE",
+      "name": "Rabauz",
+      "spriteId": "tyrogue"
+    },
+    "237": {
+      "internalName": "HITMONTOP",
+      "name": "Kapoera",
+      "spriteId": "hitmontop"
+    },
+    "238": {
+      "internalName": "SMOOCHUM",
+      "name": "Kussilla",
+      "spriteId": "smoochum"
+    },
+    "239": {
+      "internalName": "ELEKID",
+      "name": "Elekid",
+      "spriteId": "elekid"
+    },
+    "240": {
+      "internalName": "MAGBY",
+      "name": "Magby",
+      "spriteId": "magby"
+    },
+    "241": {
+      "internalName": "MILTANK",
+      "name": "Miltank",
+      "spriteId": "miltank"
+    },
+    "242": {
+      "internalName": "BLISSEY",
+      "name": "Heiteira",
+      "spriteId": "blissey"
+    },
+    "243": {
+      "internalName": "RAIKOU",
+      "name": "Raikou",
+      "spriteId": "raikou"
+    },
+    "244": {
+      "internalName": "ENTEI",
+      "name": "Entei",
+      "spriteId": "entei"
+    },
+    "245": {
+      "internalName": "SUICUNE",
+      "name": "Suicune",
+      "spriteId": "suicune"
+    },
+    "246": {
+      "internalName": "LARVITAR",
+      "name": "Larvitar",
+      "spriteId": "larvitar"
+    },
+    "247": {
+      "internalName": "PUPITAR",
+      "name": "Pupitar",
+      "spriteId": "pupitar"
+    },
+    "248": {
+      "internalName": "TYRANITAR",
+      "name": "Despotar",
+      "spriteId": "tyranitar"
+    },
+    "249": {
+      "internalName": "LUGIA",
+      "name": "Lugia",
+      "spriteId": "lugia"
+    },
+    "250": {
+      "internalName": "HOOH",
+      "name": "Ho-Oh",
+      "spriteId": "hooh"
+    },
+    "251": {
+      "internalName": "CELEBI",
+      "name": "Celebi",
+      "spriteId": "celebi"
+    },
+    "252": {
+      "internalName": "TREECKO",
+      "name": "Geckarbor",
+      "spriteId": "treecko"
+    },
+    "253": {
+      "internalName": "GROVYLE",
+      "name": "Reptain",
+      "spriteId": "grovyle"
+    },
+    "254": {
+      "internalName": "SCEPTILE",
+      "name": "Gewaldro",
+      "spriteId": "sceptile"
+    },
+    "255": {
+      "internalName": "TORCHIC",
+      "name": "Flemmli",
+      "spriteId": "torchic"
+    },
+    "256": {
+      "internalName": "COMBUSKEN",
+      "name": "Jungglut",
+      "spriteId": "combusken"
+    },
+    "257": {
+      "internalName": "BLAZIKEN",
+      "name": "Lohgock",
+      "spriteId": "blaziken"
+    },
+    "258": {
+      "internalName": "MUDKIP",
+      "name": "Hydropi",
+      "spriteId": "mudkip"
+    },
+    "259": {
+      "internalName": "MARSHTOMP",
+      "name": "Moorabbel",
+      "spriteId": "marshtomp"
+    },
+    "260": {
+      "internalName": "SWAMPERT",
+      "name": "Sumpex",
+      "spriteId": "swampert"
+    },
+    "261": {
+      "internalName": "POOCHYENA",
+      "name": "Fiffyen",
+      "spriteId": "poochyena"
+    },
+    "262": {
+      "internalName": "MIGHTYENA",
+      "name": "Magnayen",
+      "spriteId": "mightyena"
+    },
+    "263": {
+      "internalName": "ZIGZAGOON",
+      "name": "Zigzachs",
+      "spriteId": "zigzagoon"
+    },
+    "264": {
+      "internalName": "LINOONE",
+      "name": "Geradaks",
+      "spriteId": "linoone"
+    },
+    "265": {
+      "internalName": "WURMPLE",
+      "name": "Waumpel",
+      "spriteId": "wurmple"
+    },
+    "266": {
+      "internalName": "SILCOON",
+      "name": "Schaloko",
+      "spriteId": "silcoon"
+    },
+    "267": {
+      "internalName": "BEAUTIFLY",
+      "name": "Papinella",
+      "spriteId": "beautifly"
+    },
+    "268": {
+      "internalName": "CASCOON",
+      "name": "Panekon",
+      "spriteId": "cascoon"
+    },
+    "269": {
+      "internalName": "DUSTOX",
+      "name": "Pudox",
+      "spriteId": "dustox"
+    },
+    "270": {
+      "internalName": "LOTAD",
+      "name": "Loturzel",
+      "spriteId": "lotad"
+    },
+    "271": {
+      "internalName": "LOMBRE",
+      "name": "Lombrero",
+      "spriteId": "lombre"
+    },
+    "272": {
+      "internalName": "LUDICOLO",
+      "name": "Kappalores",
+      "spriteId": "ludicolo"
+    },
+    "273": {
+      "internalName": "SEEDOT",
+      "name": "Samurzel",
+      "spriteId": "seedot"
+    },
+    "274": {
+      "internalName": "NUZLEAF",
+      "name": "Blanas",
+      "spriteId": "nuzleaf"
+    },
+    "275": {
+      "internalName": "SHIFTRY",
+      "name": "Tengulist",
+      "spriteId": "shiftry"
+    },
+    "276": {
+      "internalName": "TAILLOW",
+      "name": "Schwalbini",
+      "spriteId": "taillow"
+    },
+    "277": {
+      "internalName": "SWELLOW",
+      "name": "Schwalboss",
+      "spriteId": "swellow"
+    },
+    "278": {
+      "internalName": "WINGULL",
+      "name": "Wingull",
+      "spriteId": "wingull"
+    },
+    "279": {
+      "internalName": "PELIPPER",
+      "name": "Pelipper",
+      "spriteId": "pelipper"
+    },
+    "280": {
+      "internalName": "RALTS",
+      "name": "Trasla",
+      "spriteId": "ralts"
+    },
+    "281": {
+      "internalName": "KIRLIA",
+      "name": "Kirlia",
+      "spriteId": "kirlia"
+    },
+    "282": {
+      "internalName": "GARDEVOIR",
+      "name": "Guardevoir",
+      "spriteId": "gardevoir"
+    },
+    "283": {
+      "internalName": "SURSKIT",
+      "name": "Gehweiher",
+      "spriteId": "surskit"
+    },
+    "284": {
+      "internalName": "MASQUERAIN",
+      "name": "Maskeregen",
+      "spriteId": "masquerain"
+    },
+    "285": {
+      "internalName": "SHROOMISH",
+      "name": "Knilz",
+      "spriteId": "shroomish"
+    },
+    "286": {
+      "internalName": "BRELOOM",
+      "name": "Kapilz",
+      "spriteId": "breloom"
+    },
+    "287": {
+      "internalName": "SLAKOTH",
+      "name": "Bummelz",
+      "spriteId": "slakoth"
+    },
+    "288": {
+      "internalName": "VIGOROTH",
+      "name": "Muntier",
+      "spriteId": "vigoroth"
+    },
+    "289": {
+      "internalName": "SLAKING",
+      "name": "Letarking",
+      "spriteId": "slaking"
+    },
+    "290": {
+      "internalName": "NINCADA",
+      "name": "Nincada",
+      "spriteId": "nincada"
+    },
+    "291": {
+      "internalName": "NINJASK",
+      "name": "Ninjask",
+      "spriteId": "ninjask"
+    },
+    "292": {
+      "internalName": "SHEDINJA",
+      "name": "Ninjatom",
+      "spriteId": "shedinja"
+    },
+    "293": {
+      "internalName": "WHISMUR",
+      "name": "Flurmel",
+      "spriteId": "whismur"
+    },
+    "294": {
+      "internalName": "LOUDRED",
+      "name": "Krakeelo",
+      "spriteId": "loudred"
+    },
+    "295": {
+      "internalName": "EXPLOUD",
+      "name": "Krawumms",
+      "spriteId": "exploud"
+    },
+    "296": {
+      "internalName": "MAKUHITA",
+      "name": "Makuhita",
+      "spriteId": "makuhita"
+    },
+    "297": {
+      "internalName": "HARIYAMA",
+      "name": "Hariyama",
+      "spriteId": "hariyama"
+    },
+    "298": {
+      "internalName": "AZURILL",
+      "name": "Azurill",
+      "spriteId": "azurill"
+    },
+    "299": {
+      "internalName": "NOSEPASS",
+      "name": "Nasgnet",
+      "spriteId": "nosepass"
+    },
+    "300": {
+      "internalName": "SKITTY",
+      "name": "Eneco",
+      "spriteId": "skitty"
+    },
+    "301": {
+      "internalName": "DELCATTY",
+      "name": "Enekoro",
+      "spriteId": "delcatty"
+    },
+    "302": {
+      "internalName": "SABLEYE",
+      "name": "Zobiris",
+      "spriteId": "sableye"
+    },
+    "303": {
+      "internalName": "MAWILE",
+      "name": "Flunkifer",
+      "spriteId": "mawile"
+    },
+    "304": {
+      "internalName": "ARON",
+      "name": "Stollunior",
+      "spriteId": "aron"
+    },
+    "305": {
+      "internalName": "LAIRON",
+      "name": "Stollrak",
+      "spriteId": "lairon"
+    },
+    "306": {
+      "internalName": "AGGRON",
+      "name": "Stolloss",
+      "spriteId": "aggron"
+    },
+    "307": {
+      "internalName": "MEDITITE",
+      "name": "Meditie",
+      "spriteId": "meditite"
+    },
+    "308": {
+      "internalName": "MEDICHAM",
+      "name": "Meditalis",
+      "spriteId": "medicham"
+    },
+    "309": {
+      "internalName": "ELECTRIKE",
+      "name": "Frizelbliz",
+      "spriteId": "electrike"
+    },
+    "310": {
+      "internalName": "MANECTRIC",
+      "name": "Voltenso",
+      "spriteId": "manectric"
+    },
+    "311": {
+      "internalName": "PLUSLE",
+      "name": "Plusle",
+      "spriteId": "plusle"
+    },
+    "312": {
+      "internalName": "MINUN",
+      "name": "Minun",
+      "spriteId": "minun"
+    },
+    "313": {
+      "internalName": "VOLBEAT",
+      "name": "Volbeat",
+      "spriteId": "volbeat"
+    },
+    "314": {
+      "internalName": "ILLUMISE",
+      "name": "Illumise",
+      "spriteId": "illumise"
+    },
+    "315": {
+      "internalName": "ROSELIA",
+      "name": "Roselia",
+      "spriteId": "roselia"
+    },
+    "316": {
+      "internalName": "GULPIN",
+      "name": "Schluppuck",
+      "spriteId": "gulpin"
+    },
+    "317": {
+      "internalName": "SWALOT",
+      "name": "Schlukwech",
+      "spriteId": "swalot"
+    },
+    "318": {
+      "internalName": "CARVANHA",
+      "name": "Kanivanha",
+      "spriteId": "carvanha"
+    },
+    "319": {
+      "internalName": "SHARPEDO",
+      "name": "Tohaido",
+      "spriteId": "sharpedo"
+    },
+    "320": {
+      "internalName": "WAILMER",
+      "name": "Wailmer",
+      "spriteId": "wailmer"
+    },
+    "321": {
+      "internalName": "WAILORD",
+      "name": "Wailord",
+      "spriteId": "wailord"
+    },
+    "322": {
+      "internalName": "NUMEL",
+      "name": "Camaub",
+      "spriteId": "numel"
+    },
+    "323": {
+      "internalName": "CAMERUPT",
+      "name": "Camerupt",
+      "spriteId": "camerupt"
+    },
+    "324": {
+      "internalName": "TORKOAL",
+      "name": "Qurtel",
+      "spriteId": "torkoal"
+    },
+    "325": {
+      "internalName": "SPOINK",
+      "name": "Spoink",
+      "spriteId": "spoink"
+    },
+    "326": {
+      "internalName": "GRUMPIG",
+      "name": "Groink",
+      "spriteId": "grumpig"
+    },
+    "327": {
+      "internalName": "SPINDA",
+      "name": "Pandir",
+      "spriteId": "spinda"
+    },
+    "328": {
+      "internalName": "TRAPINCH",
+      "name": "Knacklion",
+      "spriteId": "trapinch"
+    },
+    "329": {
+      "internalName": "VIBRAVA",
+      "name": "Vibrava",
+      "spriteId": "vibrava"
+    },
+    "330": {
+      "internalName": "FLYGON",
+      "name": "Libelldra",
+      "spriteId": "flygon"
+    },
+    "331": {
+      "internalName": "CACNEA",
+      "name": "Tuska",
+      "spriteId": "cacnea"
+    },
+    "332": {
+      "internalName": "CACTURNE",
+      "name": "Noktuska",
+      "spriteId": "cacturne"
+    },
+    "333": {
+      "internalName": "SWABLU",
+      "name": "Wablu",
+      "spriteId": "swablu"
+    },
+    "334": {
+      "internalName": "ALTARIA",
+      "name": "Altaria",
+      "spriteId": "altaria"
+    },
+    "335": {
+      "internalName": "ZANGOOSE",
+      "name": "Sengo",
+      "spriteId": "zangoose"
+    },
+    "336": {
+      "internalName": "SEVIPER",
+      "name": "Vipitis",
+      "spriteId": "seviper"
+    },
+    "337": {
+      "internalName": "LUNATONE",
+      "name": "Lunastein",
+      "spriteId": "lunatone"
+    },
+    "338": {
+      "internalName": "SOLROCK",
+      "name": "Sonnfel",
+      "spriteId": "solrock"
+    },
+    "339": {
+      "internalName": "BARBOACH",
+      "name": "Schmerbe",
+      "spriteId": "barboach"
+    },
+    "340": {
+      "internalName": "WHISCASH",
+      "name": "Welsar",
+      "spriteId": "whiscash"
+    },
+    "341": {
+      "internalName": "CORPHISH",
+      "name": "Krebscorps",
+      "spriteId": "corphish"
+    },
+    "342": {
+      "internalName": "CRAWDAUNT",
+      "name": "Krebutack",
+      "spriteId": "crawdaunt"
+    },
+    "343": {
+      "internalName": "BALTOY",
+      "name": "Puppance",
+      "spriteId": "baltoy"
+    },
+    "344": {
+      "internalName": "CLAYDOL",
+      "name": "Lepumentas",
+      "spriteId": "claydol"
+    },
+    "345": {
+      "internalName": "LILEEP",
+      "name": "Liliep",
+      "spriteId": "lileep"
+    },
+    "346": {
+      "internalName": "CRADILY",
+      "name": "Wielie",
+      "spriteId": "cradily"
+    },
+    "347": {
+      "internalName": "ANORITH",
+      "name": "Anorith",
+      "spriteId": "anorith"
+    },
+    "348": {
+      "internalName": "ARMALDO",
+      "name": "Armaldo",
+      "spriteId": "armaldo"
+    },
+    "349": {
+      "internalName": "FEEBAS",
+      "name": "Barschwa",
+      "spriteId": "feebas"
+    },
+    "350": {
+      "internalName": "MILOTIC",
+      "name": "Milotic",
+      "spriteId": "milotic"
+    },
+    "351": {
+      "internalName": "CASTFORM",
+      "name": "Formeo",
+      "spriteId": "castform"
+    },
+    "352": {
+      "internalName": "KECLEON",
+      "name": "Kecleon",
+      "spriteId": "kecleon"
+    },
+    "353": {
+      "internalName": "SHUPPET",
+      "name": "Shuppet",
+      "spriteId": "shuppet"
+    },
+    "354": {
+      "internalName": "BANETTE",
+      "name": "Banette",
+      "spriteId": "banette"
+    },
+    "355": {
+      "internalName": "DUSKULL",
+      "name": "Zwirrlicht",
+      "spriteId": "duskull"
+    },
+    "356": {
+      "internalName": "DUSCLOPS",
+      "name": "Zwirrklop",
+      "spriteId": "dusclops"
+    },
+    "357": {
+      "internalName": "TROPIUS",
+      "name": "Tropius",
+      "spriteId": "tropius"
+    },
+    "358": {
+      "internalName": "CHIMECHO",
+      "name": "Palimpalim",
+      "spriteId": "chimecho"
+    },
+    "359": {
+      "internalName": "ABSOL",
+      "name": "Absol",
+      "spriteId": "absol"
+    },
+    "360": {
+      "internalName": "WYNAUT",
+      "name": "Isso",
+      "spriteId": "wynaut"
+    },
+    "361": {
+      "internalName": "SNORUNT",
+      "name": "Schneppke",
+      "spriteId": "snorunt"
+    },
+    "362": {
+      "internalName": "GLALIE",
+      "name": "Firnontor",
+      "spriteId": "glalie"
+    },
+    "363": {
+      "internalName": "SPHEAL",
+      "name": "Seemops",
+      "spriteId": "spheal"
+    },
+    "364": {
+      "internalName": "SEALEO",
+      "name": "Seejong",
+      "spriteId": "sealeo"
+    },
+    "365": {
+      "internalName": "WALREIN",
+      "name": "Walraisa",
+      "spriteId": "walrein"
+    },
+    "366": {
+      "internalName": "CLAMPERL",
+      "name": "Perlu",
+      "spriteId": "clamperl"
+    },
+    "367": {
+      "internalName": "HUNTAIL",
+      "name": "Aalabyss",
+      "spriteId": "huntail"
+    },
+    "368": {
+      "internalName": "GOREBYSS",
+      "name": "Saganabyss",
+      "spriteId": "gorebyss"
+    },
+    "369": {
+      "internalName": "RELICANTH",
+      "name": "Relicanth",
+      "spriteId": "relicanth"
+    },
+    "370": {
+      "internalName": "LUVDISC",
+      "name": "Liebiskus",
+      "spriteId": "luvdisc"
+    },
+    "371": {
+      "internalName": "BAGON",
+      "name": "Kindwurm",
+      "spriteId": "bagon"
+    },
+    "372": {
+      "internalName": "SHELGON",
+      "name": "Draschel",
+      "spriteId": "shelgon"
+    },
+    "373": {
+      "internalName": "SALAMENCE",
+      "name": "Brutalanda",
+      "spriteId": "salamence"
+    },
+    "374": {
+      "internalName": "BELDUM",
+      "name": "Tanhel",
+      "spriteId": "beldum"
+    },
+    "375": {
+      "internalName": "METANG",
+      "name": "Metang",
+      "spriteId": "metang"
+    },
+    "376": {
+      "internalName": "METAGROSS",
+      "name": "Metagross",
+      "spriteId": "metagross"
+    },
+    "377": {
+      "internalName": "REGIROCK",
+      "name": "Regirock",
+      "spriteId": "regirock"
+    },
+    "378": {
+      "internalName": "REGICE",
+      "name": "Regice",
+      "spriteId": "regice"
+    },
+    "379": {
+      "internalName": "REGISTEEL",
+      "name": "Registeel",
+      "spriteId": "registeel"
+    },
+    "380": {
+      "internalName": "LATIAS",
+      "name": "Latias",
+      "spriteId": "latias"
+    },
+    "381": {
+      "internalName": "LATIOS",
+      "name": "Latios",
+      "spriteId": "latios"
+    },
+    "382": {
+      "internalName": "KYOGRE",
+      "name": "Kyogre",
+      "spriteId": "kyogre"
+    },
+    "383": {
+      "internalName": "GROUDON",
+      "name": "Groudon",
+      "spriteId": "groudon"
+    },
+    "384": {
+      "internalName": "RAYQUAZA",
+      "name": "Rayquaza",
+      "spriteId": "rayquaza"
+    },
+    "385": {
+      "internalName": "JIRACHI",
+      "name": "Jirachi",
+      "spriteId": "jirachi"
+    },
+    "386": {
+      "internalName": "DEOXYS",
+      "name": "Deoxys",
+      "spriteId": "deoxys"
+    },
+    "387": {
+      "internalName": "TURTWIG",
+      "name": "Chelast",
+      "spriteId": "turtwig"
+    },
+    "388": {
+      "internalName": "GROTLE",
+      "name": "Chelcarain",
+      "spriteId": "grotle"
+    },
+    "389": {
+      "internalName": "TORTERRA",
+      "name": "Chelterrar",
+      "spriteId": "torterra"
+    },
+    "390": {
+      "internalName": "CHIMCHAR",
+      "name": "Panflam",
+      "spriteId": "chimchar"
+    },
+    "391": {
+      "internalName": "MONFERNO",
+      "name": "Panpyro",
+      "spriteId": "monferno"
+    },
+    "392": {
+      "internalName": "INFERNAPE",
+      "name": "Panferno",
+      "spriteId": "infernape"
+    },
+    "393": {
+      "internalName": "PIPLUP",
+      "name": "Plinfa",
+      "spriteId": "piplup"
+    },
+    "394": {
+      "internalName": "PRINPLUP",
+      "name": "Pliprin",
+      "spriteId": "prinplup"
+    },
+    "395": {
+      "internalName": "EMPOLEON",
+      "name": "Impoleon",
+      "spriteId": "empoleon"
+    },
+    "396": {
+      "internalName": "STARLY",
+      "name": "Staralili",
+      "spriteId": "starly"
+    },
+    "397": {
+      "internalName": "STARAVIA",
+      "name": "Staravia",
+      "spriteId": "staravia"
+    },
+    "398": {
+      "internalName": "STARAPTOR",
+      "name": "Staraptor",
+      "spriteId": "staraptor"
+    },
+    "399": {
+      "internalName": "BIDOOF",
+      "name": "Bidiza",
+      "spriteId": "bidoof"
+    },
+    "400": {
+      "internalName": "BIBAREL",
+      "name": "Bidifas",
+      "spriteId": "bibarel"
+    },
+    "401": {
+      "internalName": "KRICKETOT",
+      "name": "Zirpurze",
+      "spriteId": "kricketot"
+    },
+    "402": {
+      "internalName": "KRICKETUNE",
+      "name": "Zirpeise",
+      "spriteId": "kricketune"
+    },
+    "403": {
+      "internalName": "SHINX",
+      "name": "Sheinux",
+      "spriteId": "shinx"
+    },
+    "404": {
+      "internalName": "LUXIO",
+      "name": "Luxio",
+      "spriteId": "luxio"
+    },
+    "405": {
+      "internalName": "LUXRAY",
+      "name": "Luxtra",
+      "spriteId": "luxray"
+    },
+    "406": {
+      "internalName": "BUDEW",
+      "name": "Knospi",
+      "spriteId": "budew"
+    },
+    "407": {
+      "internalName": "ROSERADE",
+      "name": "Roserade",
+      "spriteId": "roserade"
+    },
+    "408": {
+      "internalName": "CRANIDOS",
+      "name": "Koknodon",
+      "spriteId": "cranidos"
+    },
+    "409": {
+      "internalName": "RAMPARDOS",
+      "name": "Rameidon",
+      "spriteId": "rampardos"
+    },
+    "410": {
+      "internalName": "SHIELDON",
+      "name": "Schilterus",
+      "spriteId": "shieldon"
+    },
+    "411": {
+      "internalName": "BASTIODON",
+      "name": "Bollterus",
+      "spriteId": "bastiodon"
+    },
+    "412": {
+      "internalName": "BURMY",
+      "name": "Burmy",
+      "spriteId": "burmy"
+    },
+    "413": {
+      "internalName": "WORMADAM",
+      "name": "Burmadame",
+      "spriteId": "wormadam"
+    },
+    "414": {
+      "internalName": "MOTHIM",
+      "name": "Moterpel",
+      "spriteId": "mothim"
+    },
+    "415": {
+      "internalName": "COMBEE",
+      "name": "Wadribie",
+      "spriteId": "combee"
+    },
+    "416": {
+      "internalName": "VESPIQUEN",
+      "name": "Honweisel",
+      "spriteId": "vespiquen"
+    },
+    "417": {
+      "internalName": "PACHIRISU",
+      "name": "Pachirisu",
+      "spriteId": "pachirisu"
+    },
+    "418": {
+      "internalName": "BUIZEL",
+      "name": "Bamelin",
+      "spriteId": "buizel"
+    },
+    "419": {
+      "internalName": "FLOATZEL",
+      "name": "Bojelin",
+      "spriteId": "floatzel"
+    },
+    "420": {
+      "internalName": "CHERUBI",
+      "name": "Kikugi",
+      "spriteId": "cherubi"
+    },
+    "421": {
+      "internalName": "CHERRIM",
+      "name": "Kinoso",
+      "spriteId": "cherrim"
+    },
+    "422": {
+      "internalName": "SHELLOS",
+      "name": "Schalellos",
+      "spriteId": "shellos"
+    },
+    "423": {
+      "internalName": "GASTRODON",
+      "name": "Gastrodon",
+      "spriteId": "gastrodon"
+    },
+    "424": {
+      "internalName": "AMBIPOM",
+      "name": "Ambidiffel",
+      "spriteId": "ambipom"
+    },
+    "425": {
+      "internalName": "DRIFLOON",
+      "name": "Driftlon",
+      "spriteId": "drifloon"
+    },
+    "426": {
+      "internalName": "DRIFBLIM",
+      "name": "Drifzepeli",
+      "spriteId": "drifblim"
+    },
+    "427": {
+      "internalName": "BUNEARY",
+      "name": "Haspiror",
+      "spriteId": "buneary"
+    },
+    "428": {
+      "internalName": "LOPUNNY",
+      "name": "Schlapor",
+      "spriteId": "lopunny"
+    },
+    "429": {
+      "internalName": "MISMAGIUS",
+      "name": "Traunmagil",
+      "spriteId": "mismagius"
+    },
+    "430": {
+      "internalName": "HONCHKROW",
+      "name": "Kramshef",
+      "spriteId": "honchkrow"
+    },
+    "431": {
+      "internalName": "GLAMEOW",
+      "name": "Charmian",
+      "spriteId": "glameow"
+    },
+    "432": {
+      "internalName": "PURUGLY",
+      "name": "Shnurgarst",
+      "spriteId": "purugly"
+    },
+    "433": {
+      "internalName": "CHINGLING",
+      "name": "Klingplim",
+      "spriteId": "chingling"
+    },
+    "434": {
+      "internalName": "STUNKY",
+      "name": "Skunkapuh",
+      "spriteId": "stunky"
+    },
+    "435": {
+      "internalName": "SKUNTANK",
+      "name": "Skuntank",
+      "spriteId": "skuntank"
+    },
+    "436": {
+      "internalName": "BRONZOR",
+      "name": "Bronzel",
+      "spriteId": "bronzor"
+    },
+    "437": {
+      "internalName": "BRONZONG",
+      "name": "Bronzong",
+      "spriteId": "bronzong"
+    },
+    "438": {
+      "internalName": "BONSLY",
+      "name": "Mobai",
+      "spriteId": "bonsly"
+    },
+    "439": {
+      "internalName": "MIMEJR",
+      "name": "Pantimimi",
+      "spriteId": "mimejr"
+    },
+    "440": {
+      "internalName": "HAPPINY",
+      "name": "Wonneira",
+      "spriteId": "happiny"
+    },
+    "441": {
+      "internalName": "CHATOT",
+      "name": "Plaudagei",
+      "spriteId": "chatot"
+    },
+    "442": {
+      "internalName": "SPIRITOMB",
+      "name": "Kryppuk",
+      "spriteId": "spiritomb"
+    },
+    "443": {
+      "internalName": "GIBLE",
+      "name": "Kaumalat",
+      "spriteId": "gible"
+    },
+    "444": {
+      "internalName": "GABITE",
+      "name": "Knarksel",
+      "spriteId": "gabite"
+    },
+    "445": {
+      "internalName": "GARCHOMP",
+      "name": "Knakrack",
+      "spriteId": "garchomp"
+    },
+    "446": {
+      "internalName": "MUNCHLAX",
+      "name": "Mampfaxo",
+      "spriteId": "munchlax"
+    },
+    "447": {
+      "internalName": "RIOLU",
+      "name": "Riolu",
+      "spriteId": "riolu"
+    },
+    "448": {
+      "internalName": "LUCARIO",
+      "name": "Lucario",
+      "spriteId": "lucario"
+    },
+    "449": {
+      "internalName": "HIPPOPOTAS",
+      "name": "Hippopotas",
+      "spriteId": "hippopotas"
+    },
+    "450": {
+      "internalName": "HIPPOWDON",
+      "name": "Hippoterus",
+      "spriteId": "hippowdon"
+    },
+    "451": {
+      "internalName": "SKORUPI",
+      "name": "Pionskora",
+      "spriteId": "skorupi"
+    },
+    "452": {
+      "internalName": "DRAPION",
+      "name": "Piondragi",
+      "spriteId": "drapion"
+    },
+    "453": {
+      "internalName": "CROAGUNK",
+      "name": "Glibunkel",
+      "spriteId": "croagunk"
+    },
+    "454": {
+      "internalName": "TOXICROAK",
+      "name": "Toxiquak",
+      "spriteId": "toxicroak"
+    },
+    "455": {
+      "internalName": "CARNIVINE",
+      "name": "Venuflibis",
+      "spriteId": "carnivine"
+    },
+    "456": {
+      "internalName": "FINNEON",
+      "name": "Finneon",
+      "spriteId": "finneon"
+    },
+    "457": {
+      "internalName": "LUMINEON",
+      "name": "Lumineon",
+      "spriteId": "lumineon"
+    },
+    "458": {
+      "internalName": "MANTYKE",
+      "name": "Mantirps",
+      "spriteId": "mantyke"
+    },
+    "459": {
+      "internalName": "SNOVER",
+      "name": "Shnebedeck",
+      "spriteId": "snover"
+    },
+    "460": {
+      "internalName": "ABOMASNOW",
+      "name": "Rexblisar",
+      "spriteId": "abomasnow"
+    },
+    "461": {
+      "internalName": "WEAVILE",
+      "name": "Snibunna",
+      "spriteId": "weavile"
+    },
+    "462": {
+      "internalName": "MAGNEZONE",
+      "name": "Magnezone",
+      "spriteId": "magnezone"
+    },
+    "463": {
+      "internalName": "LICKILICKY",
+      "name": "Schlurplek",
+      "spriteId": "lickilicky"
+    },
+    "464": {
+      "internalName": "RHYPERIOR",
+      "name": "Rihornior",
+      "spriteId": "rhyperior"
+    },
+    "465": {
+      "internalName": "TANGROWTH",
+      "name": "Tangoloss",
+      "spriteId": "tangrowth"
+    },
+    "466": {
+      "internalName": "ELECTIVIRE",
+      "name": "Elevoltek",
+      "spriteId": "electivire"
+    },
+    "467": {
+      "internalName": "MAGMORTAR",
+      "name": "Magbrant",
+      "spriteId": "magmortar"
+    },
+    "468": {
+      "internalName": "TOGEKISS",
+      "name": "Togekiss",
+      "spriteId": "togekiss"
+    },
+    "469": {
+      "internalName": "YANMEGA",
+      "name": "Yanmega",
+      "spriteId": "yanmega"
+    },
+    "470": {
+      "internalName": "LEAFEON",
+      "name": "Folipurba",
+      "spriteId": "leafeon"
+    },
+    "471": {
+      "internalName": "GLACEON",
+      "name": "Glaziola",
+      "spriteId": "glaceon"
+    },
+    "472": {
+      "internalName": "GLISCOR",
+      "name": "Skorgro",
+      "spriteId": "gliscor"
+    },
+    "473": {
+      "internalName": "MAMOSWINE",
+      "name": "Mamutel",
+      "spriteId": "mamoswine"
+    },
+    "474": {
+      "internalName": "PORYGONZ",
+      "name": "Porygon-Z",
+      "spriteId": "porygonz"
+    },
+    "475": {
+      "internalName": "GALLADE",
+      "name": "Galagladi",
+      "spriteId": "gallade"
+    },
+    "476": {
+      "internalName": "PROBOPASS",
+      "name": "Voluminas",
+      "spriteId": "probopass"
+    },
+    "477": {
+      "internalName": "DUSKNOIR",
+      "name": "Zwirrfinst",
+      "spriteId": "dusknoir"
+    },
+    "478": {
+      "internalName": "FROSLASS",
+      "name": "Frosdedje",
+      "spriteId": "froslass"
+    },
+    "479": {
+      "internalName": "ROTOM",
+      "name": "Rotom",
+      "spriteId": "rotom"
+    },
+    "480": {
+      "internalName": "UXIE",
+      "name": "Selfe",
+      "spriteId": "uxie"
+    },
+    "481": {
+      "internalName": "MESPRIT",
+      "name": "Vesprit",
+      "spriteId": "mesprit"
+    },
+    "482": {
+      "internalName": "AZELF",
+      "name": "Tobutz",
+      "spriteId": "azelf"
+    },
+    "483": {
+      "internalName": "DIALGA",
+      "name": "Dialga",
+      "spriteId": "dialga"
+    },
+    "484": {
+      "internalName": "PALKIA",
+      "name": "Palkia",
+      "spriteId": "palkia"
+    },
+    "485": {
+      "internalName": "HEATRAN",
+      "name": "Heatran",
+      "spriteId": "heatran"
+    },
+    "486": {
+      "internalName": "REGIGIGAS",
+      "name": "Regigigas",
+      "spriteId": "regigigas"
+    },
+    "487": {
+      "internalName": "GIRATINA",
+      "name": "Giratina",
+      "spriteId": "giratina"
+    },
+    "488": {
+      "internalName": "CRESSELIA",
+      "name": "Cresselia",
+      "spriteId": "cresselia"
+    },
+    "489": {
+      "internalName": "PHIONE",
+      "name": "Phione",
+      "spriteId": "phione"
+    },
+    "490": {
+      "internalName": "MANAPHY",
+      "name": "Manaphy",
+      "spriteId": "manaphy"
+    },
+    "491": {
+      "internalName": "DARKRAI",
+      "name": "Darkrai",
+      "spriteId": "darkrai"
+    },
+    "492": {
+      "internalName": "SHAYMIN",
+      "name": "Shaymin",
+      "spriteId": "shaymin"
+    },
+    "493": {
+      "internalName": "ARCEUS",
+      "name": "Arceus",
+      "spriteId": "arceus"
+    },
+    "494": {
+      "internalName": "VICTINI",
+      "name": "Victini",
+      "spriteId": "victini"
+    },
+    "495": {
+      "internalName": "SNIVY",
+      "name": "Serpifeu",
+      "spriteId": "snivy"
+    },
+    "496": {
+      "internalName": "SERVINE",
+      "name": "Efoserp",
+      "spriteId": "servine"
+    },
+    "497": {
+      "internalName": "SERPERIOR",
+      "name": "Serpiroyal",
+      "spriteId": "serperior"
+    },
+    "498": {
+      "internalName": "TEPIG",
+      "name": "Floink",
+      "spriteId": "tepig"
+    },
+    "499": {
+      "internalName": "PIGNITE",
+      "name": "Ferkokel",
+      "spriteId": "pignite"
+    },
+    "500": {
+      "internalName": "EMBOAR",
+      "name": "Flambirex",
+      "spriteId": "emboar"
+    },
+    "501": {
+      "internalName": "OSHAWOTT",
+      "name": "Ottaro",
+      "spriteId": "oshawott"
+    },
+    "502": {
+      "internalName": "DEWOTT",
+      "name": "Zwottronin",
+      "spriteId": "dewott"
+    },
+    "503": {
+      "internalName": "SAMUROTT",
+      "name": "Admurai",
+      "spriteId": "samurott"
+    },
+    "504": {
+      "internalName": "PATRAT",
+      "name": "Nagelotz",
+      "spriteId": "patrat"
+    },
+    "505": {
+      "internalName": "WATCHOG",
+      "name": "Kukmarda",
+      "spriteId": "watchog"
+    },
+    "506": {
+      "internalName": "LILLIPUP",
+      "name": "Yorkleff",
+      "spriteId": "lillipup"
+    },
+    "507": {
+      "internalName": "HERDIER",
+      "name": "Terribark",
+      "spriteId": "herdier"
+    },
+    "508": {
+      "internalName": "STOUTLAND",
+      "name": "Bissbark",
+      "spriteId": "stoutland"
+    },
+    "509": {
+      "internalName": "PURRLOIN",
+      "name": "Felilou",
+      "spriteId": "purrloin"
+    },
+    "510": {
+      "internalName": "LIEPARD",
+      "name": "Kleoparda",
+      "spriteId": "liepard"
+    },
+    "511": {
+      "internalName": "PANSAGE",
+      "name": "Vegimak",
+      "spriteId": "pansage"
+    },
+    "512": {
+      "internalName": "SIMISAGE",
+      "name": "Vegichita",
+      "spriteId": "simisage"
+    },
+    "513": {
+      "internalName": "PANSEAR",
+      "name": "Grillmak",
+      "spriteId": "pansear"
+    },
+    "514": {
+      "internalName": "SIMISEAR",
+      "name": "Grillchita",
+      "spriteId": "simisear"
+    },
+    "515": {
+      "internalName": "PANPOUR",
+      "name": "Sodamak",
+      "spriteId": "panpour"
+    },
+    "516": {
+      "internalName": "SIMIPOUR",
+      "name": "Sodachita",
+      "spriteId": "simipour"
+    },
+    "517": {
+      "internalName": "MUNNA",
+      "name": "Somniam",
+      "spriteId": "munna"
+    },
+    "518": {
+      "internalName": "MUSHARNA",
+      "name": "Somnivora",
+      "spriteId": "musharna"
+    },
+    "519": {
+      "internalName": "PIDOVE",
+      "name": "Dusselgurr",
+      "spriteId": "pidove"
+    },
+    "520": {
+      "internalName": "TRANQUILL",
+      "name": "Navitaub",
+      "spriteId": "tranquill"
+    },
+    "521": {
+      "internalName": "UNFEZANT",
+      "name": "Fasasnob",
+      "spriteId": "unfezant"
+    },
+    "522": {
+      "internalName": "BLITZLE",
+      "name": "Elezeba",
+      "spriteId": "blitzle"
+    },
+    "523": {
+      "internalName": "ZEBSTRIKA",
+      "name": "Zebritz",
+      "spriteId": "zebstrika"
+    },
+    "524": {
+      "internalName": "ROGGENROLA",
+      "name": "Kiesling",
+      "spriteId": "roggenrola"
+    },
+    "525": {
+      "internalName": "BOLDORE",
+      "name": "Sedimantur",
+      "spriteId": "boldore"
+    },
+    "526": {
+      "internalName": "GIGALITH",
+      "name": "Brockoloss",
+      "spriteId": "gigalith"
+    },
+    "527": {
+      "internalName": "WOOBAT",
+      "name": "Fleknoil",
+      "spriteId": "woobat"
+    },
+    "528": {
+      "internalName": "SWOOBAT",
+      "name": "Fletiamo",
+      "spriteId": "swoobat"
+    },
+    "529": {
+      "internalName": "DRILBUR",
+      "name": "Rotomurf",
+      "spriteId": "drilbur"
+    },
+    "530": {
+      "internalName": "EXCADRILL",
+      "name": "Stalobor",
+      "spriteId": "excadrill"
+    },
+    "531": {
+      "internalName": "AUDINO",
+      "name": "Ohrdoch",
+      "spriteId": "audino"
+    },
+    "532": {
+      "internalName": "TIMBURR",
+      "name": "Praktibalk",
+      "spriteId": "timburr"
+    },
+    "533": {
+      "internalName": "GURDURR",
+      "name": "Strepoli",
+      "spriteId": "gurdurr"
+    },
+    "534": {
+      "internalName": "CONKELDURR",
+      "name": "Meistagrif",
+      "spriteId": "conkeldurr"
+    },
+    "535": {
+      "internalName": "TYMPOLE",
+      "name": "Schallquap",
+      "spriteId": "tympole"
+    },
+    "536": {
+      "internalName": "PALPITOAD",
+      "name": "Mebrana",
+      "spriteId": "palpitoad"
+    },
+    "537": {
+      "internalName": "SEISMITOAD",
+      "name": "Branawarz",
+      "spriteId": "seismitoad"
+    },
+    "538": {
+      "internalName": "THROH",
+      "name": "Jiutesto",
+      "spriteId": "throh"
+    },
+    "539": {
+      "internalName": "SAWK",
+      "name": "Karadonis",
+      "spriteId": "sawk"
+    },
+    "540": {
+      "internalName": "SEWADDLE",
+      "name": "Strawickl",
+      "spriteId": "sewaddle"
+    },
+    "541": {
+      "internalName": "SWADLOON",
+      "name": "Folikon",
+      "spriteId": "swadloon"
+    },
+    "542": {
+      "internalName": "LEAVANNY",
+      "name": "Matrifol",
+      "spriteId": "leavanny"
+    },
+    "543": {
+      "internalName": "VENIPEDE",
+      "name": "Toxiped",
+      "spriteId": "venipede"
+    },
+    "544": {
+      "internalName": "WHIRLIPEDE",
+      "name": "Rollum",
+      "spriteId": "whirlipede"
+    },
+    "545": {
+      "internalName": "SCOLIPEDE",
+      "name": "Cerapendra",
+      "spriteId": "scolipede"
+    },
+    "546": {
+      "internalName": "COTTONEE",
+      "name": "Waumboll",
+      "spriteId": "cottonee"
+    },
+    "547": {
+      "internalName": "WHIMSICOTT",
+      "name": "Elfun",
+      "spriteId": "whimsicott"
+    },
+    "548": {
+      "internalName": "PETILIL",
+      "name": "Lilminip",
+      "spriteId": "petilil"
+    },
+    "549": {
+      "internalName": "LILLIGANT",
+      "name": "Dressella",
+      "spriteId": "lilligant"
+    },
+    "550": {
+      "internalName": "BASCULIN",
+      "name": "Barschuft",
+      "spriteId": "basculin"
+    },
+    "551": {
+      "internalName": "SANDILE",
+      "name": "Ganovil",
+      "spriteId": "sandile"
+    },
+    "552": {
+      "internalName": "KROKOROK",
+      "name": "Rokkaiman",
+      "spriteId": "krokorok"
+    },
+    "553": {
+      "internalName": "KROOKODILE",
+      "name": "Rabigator",
+      "spriteId": "krookodile"
+    },
+    "554": {
+      "internalName": "DARUMAKA",
+      "name": "Flampion",
+      "spriteId": "darumaka"
+    },
+    "555": {
+      "internalName": "DARMANITAN",
+      "name": "Flampivian",
+      "spriteId": "darmanitan"
+    },
+    "556": {
+      "internalName": "MARACTUS",
+      "name": "Maracamba",
+      "spriteId": "maractus"
+    },
+    "557": {
+      "internalName": "DWEBBLE",
+      "name": "Lithomith",
+      "spriteId": "dwebble"
+    },
+    "558": {
+      "internalName": "CRUSTLE",
+      "name": "Castellith",
+      "spriteId": "crustle"
+    },
+    "559": {
+      "internalName": "SCRAGGY",
+      "name": "Zurrokex",
+      "spriteId": "scraggy"
+    },
+    "560": {
+      "internalName": "SCRAFTY",
+      "name": "Irokex",
+      "spriteId": "scrafty"
+    },
+    "561": {
+      "internalName": "SIGILYPH",
+      "name": "Symvolara",
+      "spriteId": "sigilyph"
+    },
+    "562": {
+      "internalName": "YAMASK",
+      "name": "Makabaja",
+      "spriteId": "yamask"
+    },
+    "563": {
+      "internalName": "COFAGRIGUS",
+      "name": "Echnatoll",
+      "spriteId": "cofagrigus"
+    },
+    "564": {
+      "internalName": "TIRTOUGA",
+      "name": "Galapaflos",
+      "spriteId": "tirtouga"
+    },
+    "565": {
+      "internalName": "CARRACOSTA",
+      "name": "Karippas",
+      "spriteId": "carracosta"
+    },
+    "566": {
+      "internalName": "ARCHEN",
+      "name": "Flapteryx",
+      "spriteId": "archen"
+    },
+    "567": {
+      "internalName": "ARCHEOPS",
+      "name": "Aeropteryx",
+      "spriteId": "archeops"
+    },
+    "568": {
+      "internalName": "TRUBBISH",
+      "name": "Unratütox",
+      "spriteId": "trubbish"
+    },
+    "569": {
+      "internalName": "GARBODOR",
+      "name": "Deponitox",
+      "spriteId": "garbodor"
+    },
+    "570": {
+      "internalName": "ZORUA",
+      "name": "Zorua",
+      "spriteId": "zorua"
+    },
+    "571": {
+      "internalName": "ZOROARK",
+      "name": "Zoroark",
+      "spriteId": "zoroark"
+    },
+    "572": {
+      "internalName": "MINCCINO",
+      "name": "Picochilla",
+      "spriteId": "minccino"
+    },
+    "573": {
+      "internalName": "CINCCINO",
+      "name": "Chillabell",
+      "spriteId": "cinccino"
+    },
+    "574": {
+      "internalName": "GOTHITA",
+      "name": "Mollimorba",
+      "spriteId": "gothita"
+    },
+    "575": {
+      "internalName": "GOTHORITA",
+      "name": "Hypnomorba",
+      "spriteId": "gothorita"
+    },
+    "576": {
+      "internalName": "GOTHITELLE",
+      "name": "Morbitesse",
+      "spriteId": "gothitelle"
+    },
+    "577": {
+      "internalName": "SOLOSIS",
+      "name": "Monozyto",
+      "spriteId": "solosis"
+    },
+    "578": {
+      "internalName": "DUOSION",
+      "name": "Mitodos",
+      "spriteId": "duosion"
+    },
+    "579": {
+      "internalName": "REUNICLUS",
+      "name": "Zytomega",
+      "spriteId": "reuniclus"
+    },
+    "580": {
+      "internalName": "DUCKLETT",
+      "name": "Piccolente",
+      "spriteId": "ducklett"
+    },
+    "581": {
+      "internalName": "SWANNA",
+      "name": "Swaroness",
+      "spriteId": "swanna"
+    },
+    "582": {
+      "internalName": "VANILLITE",
+      "name": "Gelatini",
+      "spriteId": "vanillite"
+    },
+    "583": {
+      "internalName": "VANILLISH",
+      "name": "Gelatroppo",
+      "spriteId": "vanillish"
+    },
+    "584": {
+      "internalName": "VANILLUXE",
+      "name": "Gelatwino",
+      "spriteId": "vanilluxe"
+    },
+    "585": {
+      "internalName": "DEERLING",
+      "name": "Sesokitz",
+      "spriteId": "deerling"
+    },
+    "586": {
+      "internalName": "SAWSBUCK",
+      "name": "Kronjuwild",
+      "spriteId": "sawsbuck"
+    },
+    "587": {
+      "internalName": "EMOLGA",
+      "name": "Emolga",
+      "spriteId": "emolga"
+    },
+    "588": {
+      "internalName": "KARRABLAST",
+      "name": "Laukaps",
+      "spriteId": "karrablast"
+    },
+    "589": {
+      "internalName": "ESCAVALIER",
+      "name": "Cavalanzas",
+      "spriteId": "escavalier"
+    },
+    "590": {
+      "internalName": "FOONGUS",
+      "name": "Tarnpignon",
+      "spriteId": "foongus"
+    },
+    "591": {
+      "internalName": "AMOONGUSS",
+      "name": "Hutsassa",
+      "spriteId": "amoonguss"
+    },
+    "592": {
+      "internalName": "FRILLISH",
+      "name": "Quabbel",
+      "spriteId": "frillish"
+    },
+    "593": {
+      "internalName": "JELLICENT",
+      "name": "Apoquallyp",
+      "spriteId": "jellicent"
+    },
+    "594": {
+      "internalName": "ALOMOMOLA",
+      "name": "Mamolida",
+      "spriteId": "alomomola"
+    },
+    "595": {
+      "internalName": "JOLTIK",
+      "name": "Wattzapf",
+      "spriteId": "joltik"
+    },
+    "596": {
+      "internalName": "GALVANTULA",
+      "name": "Voltula",
+      "spriteId": "galvantula"
+    },
+    "597": {
+      "internalName": "FERROSEED",
+      "name": "Kastadur",
+      "spriteId": "ferroseed"
+    },
+    "598": {
+      "internalName": "FERROTHORN",
+      "name": "Tentantel",
+      "spriteId": "ferrothorn"
+    },
+    "599": {
+      "internalName": "KLINK",
+      "name": "Klikk",
+      "spriteId": "klink"
+    },
+    "600": {
+      "internalName": "KLANG",
+      "name": "Kliklak",
+      "spriteId": "klang"
+    },
+    "601": {
+      "internalName": "KLINKLANG",
+      "name": "Klikdiklak",
+      "spriteId": "klinklang"
+    },
+    "602": {
+      "internalName": "TYNAMO",
+      "name": "Zapplardin",
+      "spriteId": "tynamo"
+    },
+    "603": {
+      "internalName": "EELEKTRIK",
+      "name": "Zapplalek",
+      "spriteId": "eelektrik"
+    },
+    "604": {
+      "internalName": "EELEKTROSS",
+      "name": "Zapplarang",
+      "spriteId": "eelektross"
+    },
+    "605": {
+      "internalName": "ELGYEM",
+      "name": "Pygraulon",
+      "spriteId": "elgyem"
+    },
+    "606": {
+      "internalName": "BEHEEYEM",
+      "name": "Megalon",
+      "spriteId": "beheeyem"
+    },
+    "607": {
+      "internalName": "LITWICK",
+      "name": "Lichtel",
+      "spriteId": "litwick"
+    },
+    "608": {
+      "internalName": "LAMPENT",
+      "name": "Laternecto",
+      "spriteId": "lampent"
+    },
+    "609": {
+      "internalName": "CHANDELURE",
+      "name": "Skelabra",
+      "spriteId": "chandelure"
+    },
+    "610": {
+      "internalName": "AXEW",
+      "name": "Milza",
+      "spriteId": "axew"
+    },
+    "611": {
+      "internalName": "FRAXURE",
+      "name": "Sharfax",
+      "spriteId": "fraxure"
+    },
+    "612": {
+      "internalName": "HAXORUS",
+      "name": "Maxax",
+      "spriteId": "haxorus"
+    },
+    "613": {
+      "internalName": "CUBCHOO",
+      "name": "Petznief",
+      "spriteId": "cubchoo"
+    },
+    "614": {
+      "internalName": "BEARTIC",
+      "name": "Siberio",
+      "spriteId": "beartic"
+    },
+    "615": {
+      "internalName": "CRYOGONAL",
+      "name": "Frigometri",
+      "spriteId": "cryogonal"
+    },
+    "616": {
+      "internalName": "SHELMET",
+      "name": "Schnuthelm",
+      "spriteId": "shelmet"
+    },
+    "617": {
+      "internalName": "ACCELGOR",
+      "name": "Hydragil",
+      "spriteId": "accelgor"
+    },
+    "618": {
+      "internalName": "STUNFISK",
+      "name": "Flunschlik",
+      "spriteId": "stunfisk"
+    },
+    "619": {
+      "internalName": "MIENFOO",
+      "name": "Lin-Fu",
+      "spriteId": "mienfoo"
+    },
+    "620": {
+      "internalName": "MIENSHAO",
+      "name": "Wie-Shu",
+      "spriteId": "mienshao"
+    },
+    "621": {
+      "internalName": "DRUDDIGON",
+      "name": "Shardrago",
+      "spriteId": "druddigon"
+    },
+    "622": {
+      "internalName": "GOLETT",
+      "name": "Golbit",
+      "spriteId": "golett"
+    },
+    "623": {
+      "internalName": "GOLURK",
+      "name": "Golgantes",
+      "spriteId": "golurk"
+    },
+    "624": {
+      "internalName": "PAWNIARD",
+      "name": "Gladiantri",
+      "spriteId": "pawniard"
+    },
+    "625": {
+      "internalName": "BISHARP",
+      "name": "Caesurio",
+      "spriteId": "bisharp"
+    },
+    "626": {
+      "internalName": "BOUFFALANT",
+      "name": "Bisofank",
+      "spriteId": "bouffalant"
+    },
+    "627": {
+      "internalName": "RUFFLET",
+      "name": "Geronimatz",
+      "spriteId": "rufflet"
+    },
+    "628": {
+      "internalName": "BRAVIARY",
+      "name": "Washakwil",
+      "spriteId": "braviary"
+    },
+    "629": {
+      "internalName": "VULLABY",
+      "name": "Skallyk",
+      "spriteId": "vullaby"
+    },
+    "630": {
+      "internalName": "MANDIBUZZ",
+      "name": "Grypheldis",
+      "spriteId": "mandibuzz"
+    },
+    "631": {
+      "internalName": "HEATMOR",
+      "name": "Furnifraß",
+      "spriteId": "heatmor"
+    },
+    "632": {
+      "internalName": "DURANT",
+      "name": "Fermicula",
+      "spriteId": "durant"
+    },
+    "633": {
+      "internalName": "DEINO",
+      "name": "Kapuno",
+      "spriteId": "deino"
+    },
+    "634": {
+      "internalName": "ZWEILOUS",
+      "name": "Duodino",
+      "spriteId": "zweilous"
+    },
+    "635": {
+      "internalName": "HYDREIGON",
+      "name": "Trikephalo",
+      "spriteId": "hydreigon"
+    },
+    "636": {
+      "internalName": "LARVESTA",
+      "name": "Ignivor",
+      "spriteId": "larvesta"
+    },
+    "637": {
+      "internalName": "VOLCARONA",
+      "name": "Ramoth",
+      "spriteId": "volcarona"
+    },
+    "638": {
+      "internalName": "COBALION",
+      "name": "Kobalium",
+      "spriteId": "cobalion"
+    },
+    "639": {
+      "internalName": "TERRAKION",
+      "name": "Terrakium",
+      "spriteId": "terrakion"
+    },
+    "640": {
+      "internalName": "VIRIZION",
+      "name": "Viridium",
+      "spriteId": "virizion"
+    },
+    "641": {
+      "internalName": "TORNADUS",
+      "name": "Boreos",
+      "spriteId": "tornadus"
+    },
+    "642": {
+      "internalName": "THUNDURUS",
+      "name": "Voltolos",
+      "spriteId": "thundurus"
+    },
+    "643": {
+      "internalName": "RESHIRAM",
+      "name": "Reshiram",
+      "spriteId": "reshiram"
+    },
+    "644": {
+      "internalName": "ZEKROM",
+      "name": "Zekrom",
+      "spriteId": "zekrom"
+    },
+    "645": {
+      "internalName": "LANDORUS",
+      "name": "Demeteros",
+      "spriteId": "landorus"
+    },
+    "646": {
+      "internalName": "KYUREM",
+      "name": "Kyurem",
+      "spriteId": "kyurem"
+    },
+    "647": {
+      "internalName": "KELDEO",
+      "name": "Keldeo",
+      "spriteId": "keldeo"
+    },
+    "648": {
+      "internalName": "MELOETTA",
+      "name": "Meloetta",
+      "spriteId": "meloetta"
+    },
+    "649": {
+      "internalName": "GENESECT",
+      "name": "Genesect",
+      "spriteId": "genesect"
+    },
+    "650": {
+      "internalName": "CHESPIN",
+      "name": "Igamaro",
+      "spriteId": "chespin"
+    },
+    "651": {
+      "internalName": "QUILLADIN",
+      "name": "Igastarnish",
+      "spriteId": "quilladin"
+    },
+    "652": {
+      "internalName": "CHESNAUGHT",
+      "name": "Brigaron",
+      "spriteId": "chesnaught"
+    },
+    "653": {
+      "internalName": "FENNEKIN",
+      "name": "Fynx",
+      "spriteId": "fennekin"
+    },
+    "654": {
+      "internalName": "BRAIXEN",
+      "name": "Rutena",
+      "spriteId": "braixen"
+    },
+    "655": {
+      "internalName": "DELPHOX",
+      "name": "Fennexis",
+      "spriteId": "delphox"
+    },
+    "656": {
+      "internalName": "FROAKIE",
+      "name": "Froxy",
+      "spriteId": "froakie"
+    },
+    "657": {
+      "internalName": "FROGADIER",
+      "name": "Amphizel",
+      "spriteId": "frogadier"
+    },
+    "658": {
+      "internalName": "GRENINJA",
+      "name": "Quajutsu",
+      "spriteId": "greninja"
+    },
+    "659": {
+      "internalName": "BUNNELBY",
+      "name": "Scoppel",
+      "spriteId": "bunnelby"
+    },
+    "660": {
+      "internalName": "DIGGERSBY",
+      "name": "Grebbit",
+      "spriteId": "diggersby"
+    },
+    "661": {
+      "internalName": "FLETCHLING",
+      "name": "Dartiri",
+      "spriteId": "fletchling"
+    },
+    "662": {
+      "internalName": "FLETCHINDER",
+      "name": "Dartignis",
+      "spriteId": "fletchinder"
+    },
+    "663": {
+      "internalName": "TALONFLAME",
+      "name": "Fiaro",
+      "spriteId": "talonflame"
+    },
+    "664": {
+      "internalName": "SCATTERBUG",
+      "name": "Purmel",
+      "spriteId": "scatterbug"
+    },
+    "665": {
+      "internalName": "SPEWPA",
+      "name": "Puponcho",
+      "spriteId": "spewpa"
+    },
+    "666": {
+      "internalName": "VIVILLON",
+      "name": "Vivillon",
+      "spriteId": "vivillon"
+    },
+    "667": {
+      "internalName": "LITLEO",
+      "name": "Leufeo",
+      "spriteId": "litleo"
+    },
+    "668": {
+      "internalName": "PYROAR",
+      "name": "Pyroleo",
+      "spriteId": "pyroar"
+    },
+    "669": {
+      "internalName": "FLABEBE",
+      "name": "Flabebe",
+      "spriteId": "flabebe"
+    },
+    "670": {
+      "internalName": "FLOETTE",
+      "name": "Floette",
+      "spriteId": "floette"
+    },
+    "671": {
+      "internalName": "FLORGES",
+      "name": "Florges",
+      "spriteId": "florges"
+    },
+    "672": {
+      "internalName": "SKIDDO",
+      "name": "Mähikel",
+      "spriteId": "skiddo"
+    },
+    "673": {
+      "internalName": "GOGOAT",
+      "name": "Chevrumm",
+      "spriteId": "gogoat"
+    },
+    "674": {
+      "internalName": "PANCHAM",
+      "name": "Pam-Pam",
+      "spriteId": "pancham"
+    },
+    "675": {
+      "internalName": "PANGORO",
+      "name": "Pandagro",
+      "spriteId": "pangoro"
+    },
+    "676": {
+      "internalName": "FURFROU",
+      "name": "Coiffwaff",
+      "spriteId": "furfrou"
+    },
+    "677": {
+      "internalName": "ESPURR",
+      "name": "Psiau",
+      "spriteId": "espurr"
+    },
+    "678": {
+      "internalName": "MEOWSTIC",
+      "name": "Pisaugon",
+      "spriteId": "meowstic"
+    },
+    "679": {
+      "internalName": "HONEDGE",
+      "name": "Gramokles",
+      "spriteId": "honedge"
+    },
+    "680": {
+      "internalName": "DOUBLADE",
+      "name": "Duokles",
+      "spriteId": "doublade"
+    },
+    "681": {
+      "internalName": "AEGISLASH",
+      "name": "Durengard",
+      "spriteId": "aegislash"
+    },
+    "682": {
+      "internalName": "SPRITZEE",
+      "name": "Parfi",
+      "spriteId": "spritzee"
+    },
+    "683": {
+      "internalName": "AROMATISSE",
+      "name": "Parfinesse",
+      "spriteId": "aromatisse"
+    },
+    "684": {
+      "internalName": "SWIRLIX",
+      "name": "Flauschling",
+      "spriteId": "swirlix"
+    },
+    "685": {
+      "internalName": "SLURPUFF",
+      "name": "Sabbaione",
+      "spriteId": "slurpuff"
+    },
+    "686": {
+      "internalName": "INKAY",
+      "name": "Iscalar",
+      "spriteId": "inkay"
+    },
+    "687": {
+      "internalName": "MALAMAR",
+      "name": "Calamanero",
+      "spriteId": "malamar"
+    },
+    "688": {
+      "internalName": "BINACLE",
+      "name": "Bithora",
+      "spriteId": "binacle"
+    },
+    "689": {
+      "internalName": "BARBARACLE",
+      "name": "Thanathora",
+      "spriteId": "barbaracle"
+    },
+    "690": {
+      "internalName": "SKRELP",
+      "name": "Algitt",
+      "spriteId": "skrelp"
+    },
+    "691": {
+      "internalName": "DRAGALGE",
+      "name": "Tandrak",
+      "spriteId": "dragalge"
+    },
+    "692": {
+      "internalName": "CLAUNCHER",
+      "name": "Scampisto",
+      "spriteId": "clauncher"
+    },
+    "693": {
+      "internalName": "CLAWITZER",
+      "name": "Wummer",
+      "spriteId": "clawitzer"
+    },
+    "694": {
+      "internalName": "HELIOPTILE",
+      "name": "Eguana",
+      "spriteId": "helioptile"
+    },
+    "695": {
+      "internalName": "HELIOLISK",
+      "name": "Elezard",
+      "spriteId": "heliolisk"
+    },
+    "696": {
+      "internalName": "TYRUNT",
+      "name": "Balgoras",
+      "spriteId": "tyrunt"
+    },
+    "697": {
+      "internalName": "TYRANTRUM",
+      "name": "Monargoras",
+      "spriteId": "tyrantrum"
+    },
+    "698": {
+      "internalName": "AMAURA",
+      "name": "Amarino",
+      "spriteId": "amaura"
+    },
+    "699": {
+      "internalName": "AURORUS",
+      "name": "Amagarga",
+      "spriteId": "aurorus"
+    },
+    "700": {
+      "internalName": "SYLVEON",
+      "name": "Feelinara",
+      "spriteId": "sylveon"
+    },
+    "701": {
+      "internalName": "HAWLUCHA",
+      "name": "Resladero",
+      "spriteId": "hawlucha"
+    },
+    "702": {
+      "internalName": "DEDENNE",
+      "name": "Dedenne",
+      "spriteId": "dedenne"
+    },
+    "703": {
+      "internalName": "CARBINK",
+      "name": "Rocara",
+      "spriteId": "carbink"
+    },
+    "704": {
+      "internalName": "GOOMY",
+      "name": "Viscora",
+      "spriteId": "goomy"
+    },
+    "705": {
+      "internalName": "SLIGGOO",
+      "name": "Viscargot",
+      "spriteId": "sliggoo"
+    },
+    "706": {
+      "internalName": "GOODRA",
+      "name": "Viscogon",
+      "spriteId": "goodra"
+    },
+    "707": {
+      "internalName": "KLEFKI",
+      "name": "Clavion",
+      "spriteId": "klefki"
+    },
+    "708": {
+      "internalName": "PHANTUMP",
+      "name": "Paragoni",
+      "spriteId": "phantump"
+    },
+    "709": {
+      "internalName": "TREVENANT",
+      "name": "Trombork",
+      "spriteId": "trevenant"
+    },
+    "710": {
+      "internalName": "PUMPKABOO",
+      "name": "Irbiss",
+      "spriteId": "pumpkaboo"
+    },
+    "711": {
+      "internalName": "GOURGEIST",
+      "name": "Pumpdjinn",
+      "spriteId": "gourgeist"
+    },
+    "712": {
+      "internalName": "BERGMITE",
+      "name": "Arktip",
+      "spriteId": "bergmite"
+    },
+    "713": {
+      "internalName": "AVALUGG",
+      "name": "Arktilas",
+      "spriteId": "avalugg"
+    },
+    "714": {
+      "internalName": "NOIBAT",
+      "name": "eF-eM",
+      "spriteId": "noibat"
+    },
+    "715": {
+      "internalName": "NOIVERN",
+      "name": "UHaFnir",
+      "spriteId": "noivern"
+    },
+    "716": {
+      "internalName": "XERNEAS",
+      "name": "Xerneas",
+      "spriteId": "xerneas"
+    },
+    "717": {
+      "internalName": "YVELTAL",
+      "name": "Yveltal",
+      "spriteId": "yveltal"
+    },
+    "718": {
+      "internalName": "ZYGARDE",
+      "name": "Zygarde",
+      "spriteId": "zygarde"
+    },
+    "719": {
+      "internalName": "DIANCIE",
+      "name": "Diancie",
+      "spriteId": "diancie"
+    },
+    "720": {
+      "internalName": "HOOPA",
+      "name": "Hoopa",
+      "spriteId": "hoopa"
+    },
+    "721": {
+      "internalName": "VOLCANION",
+      "name": "Volcanion",
+      "spriteId": "volcanion"
+    },
+    "722": {
+      "internalName": "TEMPRINA",
+      "name": "Temprina",
+      "spriteId": "temprina"
+    }
+  },
+  "items": {
+    "1": {
+      "internalName": "REPEL",
+      "name": "Schutz",
+      "spriteId": "repel"
+    },
+    "2": {
+      "internalName": "SUPERREPEL",
+      "name": "Superschutz",
+      "spriteId": "superrepel"
+    },
+    "3": {
+      "internalName": "MAXREPEL",
+      "name": "Top-Schutz",
+      "spriteId": "maxrepel"
+    },
+    "4": {
+      "internalName": "BLACKFLUTE",
+      "name": "Schwarze Flöte",
+      "spriteId": "blackflute"
+    },
+    "5": {
+      "internalName": "WHITEFLUTE",
+      "name": "Weiße Flöte",
+      "spriteId": "whiteflute"
+    },
+    "6": {
+      "internalName": "HONEY",
+      "name": "Honig",
+      "spriteId": "honey"
+    },
+    "7": {
+      "internalName": "ESCAPEROPE",
+      "name": "Fluchtseil",
+      "spriteId": "escaperope"
+    },
+    "8": {
+      "internalName": "REDSHARD",
+      "name": "Purpurstück",
+      "spriteId": "redshard"
+    },
+    "9": {
+      "internalName": "YELLOWSHARD",
+      "name": "Gelbstück",
+      "spriteId": "yellowshard"
+    },
+    "10": {
+      "internalName": "BLUESHARD",
+      "name": "Indigostück",
+      "spriteId": "blueshard"
+    },
+    "11": {
+      "internalName": "GREENSHARD",
+      "name": "Grünstück",
+      "spriteId": "greenshard"
+    },
+    "12": {
+      "internalName": "FIRESTONE",
+      "name": "Feuerstein",
+      "spriteId": "firestone"
+    },
+    "13": {
+      "internalName": "THUNDERSTONE",
+      "name": "Donnerstein",
+      "spriteId": "thunderstone"
+    },
+    "14": {
+      "internalName": "WATERSTONE",
+      "name": "Wasserstein",
+      "spriteId": "waterstone"
+    },
+    "15": {
+      "internalName": "LEAFSTONE",
+      "name": "Blattstein",
+      "spriteId": "leafstone"
+    },
+    "16": {
+      "internalName": "MOONSTONE",
+      "name": "Mondstein",
+      "spriteId": "moonstone"
+    },
+    "17": {
+      "internalName": "SUNSTONE",
+      "name": "Sonnenstein",
+      "spriteId": "sunstone"
+    },
+    "18": {
+      "internalName": "DUSKSTONE",
+      "name": "Finsterstein",
+      "spriteId": "duskstone"
+    },
+    "19": {
+      "internalName": "DAWNSTONE",
+      "name": "Funkelstein",
+      "spriteId": "dawnstone"
+    },
+    "20": {
+      "internalName": "SHINYSTONE",
+      "name": "Leuchtstein",
+      "spriteId": "shinystone"
+    },
+    "21": {
+      "internalName": "REDAPRI",
+      "name": "Aprikoko Rot",
+      "spriteId": "redapri"
+    },
+    "22": {
+      "internalName": "YLWAPRI",
+      "name": "Aprikoko Glb",
+      "spriteId": "ylwapri"
+    },
+    "23": {
+      "internalName": "BLUAPRI",
+      "name": "Aprikoko Blu",
+      "spriteId": "bluapri"
+    },
+    "24": {
+      "internalName": "GRNAPRI",
+      "name": "Aprikoko Grn",
+      "spriteId": "grnapri"
+    },
+    "25": {
+      "internalName": "PNKAPRI",
+      "name": "Aprikoko Pnk",
+      "spriteId": "pnkapri"
+    },
+    "26": {
+      "internalName": "WHTAPRI",
+      "name": "Aprikoko Wss",
+      "spriteId": "whtapri"
+    },
+    "27": {
+      "internalName": "BLKAPRI",
+      "name": "Aprikoko Swz",
+      "spriteId": "blkapri"
+    },
+    "28": {
+      "internalName": "HELIXFOSSIL",
+      "name": "Helixfossil",
+      "spriteId": "helixfossil"
+    },
+    "29": {
+      "internalName": "DOMEFOSSIL",
+      "name": "Domfossil",
+      "spriteId": "domefossil"
+    },
+    "30": {
+      "internalName": "OLDAMBER",
+      "name": "Altbernstein",
+      "spriteId": "oldamber"
+    },
+    "31": {
+      "internalName": "ROOTFOSSIL",
+      "name": "Wurzelfossil",
+      "spriteId": "rootfossil"
+    },
+    "32": {
+      "internalName": "CLAWFOSSIL",
+      "name": "Klauenfossil",
+      "spriteId": "clawfossil"
+    },
+    "33": {
+      "internalName": "SKULLFOSSIL",
+      "name": "Kopffossil",
+      "spriteId": "skullfossil"
+    },
+    "34": {
+      "internalName": "ARMORFOSSIL",
+      "name": "Panzerfossil",
+      "spriteId": "armorfossil"
+    },
+    "35": {
+      "internalName": "COVERFOSSIL",
+      "name": "Schildfossil",
+      "spriteId": "coverfossil"
+    },
+    "36": {
+      "internalName": "PLUMEFOSSIL",
+      "name": "Federfossil",
+      "spriteId": "plumefossil"
+    },
+    "37": {
+      "internalName": "PRETTYWING",
+      "name": "Prachtfeder",
+      "spriteId": "prettywing"
+    },
+    "38": {
+      "internalName": "TINYMUSHROOM",
+      "name": "Minipilz",
+      "spriteId": "tinymushroom"
+    },
+    "39": {
+      "internalName": "BIGMUSHROOM",
+      "name": "Riesenpilz",
+      "spriteId": "bigmushroom"
+    },
+    "40": {
+      "internalName": "BALMMUSHROOM",
+      "name": "Duftpilz",
+      "spriteId": "balmmushroom"
+    },
+    "41": {
+      "internalName": "PEARL",
+      "name": "Perle",
+      "spriteId": "pearl"
+    },
+    "42": {
+      "internalName": "BIGPEARL",
+      "name": "Riesenperle",
+      "spriteId": "bigpearl"
+    },
+    "43": {
+      "internalName": "PEARLSTRING",
+      "name": "Triperle",
+      "spriteId": "pearlstring"
+    },
+    "44": {
+      "internalName": "STARDUST",
+      "name": "Sternenstaub",
+      "spriteId": "stardust"
+    },
+    "45": {
+      "internalName": "STARPIECE",
+      "name": "Sternenstück",
+      "spriteId": "starpiece"
+    },
+    "46": {
+      "internalName": "COMETSHARD",
+      "name": "Kometstück",
+      "spriteId": "cometshard"
+    },
+    "47": {
+      "internalName": "NUGGET",
+      "name": "Nugget",
+      "spriteId": "nugget"
+    },
+    "48": {
+      "internalName": "BIGNUGGET",
+      "name": "Riesennugget",
+      "spriteId": "bignugget"
+    },
+    "49": {
+      "internalName": "HEARTSCALE",
+      "name": "Herzschuppe",
+      "spriteId": "heartscale"
+    },
+    "50": {
+      "internalName": "SLOWPOKETAIL",
+      "name": "Flegmonrute",
+      "spriteId": "slowpoketail"
+    },
+    "51": {
+      "internalName": "RAREBONE",
+      "name": "Steinknochen",
+      "spriteId": "rarebone"
+    },
+    "52": {
+      "internalName": "RELICCOPPER",
+      "name": "Alter Heller",
+      "spriteId": "reliccopper"
+    },
+    "53": {
+      "internalName": "RELICSILVER",
+      "name": "Alter Taler",
+      "spriteId": "relicsilver"
+    },
+    "54": {
+      "internalName": "RELICGOLD",
+      "name": "Alter Dukat",
+      "spriteId": "relicgold"
+    },
+    "55": {
+      "internalName": "RELICVASE",
+      "name": "Alte Vase",
+      "spriteId": "relicvase"
+    },
+    "56": {
+      "internalName": "RELICBAND",
+      "name": "Alter Reif",
+      "spriteId": "relicband"
+    },
+    "57": {
+      "internalName": "RELICSTATUE",
+      "name": "Alte Statue",
+      "spriteId": "relicstatue"
+    },
+    "58": {
+      "internalName": "RELICCROWN",
+      "name": "Alte Krone",
+      "spriteId": "reliccrown"
+    },
+    "59": {
+      "internalName": "GROWTHMULCH",
+      "name": "Wachsmulch",
+      "spriteId": "growthmulch"
+    },
+    "60": {
+      "internalName": "DAMPMULCH",
+      "name": "Feuchtmulch",
+      "spriteId": "dampmulch"
+    },
+    "61": {
+      "internalName": "STABLEMULCH",
+      "name": "Stabilmulch",
+      "spriteId": "stablemulch"
+    },
+    "62": {
+      "internalName": "GOOEYMULCH",
+      "name": "Neumulch",
+      "spriteId": "gooeymulch"
+    },
+    "63": {
+      "internalName": "SHOALSALT",
+      "name": "Küstensalz",
+      "spriteId": "shoalsalt"
+    },
+    "64": {
+      "internalName": "SHOALSHELL",
+      "name": "Küstenschale",
+      "spriteId": "shoalshell"
+    },
+    "65": {
+      "internalName": "ODDKEYSTONE",
+      "name": "Spiritkern",
+      "spriteId": "oddkeystone"
+    },
+    "66": {
+      "internalName": "AIRBALLOON",
+      "name": "Luftballon",
+      "spriteId": "airballoon"
+    },
+    "67": {
+      "internalName": "BRIGHTPOWDER",
+      "name": "Blendpulver",
+      "spriteId": "brightpowder"
+    },
+    "68": {
+      "internalName": "EVIOLITE",
+      "name": "Evolith",
+      "spriteId": "eviolite"
+    },
+    "69": {
+      "internalName": "FLOATSTONE",
+      "name": "Leichtstein",
+      "spriteId": "floatstone"
+    },
+    "70": {
+      "internalName": "DESTINYKNOT",
+      "name": "Fatumknoten",
+      "spriteId": "destinyknot"
+    },
+    "71": {
+      "internalName": "ROCKYHELMET",
+      "name": "Beulenhelm",
+      "spriteId": "rockyhelmet"
+    },
+    "72": {
+      "internalName": "EJECTBUTTON",
+      "name": "Fluchtknopf",
+      "spriteId": "ejectbutton"
+    },
+    "73": {
+      "internalName": "REDCARD",
+      "name": "Rote Karte",
+      "spriteId": "redcard"
+    },
+    "74": {
+      "internalName": "SHEDSHELL",
+      "name": "Wechselhülle",
+      "spriteId": "shedshell"
+    },
+    "75": {
+      "internalName": "SMOKEBALL",
+      "name": "Rauchball",
+      "spriteId": "smokeball"
+    },
+    "76": {
+      "internalName": "LUCKYEGG",
+      "name": "Glücks-Ei",
+      "spriteId": "luckyegg"
+    },
+    "77": {
+      "internalName": "EXPSHARE",
+      "name": "EP-Teiler",
+      "spriteId": "expshare"
+    },
+    "78": {
+      "internalName": "AMULETCOIN",
+      "name": "Münzamulett",
+      "spriteId": "amuletcoin"
+    },
+    "79": {
+      "internalName": "SOOTHEBELL",
+      "name": "Sanftglocke",
+      "spriteId": "soothebell"
+    },
+    "80": {
+      "internalName": "CLEANSETAG",
+      "name": "Schutzband",
+      "spriteId": "cleansetag"
+    },
+    "81": {
+      "internalName": "CHOICEBAND",
+      "name": "Wahlband",
+      "spriteId": "choiceband"
+    },
+    "82": {
+      "internalName": "CHOICESPECS",
+      "name": "Wahlglas",
+      "spriteId": "choicespecs"
+    },
+    "83": {
+      "internalName": "CHOICESCARF",
+      "name": "Wahlschal",
+      "spriteId": "choicescarf"
+    },
+    "84": {
+      "internalName": "HEATROCK",
+      "name": "Heißbrocken",
+      "spriteId": "heatrock"
+    },
+    "85": {
+      "internalName": "DAMPROCK",
+      "name": "Nassbrocken",
+      "spriteId": "damprock"
+    },
+    "86": {
+      "internalName": "SMOOTHROCK",
+      "name": "Glattbrocken",
+      "spriteId": "smoothrock"
+    },
+    "87": {
+      "internalName": "ICYROCK",
+      "name": "Eisbrocken",
+      "spriteId": "icyrock"
+    },
+    "88": {
+      "internalName": "LIGHTCLAY",
+      "name": "Lichtlehm",
+      "spriteId": "lightclay"
+    },
+    "89": {
+      "internalName": "GRIPCLAW",
+      "name": "Griffklaue",
+      "spriteId": "gripclaw"
+    },
+    "90": {
+      "internalName": "BINDINGBAND",
+      "name": "Klammerband",
+      "spriteId": "bindingband"
+    },
+    "91": {
+      "internalName": "BIGROOT",
+      "name": "Großwurzel",
+      "spriteId": "bigroot"
+    },
+    "92": {
+      "internalName": "BLACKSLUDGE",
+      "name": "Giftschleim",
+      "spriteId": "blacksludge"
+    },
+    "93": {
+      "internalName": "LEFTOVERS",
+      "name": "Überreste",
+      "spriteId": "leftovers"
+    },
+    "94": {
+      "internalName": "SHELLBELL",
+      "name": "Seegesang",
+      "spriteId": "shellbell"
+    },
+    "95": {
+      "internalName": "MENTALHERB",
+      "name": "Mentalkraut",
+      "spriteId": "mentalherb"
+    },
+    "96": {
+      "internalName": "WHITEHERB",
+      "name": "Schlohkraut",
+      "spriteId": "whiteherb"
+    },
+    "97": {
+      "internalName": "POWERHERB",
+      "name": "Energiekraut",
+      "spriteId": "powerherb"
+    },
+    "98": {
+      "internalName": "ABSORBBULB",
+      "name": "Knolle",
+      "spriteId": "absorbbulb"
+    },
+    "99": {
+      "internalName": "CELLBATTERY",
+      "name": "Akku",
+      "spriteId": "cellbattery"
+    },
+    "100": {
+      "internalName": "LIFEORB",
+      "name": "Leben-Orb",
+      "spriteId": "lifeorb"
+    },
+    "101": {
+      "internalName": "EXPERTBELT",
+      "name": "Expertengurt",
+      "spriteId": "expertbelt"
+    },
+    "102": {
+      "internalName": "METRONOME",
+      "name": "Metronom",
+      "spriteId": "metronome"
+    },
+    "103": {
+      "internalName": "MUSCLEBAND",
+      "name": "Muskelband",
+      "spriteId": "muscleband"
+    },
+    "104": {
+      "internalName": "WISEGLASSES",
+      "name": "Schlauglas",
+      "spriteId": "wiseglasses"
+    },
+    "105": {
+      "internalName": "RAZORCLAW",
+      "name": "Scharfklaue",
+      "spriteId": "razorclaw"
+    },
+    "106": {
+      "internalName": "SCOPELENS",
+      "name": "Scope-Linse",
+      "spriteId": "scopelens"
+    },
+    "107": {
+      "internalName": "WIDELENS",
+      "name": "Großlinse",
+      "spriteId": "widelens"
+    },
+    "108": {
+      "internalName": "ZOOMLENS",
+      "name": "Zoomlinse",
+      "spriteId": "zoomlens"
+    },
+    "109": {
+      "internalName": "KINGSROCK",
+      "name": "King-Stein",
+      "spriteId": "kingsrock"
+    },
+    "110": {
+      "internalName": "RAZORFANG",
+      "name": "Scharfzahn",
+      "spriteId": "razorfang"
+    },
+    "111": {
+      "internalName": "LAGGINGTAIL",
+      "name": "Schwerschweif",
+      "spriteId": "laggingtail"
+    },
+    "112": {
+      "internalName": "QUICKCLAW",
+      "name": "Flinkklaue",
+      "spriteId": "quickclaw"
+    },
+    "113": {
+      "internalName": "FOCUSBAND",
+      "name": "Fokus-Band",
+      "spriteId": "focusband"
+    },
+    "114": {
+      "internalName": "FOCUSSASH",
+      "name": "Fokusgurt",
+      "spriteId": "focussash"
+    },
+    "115": {
+      "internalName": "FLAMEORB",
+      "name": "Heiß-Orb",
+      "spriteId": "flameorb"
+    },
+    "116": {
+      "internalName": "TOXICORB",
+      "name": "Toxik-Orb",
+      "spriteId": "toxicorb"
+    },
+    "117": {
+      "internalName": "STICKYBARB",
+      "name": "Klettdorn",
+      "spriteId": "stickybarb"
+    },
+    "118": {
+      "internalName": "IRONBALL",
+      "name": "Eisenkugel",
+      "spriteId": "ironball"
+    },
+    "119": {
+      "internalName": "RINGTARGET",
+      "name": "Zielscheibe",
+      "spriteId": "ringtarget"
+    },
+    "120": {
+      "internalName": "MACHOBRACE",
+      "name": "Machoband",
+      "spriteId": "machobrace"
+    },
+    "121": {
+      "internalName": "POWERWEIGHT",
+      "name": "Machtgewicht",
+      "spriteId": "powerweight"
+    },
+    "122": {
+      "internalName": "POWERBRACER",
+      "name": "Machtreif",
+      "spriteId": "powerbracer"
+    },
+    "123": {
+      "internalName": "POWERBELT",
+      "name": "Machtgurt",
+      "spriteId": "powerbelt"
+    },
+    "124": {
+      "internalName": "POWERLENS",
+      "name": "Machtlinse",
+      "spriteId": "powerlens"
+    },
+    "125": {
+      "internalName": "POWERBAND",
+      "name": "Machtband",
+      "spriteId": "powerband"
+    },
+    "126": {
+      "internalName": "POWERANKLET",
+      "name": "Machtkette",
+      "spriteId": "poweranklet"
+    },
+    "127": {
+      "internalName": "LAXINCENSE",
+      "name": "Laxrauch",
+      "spriteId": "laxincense"
+    },
+    "128": {
+      "internalName": "FULLINCENSE",
+      "name": "Lahmrauch",
+      "spriteId": "fullincense"
+    },
+    "129": {
+      "internalName": "LUCKINCENSE",
+      "name": "Glücksrauch",
+      "spriteId": "luckincense"
+    },
+    "130": {
+      "internalName": "PUREINCENSE",
+      "name": "Scheuchrauch",
+      "spriteId": "pureincense"
+    },
+    "131": {
+      "internalName": "SEAINCENSE",
+      "name": "Seerauch",
+      "spriteId": "seaincense"
+    },
+    "132": {
+      "internalName": "WAVEINCENSE",
+      "name": "Wellenrauch",
+      "spriteId": "waveincense"
+    },
+    "133": {
+      "internalName": "ROSEINCENSE",
+      "name": "Rosenrauch",
+      "spriteId": "roseincense"
+    },
+    "134": {
+      "internalName": "ODDINCENSE",
+      "name": "Schrägrauch",
+      "spriteId": "oddincense"
+    },
+    "135": {
+      "internalName": "ROCKINCENSE",
+      "name": "Steinrauch",
+      "spriteId": "rockincense"
+    },
+    "136": {
+      "internalName": "CHARCOAL",
+      "name": "Holzkohle",
+      "spriteId": "charcoal"
+    },
+    "137": {
+      "internalName": "MYSTICWATER",
+      "name": "Zauberwasser",
+      "spriteId": "mysticwater"
+    },
+    "138": {
+      "internalName": "MAGNET",
+      "name": "Magnet",
+      "spriteId": "magnet"
+    },
+    "139": {
+      "internalName": "MIRACLESEED",
+      "name": "Wundersaat",
+      "spriteId": "miracleseed"
+    },
+    "140": {
+      "internalName": "NEVERMELTICE",
+      "name": "Ewiges Eis",
+      "spriteId": "nevermeltice"
+    },
+    "141": {
+      "internalName": "BLACKBELT",
+      "name": "Schwarzgurt",
+      "spriteId": "blackbelt"
+    },
+    "142": {
+      "internalName": "POISONBARB",
+      "name": "Giftstich",
+      "spriteId": "poisonbarb"
+    },
+    "143": {
+      "internalName": "SOFTSAND",
+      "name": "Pudersand",
+      "spriteId": "softsand"
+    },
+    "144": {
+      "internalName": "SHARPBEAK",
+      "name": "Hackattack",
+      "spriteId": "sharpbeak"
+    },
+    "145": {
+      "internalName": "TWISTEDSPOON",
+      "name": "Krummlöffel",
+      "spriteId": "twistedspoon"
+    },
+    "146": {
+      "internalName": "SILVERPOWDER",
+      "name": "Silberstaub",
+      "spriteId": "silverpowder"
+    },
+    "147": {
+      "internalName": "HARDSTONE",
+      "name": "Granitstein",
+      "spriteId": "hardstone"
+    },
+    "148": {
+      "internalName": "SPELLTAG",
+      "name": "Bannsticker",
+      "spriteId": "spelltag"
+    },
+    "149": {
+      "internalName": "DRAGONFANG",
+      "name": "Drachenzahn",
+      "spriteId": "dragonfang"
+    },
+    "150": {
+      "internalName": "BLACKGLASSES",
+      "name": "Schattenglas",
+      "spriteId": "blackglasses"
+    },
+    "151": {
+      "internalName": "METALCOAT",
+      "name": "Metallmantel",
+      "spriteId": "metalcoat"
+    },
+    "152": {
+      "internalName": "SILKSCARF",
+      "name": "Seidenschal",
+      "spriteId": "silkscarf"
+    },
+    "153": {
+      "internalName": "FLAMEPLATE",
+      "name": "Feuertafel",
+      "spriteId": "flameplate"
+    },
+    "154": {
+      "internalName": "SPLASHPLATE",
+      "name": "Wassertafel",
+      "spriteId": "splashplate"
+    },
+    "155": {
+      "internalName": "ZAPPLATE",
+      "name": "Blitztafel",
+      "spriteId": "zapplate"
+    },
+    "156": {
+      "internalName": "MEADOWPLATE",
+      "name": "Wiesentafel",
+      "spriteId": "meadowplate"
+    },
+    "157": {
+      "internalName": "ICICLEPLATE",
+      "name": "Frosttafel",
+      "spriteId": "icicleplate"
+    },
+    "158": {
+      "internalName": "FISTPLATE",
+      "name": "Fausttafel",
+      "spriteId": "fistplate"
+    },
+    "159": {
+      "internalName": "TOXICPLATE",
+      "name": "Gifttafel",
+      "spriteId": "toxicplate"
+    },
+    "160": {
+      "internalName": "EARTHPLATE",
+      "name": "Erdtafel",
+      "spriteId": "earthplate"
+    },
+    "161": {
+      "internalName": "SKYPLATE",
+      "name": "Wolkentafel",
+      "spriteId": "skyplate"
+    },
+    "162": {
+      "internalName": "MINDPLATE",
+      "name": "Hirntafel",
+      "spriteId": "mindplate"
+    },
+    "163": {
+      "internalName": "INSECTPLATE",
+      "name": "Käfertafel",
+      "spriteId": "insectplate"
+    },
+    "164": {
+      "internalName": "STONEPLATE",
+      "name": "Steintafel",
+      "spriteId": "stoneplate"
+    },
+    "165": {
+      "internalName": "SPOOKYPLATE",
+      "name": "Spuktafel",
+      "spriteId": "spookyplate"
+    },
+    "166": {
+      "internalName": "DRACOPLATE",
+      "name": "Dracotafel",
+      "spriteId": "dracoplate"
+    },
+    "167": {
+      "internalName": "DREADPLATE",
+      "name": "Furchttafel",
+      "spriteId": "dreadplate"
+    },
+    "168": {
+      "internalName": "IRONPLATE",
+      "name": "Eisentafel",
+      "spriteId": "ironplate"
+    },
+    "169": {
+      "internalName": "FIREGEM",
+      "name": "Feuerjuwel",
+      "spriteId": "firegem"
+    },
+    "170": {
+      "internalName": "WATERGEM",
+      "name": "Wasserjuwel",
+      "spriteId": "watergem"
+    },
+    "171": {
+      "internalName": "ELECTRICGEM",
+      "name": "Elektrojuwel",
+      "spriteId": "electricgem"
+    },
+    "172": {
+      "internalName": "GRASSGEM",
+      "name": "Pflanzjuwel",
+      "spriteId": "grassgem"
+    },
+    "173": {
+      "internalName": "ICEGEM",
+      "name": "Eisjuwel",
+      "spriteId": "icegem"
+    },
+    "174": {
+      "internalName": "FIGHTINGGEM",
+      "name": "Kampfjuwel",
+      "spriteId": "fightinggem"
+    },
+    "175": {
+      "internalName": "POISONGEM",
+      "name": "Giftjuwel",
+      "spriteId": "poisongem"
+    },
+    "176": {
+      "internalName": "GROUNDGEM",
+      "name": "Bodenjuwel",
+      "spriteId": "groundgem"
+    },
+    "177": {
+      "internalName": "FLYINGGEM",
+      "name": "Flugjuwel",
+      "spriteId": "flyinggem"
+    },
+    "178": {
+      "internalName": "PSYCHICGEM",
+      "name": "Psychojuwel",
+      "spriteId": "psychicgem"
+    },
+    "179": {
+      "internalName": "BUGGEM",
+      "name": "Käferjuwel",
+      "spriteId": "buggem"
+    },
+    "180": {
+      "internalName": "ROCKGEM",
+      "name": "Gesteinjuwel",
+      "spriteId": "rockgem"
+    },
+    "181": {
+      "internalName": "GHOSTGEM",
+      "name": "Geistjuwel",
+      "spriteId": "ghostgem"
+    },
+    "182": {
+      "internalName": "DRAGONGEM",
+      "name": "Drakojuwel",
+      "spriteId": "dragongem"
+    },
+    "183": {
+      "internalName": "DARKGEM",
+      "name": "Unlichtjuwel",
+      "spriteId": "darkgem"
+    },
+    "184": {
+      "internalName": "STEELGEM",
+      "name": "Stahljuwel",
+      "spriteId": "steelgem"
+    },
+    "185": {
+      "internalName": "NORMALGEM",
+      "name": "Normaljuwel",
+      "spriteId": "normalgem"
+    },
+    "186": {
+      "internalName": "LIGHTBALL",
+      "name": "Kugelblitz",
+      "spriteId": "lightball"
+    },
+    "187": {
+      "internalName": "LUCKYPUNCH",
+      "name": "Lucky Punch",
+      "spriteId": "luckypunch"
+    },
+    "188": {
+      "internalName": "METALPOWDER",
+      "name": "Metallstaub",
+      "spriteId": "metalpowder"
+    },
+    "189": {
+      "internalName": "QUICKPOWDER",
+      "name": "Flottstaub",
+      "spriteId": "quickpowder"
+    },
+    "190": {
+      "internalName": "THICKCLUB",
+      "name": "Kampfknochen",
+      "spriteId": "thickclub"
+    },
+    "191": {
+      "internalName": "STICK",
+      "name": "Lauchstange",
+      "spriteId": "stick"
+    },
+    "192": {
+      "internalName": "SOULDEW",
+      "name": "Seelentau",
+      "spriteId": "souldew"
+    },
+    "193": {
+      "internalName": "DEEPSEATOOTH",
+      "name": "Abysszahn",
+      "spriteId": "deepseatooth"
+    },
+    "194": {
+      "internalName": "DEEPSEASCALE",
+      "name": "Abyssplatte",
+      "spriteId": "deepseascale"
+    },
+    "195": {
+      "internalName": "ADAMANTORB",
+      "name": "Adamant-Orb",
+      "spriteId": "adamantorb"
+    },
+    "196": {
+      "internalName": "LUSTROUSORB",
+      "name": "Weiß-Orb",
+      "spriteId": "lustrousorb"
+    },
+    "197": {
+      "internalName": "GRISEOUSORB",
+      "name": "Platinum-Orb",
+      "spriteId": "griseousorb"
+    },
+    "198": {
+      "internalName": "DOUSEDRIVE",
+      "name": "Aquamodul",
+      "spriteId": "dousedrive"
+    },
+    "199": {
+      "internalName": "SHOCKDRIVE",
+      "name": "Blitzmodul",
+      "spriteId": "shockdrive"
+    },
+    "200": {
+      "internalName": "BURNDRIVE",
+      "name": "Flammenmodul",
+      "spriteId": "burndrive"
+    },
+    "201": {
+      "internalName": "CHILLDRIVE",
+      "name": "Gefriermodul",
+      "spriteId": "chilldrive"
+    },
+    "202": {
+      "internalName": "EVERSTONE",
+      "name": "Ewigstein",
+      "spriteId": "everstone"
+    },
+    "203": {
+      "internalName": "DRAGONSCALE",
+      "name": "Drachenhaut",
+      "spriteId": "dragonscale"
+    },
+    "204": {
+      "internalName": "UPGRADE",
+      "name": "Up-Grade",
+      "spriteId": "upgrade"
+    },
+    "205": {
+      "internalName": "DUBIOUSDISC",
+      "name": "Dubiousdisc",
+      "spriteId": "dubiousdisc"
+    },
+    "206": {
+      "internalName": "PROTECTOR",
+      "name": "Schützer",
+      "spriteId": "protector"
+    },
+    "207": {
+      "internalName": "ELECTIRIZER",
+      "name": "Stromisierer",
+      "spriteId": "electirizer"
+    },
+    "208": {
+      "internalName": "MAGMARIZER",
+      "name": "Magmaisierer",
+      "spriteId": "magmarizer"
+    },
+    "209": {
+      "internalName": "REAPERCLOTH",
+      "name": "Düsterumhang",
+      "spriteId": "reapercloth"
+    },
+    "210": {
+      "internalName": "PRISMSCALE",
+      "name": "Schönschuppe",
+      "spriteId": "prismscale"
+    },
+    "211": {
+      "internalName": "OVALSTONE",
+      "name": "Ovaler Stein",
+      "spriteId": "ovalstone"
+    },
+    "212": {
+      "internalName": "REDSCARF",
+      "name": "Roter Schal",
+      "spriteId": "redscarf"
+    },
+    "213": {
+      "internalName": "BLUESCARF",
+      "name": "Blauer Schal",
+      "spriteId": "bluescarf"
+    },
+    "214": {
+      "internalName": "PINKSCARF",
+      "name": "Rosa Schal",
+      "spriteId": "pinkscarf"
+    },
+    "215": {
+      "internalName": "GREENSCARF",
+      "name": "Grüner Schal",
+      "spriteId": "greenscarf"
+    },
+    "216": {
+      "internalName": "YELLOWSCARF",
+      "name": "Gelber Schal",
+      "spriteId": "yellowscarf"
+    },
+    "217": {
+      "internalName": "POTION",
+      "name": "Trank",
+      "spriteId": "potion"
+    },
+    "218": {
+      "internalName": "SUPERPOTION",
+      "name": "Supertrank",
+      "spriteId": "superpotion"
+    },
+    "219": {
+      "internalName": "HYPERPOTION",
+      "name": "Hypertrank",
+      "spriteId": "hyperpotion"
+    },
+    "220": {
+      "internalName": "MAXPOTION",
+      "name": "Top-Trank",
+      "spriteId": "maxpotion"
+    },
+    "221": {
+      "internalName": "FULLRESTORE",
+      "name": "Top-Genesung",
+      "spriteId": "fullrestore"
+    },
+    "222": {
+      "internalName": "SACREDASH",
+      "name": "Zauberasche",
+      "spriteId": "sacredash"
+    },
+    "223": {
+      "internalName": "AWAKENING",
+      "name": "Aufwecker",
+      "spriteId": "awakening"
+    },
+    "224": {
+      "internalName": "ANTIDOTE",
+      "name": "Gegengift",
+      "spriteId": "antidote"
+    },
+    "225": {
+      "internalName": "BURNHEAL",
+      "name": "Feuerheiler",
+      "spriteId": "burnheal"
+    },
+    "226": {
+      "internalName": "PARALYZEHEAL",
+      "name": "Para-Heiler",
+      "spriteId": "paralyzeheal"
+    },
+    "227": {
+      "internalName": "ICEHEAL",
+      "name": "Eisheiler",
+      "spriteId": "iceheal"
+    },
+    "228": {
+      "internalName": "FULLHEAL",
+      "name": "Hyperheiler",
+      "spriteId": "fullheal"
+    },
+    "229": {
+      "internalName": "LAVACOOKIE",
+      "name": "Lavakeks",
+      "spriteId": "lavacookie"
+    },
+    "230": {
+      "internalName": "OLDGATEAU",
+      "name": "Spezialität",
+      "spriteId": "oldgateau"
+    },
+    "231": {
+      "internalName": "CASTELIACONE",
+      "name": "Stratos-Eis",
+      "spriteId": "casteliacone"
+    },
+    "232": {
+      "internalName": "REVIVE",
+      "name": "Beleber",
+      "spriteId": "revive"
+    },
+    "233": {
+      "internalName": "MAXREVIVE",
+      "name": "Top-Beleber",
+      "spriteId": "maxrevive"
+    },
+    "234": {
+      "internalName": "BERRYJUICE",
+      "name": "Beerensaft",
+      "spriteId": "berryjuice"
+    },
+    "235": {
+      "internalName": "RAGECANDYBAR",
+      "name": "Wutkeks",
+      "spriteId": "ragecandybar"
+    },
+    "236": {
+      "internalName": "SWEETHEART",
+      "name": "Herzkonfekt",
+      "spriteId": "sweetheart"
+    },
+    "237": {
+      "internalName": "FRESHWATER",
+      "name": "Tafelwasser",
+      "spriteId": "freshwater"
+    },
+    "238": {
+      "internalName": "SODAPOP",
+      "name": "Sprudel",
+      "spriteId": "sodapop"
+    },
+    "239": {
+      "internalName": "LEMONADE",
+      "name": "Limonade",
+      "spriteId": "lemonade"
+    },
+    "240": {
+      "internalName": "MOOMOOMILK",
+      "name": "Kuhmuh-Milch",
+      "spriteId": "moomoomilk"
+    },
+    "241": {
+      "internalName": "ENERGYPOWDER",
+      "name": "Energiestaub",
+      "spriteId": "energypowder"
+    },
+    "242": {
+      "internalName": "ENERGYROOT",
+      "name": "Kraftwurzel",
+      "spriteId": "energyroot"
+    },
+    "243": {
+      "internalName": "HEALPOWDER",
+      "name": "Heilpuder",
+      "spriteId": "healpowder"
+    },
+    "244": {
+      "internalName": "REVIVALHERB",
+      "name": "Vitalkraut",
+      "spriteId": "revivalherb"
+    },
+    "245": {
+      "internalName": "ETHER",
+      "name": "Äther",
+      "spriteId": "ether"
+    },
+    "246": {
+      "internalName": "MAXETHER",
+      "name": "Top-Äther",
+      "spriteId": "maxether"
+    },
+    "247": {
+      "internalName": "ELIXIR",
+      "name": "Elixier",
+      "spriteId": "elixir"
+    },
+    "248": {
+      "internalName": "MAXELIXIR",
+      "name": "Top-Elixier",
+      "spriteId": "maxelixir"
+    },
+    "249": {
+      "internalName": "PPUP",
+      "name": "AP-Plus",
+      "spriteId": "ppup"
+    },
+    "250": {
+      "internalName": "PPMAX",
+      "name": "AP-Top",
+      "spriteId": "ppmax"
+    },
+    "251": {
+      "internalName": "HPUP",
+      "name": "KP-Plus",
+      "spriteId": "hpup"
+    },
+    "252": {
+      "internalName": "PROTEIN",
+      "name": "Protein",
+      "spriteId": "protein"
+    },
+    "253": {
+      "internalName": "IRON",
+      "name": "Eisen",
+      "spriteId": "iron"
+    },
+    "254": {
+      "internalName": "CALCIUM",
+      "name": "Kalzium",
+      "spriteId": "calcium"
+    },
+    "255": {
+      "internalName": "ZINC",
+      "name": "Zink",
+      "spriteId": "zinc"
+    },
+    "256": {
+      "internalName": "CARBOS",
+      "name": "Carbon",
+      "spriteId": "carbos"
+    },
+    "257": {
+      "internalName": "HEALTHWING",
+      "name": "Heilfeder",
+      "spriteId": "healthwing"
+    },
+    "258": {
+      "internalName": "MUSCLEWING",
+      "name": "Kraftfeder",
+      "spriteId": "musclewing"
+    },
+    "259": {
+      "internalName": "RESISTWING",
+      "name": "Abwehrfeder",
+      "spriteId": "resistwing"
+    },
+    "260": {
+      "internalName": "GENIUSWING",
+      "name": "Geniefeder",
+      "spriteId": "geniuswing"
+    },
+    "261": {
+      "internalName": "CLEVERWING",
+      "name": "Espritfeder",
+      "spriteId": "cleverwing"
+    },
+    "262": {
+      "internalName": "SWIFTWING",
+      "name": "Flinkfeder",
+      "spriteId": "swiftwing"
+    },
+    "263": {
+      "internalName": "RARECANDY",
+      "name": "Sonderbonbon",
+      "spriteId": "rarecandy"
+    },
+    "264": {
+      "internalName": "MASTERBALL",
+      "name": "Meisterball",
+      "spriteId": "masterball"
+    },
+    "265": {
+      "internalName": "ULTRABALL",
+      "name": "Hyperball",
+      "spriteId": "ultraball"
+    },
+    "266": {
+      "internalName": "GREATBALL",
+      "name": "Superball",
+      "spriteId": "greatball"
+    },
+    "267": {
+      "internalName": "POKEBALL",
+      "name": "Pokéball",
+      "spriteId": "pokeball"
+    },
+    "268": {
+      "internalName": "SAFARIBALL",
+      "name": "Safariball",
+      "spriteId": "safariball"
+    },
+    "269": {
+      "internalName": "SPORTBALL",
+      "name": "Turnierball",
+      "spriteId": "sportball"
+    },
+    "270": {
+      "internalName": "NETBALL",
+      "name": "Netzball",
+      "spriteId": "netball"
+    },
+    "271": {
+      "internalName": "DIVEBALL",
+      "name": "Tauchball",
+      "spriteId": "diveball"
+    },
+    "272": {
+      "internalName": "NESTBALL",
+      "name": "Nestball",
+      "spriteId": "nestball"
+    },
+    "273": {
+      "internalName": "REPEATBALL",
+      "name": "Wiederball",
+      "spriteId": "repeatball"
+    },
+    "274": {
+      "internalName": "TIMERBALL",
+      "name": "Timerball",
+      "spriteId": "timerball"
+    },
+    "275": {
+      "internalName": "LUXURYBALL",
+      "name": "Luxusball",
+      "spriteId": "luxuryball"
+    },
+    "276": {
+      "internalName": "PREMIERBALL",
+      "name": "Premierball",
+      "spriteId": "premierball"
+    },
+    "277": {
+      "internalName": "DUSKBALL",
+      "name": "Finsterball",
+      "spriteId": "duskball"
+    },
+    "278": {
+      "internalName": "HEALBALL",
+      "name": "Heilball",
+      "spriteId": "healball"
+    },
+    "279": {
+      "internalName": "QUICKBALL",
+      "name": "Flottball",
+      "spriteId": "quickball"
+    },
+    "280": {
+      "internalName": "CHERISHBALL",
+      "name": "Jubelball",
+      "spriteId": "cherishball"
+    },
+    "281": {
+      "internalName": "FASTBALL",
+      "name": "Turboball",
+      "spriteId": "fastball"
+    },
+    "282": {
+      "internalName": "LEVELBALL",
+      "name": "Levelball",
+      "spriteId": "levelball"
+    },
+    "283": {
+      "internalName": "LUREBALL",
+      "name": "Köderball",
+      "spriteId": "lureball"
+    },
+    "284": {
+      "internalName": "HEAVYBALL",
+      "name": "Schwerball",
+      "spriteId": "heavyball"
+    },
+    "285": {
+      "internalName": "LOVEBALL",
+      "name": "Sympaball",
+      "spriteId": "loveball"
+    },
+    "286": {
+      "internalName": "FRIENDBALL",
+      "name": "Freundesball",
+      "spriteId": "friendball"
+    },
+    "287": {
+      "internalName": "MOONBALL",
+      "name": "Mondball",
+      "spriteId": "moonball"
+    },
+    "288": {
+      "internalName": "TM01",
+      "name": "TM01",
+      "spriteId": "tm01"
+    },
+    "289": {
+      "internalName": "TM02",
+      "name": "TM02",
+      "spriteId": "tm02"
+    },
+    "290": {
+      "internalName": "TM03",
+      "name": "TM03",
+      "spriteId": "tm03"
+    },
+    "291": {
+      "internalName": "TM04",
+      "name": "TM04",
+      "spriteId": "tm04"
+    },
+    "292": {
+      "internalName": "TM05",
+      "name": "TM05",
+      "spriteId": "tm05"
+    },
+    "293": {
+      "internalName": "TM06",
+      "name": "TM06",
+      "spriteId": "tm06"
+    },
+    "294": {
+      "internalName": "TM07",
+      "name": "TM07",
+      "spriteId": "tm07"
+    },
+    "295": {
+      "internalName": "TM08",
+      "name": "TM08",
+      "spriteId": "tm08"
+    },
+    "296": {
+      "internalName": "TM09",
+      "name": "TM09",
+      "spriteId": "tm09"
+    },
+    "297": {
+      "internalName": "TM10",
+      "name": "TM10",
+      "spriteId": "tm10"
+    },
+    "298": {
+      "internalName": "TM11",
+      "name": "TM11",
+      "spriteId": "tm11"
+    },
+    "299": {
+      "internalName": "TM12",
+      "name": "TM12",
+      "spriteId": "tm12"
+    },
+    "300": {
+      "internalName": "TM13",
+      "name": "TM13",
+      "spriteId": "tm13"
+    },
+    "301": {
+      "internalName": "TM14",
+      "name": "TM14",
+      "spriteId": "tm14"
+    },
+    "302": {
+      "internalName": "TM15",
+      "name": "TM15",
+      "spriteId": "tm15"
+    },
+    "303": {
+      "internalName": "TM16",
+      "name": "TM16",
+      "spriteId": "tm16"
+    },
+    "304": {
+      "internalName": "TM17",
+      "name": "TM17",
+      "spriteId": "tm17"
+    },
+    "305": {
+      "internalName": "TM18",
+      "name": "TM18",
+      "spriteId": "tm18"
+    },
+    "306": {
+      "internalName": "TM19",
+      "name": "TM19",
+      "spriteId": "tm19"
+    },
+    "307": {
+      "internalName": "TM20",
+      "name": "TM20",
+      "spriteId": "tm20"
+    },
+    "308": {
+      "internalName": "TM21",
+      "name": "TM21",
+      "spriteId": "tm21"
+    },
+    "309": {
+      "internalName": "TM22",
+      "name": "TM22",
+      "spriteId": "tm22"
+    },
+    "310": {
+      "internalName": "TM23",
+      "name": "TM23",
+      "spriteId": "tm23"
+    },
+    "311": {
+      "internalName": "TM24",
+      "name": "TM24",
+      "spriteId": "tm24"
+    },
+    "312": {
+      "internalName": "TM25",
+      "name": "TM25",
+      "spriteId": "tm25"
+    },
+    "313": {
+      "internalName": "TM26",
+      "name": "TM26",
+      "spriteId": "tm26"
+    },
+    "314": {
+      "internalName": "TM27",
+      "name": "TM27",
+      "spriteId": "tm27"
+    },
+    "315": {
+      "internalName": "TM28",
+      "name": "TM28",
+      "spriteId": "tm28"
+    },
+    "316": {
+      "internalName": "TM29",
+      "name": "TM29",
+      "spriteId": "tm29"
+    },
+    "317": {
+      "internalName": "TM30",
+      "name": "TM30",
+      "spriteId": "tm30"
+    },
+    "318": {
+      "internalName": "TM31",
+      "name": "TM31",
+      "spriteId": "tm31"
+    },
+    "319": {
+      "internalName": "TM32",
+      "name": "TM32",
+      "spriteId": "tm32"
+    },
+    "320": {
+      "internalName": "TM33",
+      "name": "TM33",
+      "spriteId": "tm33"
+    },
+    "321": {
+      "internalName": "TM34",
+      "name": "TM34",
+      "spriteId": "tm34"
+    },
+    "322": {
+      "internalName": "TM35",
+      "name": "TM35",
+      "spriteId": "tm35"
+    },
+    "323": {
+      "internalName": "TM36",
+      "name": "TM36",
+      "spriteId": "tm36"
+    },
+    "324": {
+      "internalName": "TM37",
+      "name": "TM37",
+      "spriteId": "tm37"
+    },
+    "325": {
+      "internalName": "TM38",
+      "name": "TM38",
+      "spriteId": "tm38"
+    },
+    "326": {
+      "internalName": "TM39",
+      "name": "TM39",
+      "spriteId": "tm39"
+    },
+    "327": {
+      "internalName": "TM40",
+      "name": "TM40",
+      "spriteId": "tm40"
+    },
+    "328": {
+      "internalName": "TM41",
+      "name": "TM41",
+      "spriteId": "tm41"
+    },
+    "329": {
+      "internalName": "TM42",
+      "name": "TM42",
+      "spriteId": "tm42"
+    },
+    "330": {
+      "internalName": "TM43",
+      "name": "TM43",
+      "spriteId": "tm43"
+    },
+    "331": {
+      "internalName": "TM44",
+      "name": "TM44",
+      "spriteId": "tm44"
+    },
+    "332": {
+      "internalName": "TM45",
+      "name": "TM45",
+      "spriteId": "tm45"
+    },
+    "333": {
+      "internalName": "TM46",
+      "name": "TM46",
+      "spriteId": "tm46"
+    },
+    "334": {
+      "internalName": "TM47",
+      "name": "TM47",
+      "spriteId": "tm47"
+    },
+    "335": {
+      "internalName": "TM48",
+      "name": "TM48",
+      "spriteId": "tm48"
+    },
+    "336": {
+      "internalName": "TM49",
+      "name": "TM49",
+      "spriteId": "tm49"
+    },
+    "337": {
+      "internalName": "TM50",
+      "name": "TM50",
+      "spriteId": "tm50"
+    },
+    "338": {
+      "internalName": "TM51",
+      "name": "TM51",
+      "spriteId": "tm51"
+    },
+    "339": {
+      "internalName": "TM52",
+      "name": "TM52",
+      "spriteId": "tm52"
+    },
+    "340": {
+      "internalName": "TM53",
+      "name": "TM53",
+      "spriteId": "tm53"
+    },
+    "341": {
+      "internalName": "TM54",
+      "name": "TM54",
+      "spriteId": "tm54"
+    },
+    "342": {
+      "internalName": "TM55",
+      "name": "TM55",
+      "spriteId": "tm55"
+    },
+    "343": {
+      "internalName": "TM56",
+      "name": "TM56",
+      "spriteId": "tm56"
+    },
+    "344": {
+      "internalName": "TM57",
+      "name": "TM57",
+      "spriteId": "tm57"
+    },
+    "345": {
+      "internalName": "TM58",
+      "name": "TM58",
+      "spriteId": "tm58"
+    },
+    "346": {
+      "internalName": "TM59",
+      "name": "TM59",
+      "spriteId": "tm59"
+    },
+    "347": {
+      "internalName": "TM60",
+      "name": "TM60",
+      "spriteId": "tm60"
+    },
+    "348": {
+      "internalName": "TM61",
+      "name": "TM61",
+      "spriteId": "tm61"
+    },
+    "349": {
+      "internalName": "TM62",
+      "name": "TM62",
+      "spriteId": "tm62"
+    },
+    "350": {
+      "internalName": "TM63",
+      "name": "TM63",
+      "spriteId": "tm63"
+    },
+    "351": {
+      "internalName": "TM64",
+      "name": "TM64",
+      "spriteId": "tm64"
+    },
+    "352": {
+      "internalName": "TM65",
+      "name": "TM65",
+      "spriteId": "tm65"
+    },
+    "353": {
+      "internalName": "TM66",
+      "name": "TM66",
+      "spriteId": "tm66"
+    },
+    "354": {
+      "internalName": "TM67",
+      "name": "TM67",
+      "spriteId": "tm67"
+    },
+    "355": {
+      "internalName": "TM68",
+      "name": "TM68",
+      "spriteId": "tm68"
+    },
+    "356": {
+      "internalName": "TM69",
+      "name": "TM69",
+      "spriteId": "tm69"
+    },
+    "357": {
+      "internalName": "TM70",
+      "name": "TM70",
+      "spriteId": "tm70"
+    },
+    "358": {
+      "internalName": "TM71",
+      "name": "TM71",
+      "spriteId": "tm71"
+    },
+    "359": {
+      "internalName": "TM72",
+      "name": "TM72",
+      "spriteId": "tm72"
+    },
+    "360": {
+      "internalName": "TM73",
+      "name": "TM73",
+      "spriteId": "tm73"
+    },
+    "361": {
+      "internalName": "TM74",
+      "name": "TM74",
+      "spriteId": "tm74"
+    },
+    "362": {
+      "internalName": "TM75",
+      "name": "TM75",
+      "spriteId": "tm75"
+    },
+    "363": {
+      "internalName": "TM76",
+      "name": "TM76",
+      "spriteId": "tm76"
+    },
+    "364": {
+      "internalName": "TM77",
+      "name": "TM77",
+      "spriteId": "tm77"
+    },
+    "365": {
+      "internalName": "TM78",
+      "name": "TM78",
+      "spriteId": "tm78"
+    },
+    "366": {
+      "internalName": "TM79",
+      "name": "TM79",
+      "spriteId": "tm79"
+    },
+    "367": {
+      "internalName": "TM80",
+      "name": "TM80",
+      "spriteId": "tm80"
+    },
+    "368": {
+      "internalName": "TM81",
+      "name": "TM81",
+      "spriteId": "tm81"
+    },
+    "369": {
+      "internalName": "TM82",
+      "name": "TM82",
+      "spriteId": "tm82"
+    },
+    "370": {
+      "internalName": "TM83",
+      "name": "TM83",
+      "spriteId": "tm83"
+    },
+    "371": {
+      "internalName": "TM84",
+      "name": "TM84",
+      "spriteId": "tm84"
+    },
+    "372": {
+      "internalName": "TM85",
+      "name": "TM85",
+      "spriteId": "tm85"
+    },
+    "373": {
+      "internalName": "TM86",
+      "name": "TM86",
+      "spriteId": "tm86"
+    },
+    "374": {
+      "internalName": "TM87",
+      "name": "TM87",
+      "spriteId": "tm87"
+    },
+    "375": {
+      "internalName": "TM88",
+      "name": "TM88",
+      "spriteId": "tm88"
+    },
+    "376": {
+      "internalName": "TM89",
+      "name": "TM89",
+      "spriteId": "tm89"
+    },
+    "377": {
+      "internalName": "TM90",
+      "name": "TM90",
+      "spriteId": "tm90"
+    },
+    "378": {
+      "internalName": "TM91",
+      "name": "TM91",
+      "spriteId": "tm91"
+    },
+    "379": {
+      "internalName": "TM92",
+      "name": "TM92",
+      "spriteId": "tm92"
+    },
+    "380": {
+      "internalName": "TM93",
+      "name": "TM93",
+      "spriteId": "tm93"
+    },
+    "381": {
+      "internalName": "TM94",
+      "name": "TM94",
+      "spriteId": "tm94"
+    },
+    "382": {
+      "internalName": "TM95",
+      "name": "TM95",
+      "spriteId": "tm95"
+    },
+    "383": {
+      "internalName": "HM01",
+      "name": "VM01",
+      "spriteId": "hm01"
+    },
+    "384": {
+      "internalName": "HM02",
+      "name": "VM02",
+      "spriteId": "hm02"
+    },
+    "385": {
+      "internalName": "HM03",
+      "name": "VM03",
+      "spriteId": "hm03"
+    },
+    "386": {
+      "internalName": "HM04",
+      "name": "VM04",
+      "spriteId": "hm04"
+    },
+    "387": {
+      "internalName": "HM05",
+      "name": "VM05",
+      "spriteId": "hm05"
+    },
+    "388": {
+      "internalName": "HM06",
+      "name": "VM06",
+      "spriteId": "hm06"
+    },
+    "389": {
+      "internalName": "CHERIBERRY",
+      "name": "Amrenabeere",
+      "spriteId": "cheriberry"
+    },
+    "390": {
+      "internalName": "CHESTOBERRY",
+      "name": "Maronbeere",
+      "spriteId": "chestoberry"
+    },
+    "391": {
+      "internalName": "PECHABERRY",
+      "name": "Pirsifbeere",
+      "spriteId": "pechaberry"
+    },
+    "392": {
+      "internalName": "RAWSTBERRY",
+      "name": "Fragiabeere",
+      "spriteId": "rawstberry"
+    },
+    "393": {
+      "internalName": "ASPEARBERRY",
+      "name": "Wilbirbeere",
+      "spriteId": "aspearberry"
+    },
+    "394": {
+      "internalName": "LEPPABERRY",
+      "name": "Jonagobeere",
+      "spriteId": "leppaberry"
+    },
+    "395": {
+      "internalName": "ORANBERRY",
+      "name": "Sinelbeere",
+      "spriteId": "oranberry"
+    },
+    "396": {
+      "internalName": "PERSIMBERRY",
+      "name": "Persimbeere",
+      "spriteId": "persimberry"
+    },
+    "397": {
+      "internalName": "LUMBERRY",
+      "name": "Prunusbeere",
+      "spriteId": "lumberry"
+    },
+    "398": {
+      "internalName": "SITRUSBERRY",
+      "name": "Tsitrubeere",
+      "spriteId": "sitrusberry"
+    },
+    "399": {
+      "internalName": "FIGYBERRY",
+      "name": "Giefebeere",
+      "spriteId": "figyberry"
+    },
+    "400": {
+      "internalName": "WIKIBERRY",
+      "name": "Wikibeere",
+      "spriteId": "wikiberry"
+    },
+    "401": {
+      "internalName": "MAGOBERRY",
+      "name": "Magobeere",
+      "spriteId": "magoberry"
+    },
+    "402": {
+      "internalName": "AGUAVBERRY",
+      "name": "Guavebeere",
+      "spriteId": "aguavberry"
+    },
+    "403": {
+      "internalName": "IAPAPABERRY",
+      "name": "Yapabeere",
+      "spriteId": "iapapaberry"
+    },
+    "404": {
+      "internalName": "RAZZBERRY",
+      "name": "Himmihbeere",
+      "spriteId": "razzberry"
+    },
+    "405": {
+      "internalName": "BLUKBERRY",
+      "name": "Morbbeere",
+      "spriteId": "blukberry"
+    },
+    "406": {
+      "internalName": "NANABBERRY",
+      "name": "Nanabbeere",
+      "spriteId": "nanabberry"
+    },
+    "407": {
+      "internalName": "WEPEARBERRY",
+      "name": "Nirbebeere",
+      "spriteId": "wepearberry"
+    },
+    "408": {
+      "internalName": "PINAPBERRY",
+      "name": "Sananabeere",
+      "spriteId": "pinapberry"
+    },
+    "409": {
+      "internalName": "POMEGBERRY",
+      "name": "Granabeere",
+      "spriteId": "pomegberry"
+    },
+    "410": {
+      "internalName": "KELPSYBERRY",
+      "name": "Setangbeere",
+      "spriteId": "kelpsyberry"
+    },
+    "411": {
+      "internalName": "QUALOTBERRY",
+      "name": "Qualotbeere",
+      "spriteId": "qualotberry"
+    },
+    "412": {
+      "internalName": "HONDEWBERRY",
+      "name": "Honmelbeere",
+      "spriteId": "hondewberry"
+    },
+    "413": {
+      "internalName": "GREPABERRY",
+      "name": "Labrusbeere",
+      "spriteId": "grepaberry"
+    },
+    "414": {
+      "internalName": "TAMATOBERRY",
+      "name": "Tamotbeere",
+      "spriteId": "tamatoberry"
+    },
+    "415": {
+      "internalName": "CORNNBERRY",
+      "name": "Saimbeere",
+      "spriteId": "cornnberry"
+    },
+    "416": {
+      "internalName": "MAGOSTBERRY",
+      "name": "Magostbeere",
+      "spriteId": "magostberry"
+    },
+    "417": {
+      "internalName": "RABUTABERRY",
+      "name": "Rabutabeere",
+      "spriteId": "rabutaberry"
+    },
+    "418": {
+      "internalName": "NOMELBERRY",
+      "name": "Tronzibeere",
+      "spriteId": "nomelberry"
+    },
+    "419": {
+      "internalName": "SPELONBERRY",
+      "name": "Kiwanbeere",
+      "spriteId": "spelonberry"
+    },
+    "420": {
+      "internalName": "PAMTREBERRY",
+      "name": "Pallmbeere",
+      "spriteId": "pamtreberry"
+    },
+    "421": {
+      "internalName": "WATMELBERRY",
+      "name": "Wasmelbeere",
+      "spriteId": "watmelberry"
+    },
+    "422": {
+      "internalName": "DURINBERRY",
+      "name": "Durinbeere",
+      "spriteId": "durinberry"
+    },
+    "423": {
+      "internalName": "BELUEBERRY",
+      "name": "Myrtilbeere",
+      "spriteId": "belueberry"
+    },
+    "424": {
+      "internalName": "OCCABERRY",
+      "name": "Koakobeere",
+      "spriteId": "occaberry"
+    },
+    "425": {
+      "internalName": "PASSHOBERRY",
+      "name": "Foepasbeere",
+      "spriteId": "passhoberry"
+    },
+    "426": {
+      "internalName": "WACANBERRY",
+      "name": "Kerzalbeere",
+      "spriteId": "wacanberry"
+    },
+    "427": {
+      "internalName": "RINDOBERRY",
+      "name": "Grindobeere",
+      "spriteId": "rindoberry"
+    },
+    "428": {
+      "internalName": "YACHEBERRY",
+      "name": "Kiroyabeere",
+      "spriteId": "yacheberry"
+    },
+    "429": {
+      "internalName": "CHOPLEBERRY",
+      "name": "Rospelbeere",
+      "spriteId": "chopleberry"
+    },
+    "430": {
+      "internalName": "KEBIABERRY",
+      "name": "Grarzbeere",
+      "spriteId": "kebiaberry"
+    },
+    "431": {
+      "internalName": "SHUCABERRY",
+      "name": "Schukebeere",
+      "spriteId": "shucaberry"
+    },
+    "432": {
+      "internalName": "COBABERRY",
+      "name": "Kobabeere",
+      "spriteId": "cobaberry"
+    },
+    "433": {
+      "internalName": "PAYAPABERRY",
+      "name": "Pyapabeere",
+      "spriteId": "payapaberry"
+    },
+    "434": {
+      "internalName": "TANGABERRY",
+      "name": "Tanigabeere",
+      "spriteId": "tangaberry"
+    },
+    "435": {
+      "internalName": "CHARTIBERRY",
+      "name": "Chiaribeere",
+      "spriteId": "chartiberry"
+    },
+    "436": {
+      "internalName": "KASIBBERRY",
+      "name": "Zitarzbeere",
+      "spriteId": "kasibberry"
+    },
+    "437": {
+      "internalName": "HABANBERRY",
+      "name": "Terirobeere",
+      "spriteId": "habanberry"
+    },
+    "438": {
+      "internalName": "COLBURBERRY",
+      "name": "Burleobeere",
+      "spriteId": "colburberry"
+    },
+    "439": {
+      "internalName": "BABIRIBERRY",
+      "name": "Babiribeere",
+      "spriteId": "babiriberry"
+    },
+    "440": {
+      "internalName": "CHILANBERRY",
+      "name": "Latchibeere",
+      "spriteId": "chilanberry"
+    },
+    "441": {
+      "internalName": "LIECHIBERRY",
+      "name": "Lydzibeere",
+      "spriteId": "liechiberry"
+    },
+    "442": {
+      "internalName": "GANLONBERRY",
+      "name": "Linganbeere",
+      "spriteId": "ganlonberry"
+    },
+    "443": {
+      "internalName": "SALACBERRY",
+      "name": "Salkabeere",
+      "spriteId": "salacberry"
+    },
+    "444": {
+      "internalName": "PETAYABERRY",
+      "name": "Tahaybeere",
+      "spriteId": "petayaberry"
+    },
+    "445": {
+      "internalName": "APICOTBERRY",
+      "name": "Apikobeere",
+      "spriteId": "apicotberry"
+    },
+    "446": {
+      "internalName": "LANSATBERRY",
+      "name": "Lansatbeere",
+      "spriteId": "lansatberry"
+    },
+    "447": {
+      "internalName": "STARFBERRY",
+      "name": "Krambobeere",
+      "spriteId": "starfberry"
+    },
+    "448": {
+      "internalName": "ENIGMABERRY",
+      "name": "Enigmabeere",
+      "spriteId": "enigmaberry"
+    },
+    "449": {
+      "internalName": "MICLEBERRY",
+      "name": "Wunfrubeere",
+      "spriteId": "micleberry"
+    },
+    "450": {
+      "internalName": "CUSTAPBERRY",
+      "name": "Eipfelbeere",
+      "spriteId": "custapberry"
+    },
+    "451": {
+      "internalName": "JABOCABERRY",
+      "name": "Jabocabeere",
+      "spriteId": "jabocaberry"
+    },
+    "452": {
+      "internalName": "ROWAPBERRY",
+      "name": "Roselbeere",
+      "spriteId": "rowapberry"
+    },
+    "453": {
+      "internalName": "GRASSMAIL",
+      "name": "Wiesenbrief",
+      "spriteId": "grassmail"
+    },
+    "454": {
+      "internalName": "FLAMEMAIL",
+      "name": "Feuerbrief",
+      "spriteId": "flamemail"
+    },
+    "455": {
+      "internalName": "BUBBLEMAIL",
+      "name": "Wasserbrief",
+      "spriteId": "bubblemail"
+    },
+    "456": {
+      "internalName": "BLOOMMAIL",
+      "name": "Blütenbrief",
+      "spriteId": "bloommail"
+    },
+    "457": {
+      "internalName": "TUNNELMAIL",
+      "name": "Minenbrief",
+      "spriteId": "tunnelmail"
+    },
+    "458": {
+      "internalName": "STEELMAIL",
+      "name": "Stahlbrief",
+      "spriteId": "steelmail"
+    },
+    "459": {
+      "internalName": "HEARTMAIL",
+      "name": "Rosabrief",
+      "spriteId": "heartmail"
+    },
+    "460": {
+      "internalName": "SNOWMAIL",
+      "name": "Schneebrief",
+      "spriteId": "snowmail"
+    },
+    "461": {
+      "internalName": "SPACEMAIL",
+      "name": "Sternbrief",
+      "spriteId": "spacemail"
+    },
+    "462": {
+      "internalName": "AIRMAIL",
+      "name": "Luftbrief",
+      "spriteId": "airmail"
+    },
+    "463": {
+      "internalName": "MOSAICMAIL",
+      "name": "Mosaikbrief",
+      "spriteId": "mosaicmail"
+    },
+    "464": {
+      "internalName": "BRICKMAIL",
+      "name": "Ziegelbrief",
+      "spriteId": "brickmail"
+    },
+    "465": {
+      "internalName": "XATTACK",
+      "name": "X-Angriff",
+      "spriteId": "xattack"
+    },
+    "466": {
+      "internalName": "XATTACK2",
+      "name": "X-Angriff 2",
+      "spriteId": "xattack2"
+    },
+    "467": {
+      "internalName": "XATTACK3",
+      "name": "X-Angriff 3",
+      "spriteId": "xattack3"
+    },
+    "468": {
+      "internalName": "XATTACK6",
+      "name": "X-Angriff 6",
+      "spriteId": "xattack6"
+    },
+    "469": {
+      "internalName": "XDEFENSE",
+      "name": "X-Abwehr",
+      "spriteId": "xdefense"
+    },
+    "470": {
+      "internalName": "XDEFENSE2",
+      "name": "X-Abwehr 2",
+      "spriteId": "xdefense2"
+    },
+    "471": {
+      "internalName": "XDEFENSE3",
+      "name": "X-Abwehr 3",
+      "spriteId": "xdefense3"
+    },
+    "472": {
+      "internalName": "XDEFENSE6",
+      "name": "X-Abwehr 6",
+      "spriteId": "xdefense6"
+    },
+    "473": {
+      "internalName": "XSPATK",
+      "name": "X-Spezial",
+      "spriteId": "xspatk"
+    },
+    "474": {
+      "internalName": "XSPATK2",
+      "name": "X-Spezial 2",
+      "spriteId": "xspatk2"
+    },
+    "475": {
+      "internalName": "XSPATK3",
+      "name": "X-Spezial 3",
+      "spriteId": "xspatk3"
+    },
+    "476": {
+      "internalName": "XSPATK6",
+      "name": "X-Spezial 6",
+      "spriteId": "xspatk6"
+    },
+    "477": {
+      "internalName": "XSPDEF",
+      "name": "X-SpezialVer",
+      "spriteId": "xspdef"
+    },
+    "478": {
+      "internalName": "XSPDEF2",
+      "name": "X-SpezialVer 2",
+      "spriteId": "xspdef2"
+    },
+    "479": {
+      "internalName": "XSPDEF3",
+      "name": "X-SpezialVer 3",
+      "spriteId": "xspdef3"
+    },
+    "480": {
+      "internalName": "XSPDEF6",
+      "name": "X-SpezialVer 6",
+      "spriteId": "xspdef6"
+    },
+    "481": {
+      "internalName": "XSPEED",
+      "name": "X-Tempo",
+      "spriteId": "xspeed"
+    },
+    "482": {
+      "internalName": "XSPEED2",
+      "name": "X-Tempo 2",
+      "spriteId": "xspeed2"
+    },
+    "483": {
+      "internalName": "XSPEED3",
+      "name": "X-Tempo 3",
+      "spriteId": "xspeed3"
+    },
+    "484": {
+      "internalName": "XSPEED6",
+      "name": "X-Tempo 6",
+      "spriteId": "xspeed6"
+    },
+    "485": {
+      "internalName": "XACCURACY",
+      "name": "X-Treffer",
+      "spriteId": "xaccuracy"
+    },
+    "486": {
+      "internalName": "XACCURACY2",
+      "name": "X-Treffer 2",
+      "spriteId": "xaccuracy2"
+    },
+    "487": {
+      "internalName": "XACCURACY3",
+      "name": "X-Treffer 3",
+      "spriteId": "xaccuracy3"
+    },
+    "488": {
+      "internalName": "XACCURACY6",
+      "name": "X-Treffer 6",
+      "spriteId": "xaccuracy6"
+    },
+    "489": {
+      "internalName": "DIREHIT",
+      "name": "Angriffplus",
+      "spriteId": "direhit"
+    },
+    "490": {
+      "internalName": "DIREHIT2",
+      "name": "Angriffplus 2",
+      "spriteId": "direhit2"
+    },
+    "491": {
+      "internalName": "DIREHIT3",
+      "name": "Angriffplus 3",
+      "spriteId": "direhit3"
+    },
+    "492": {
+      "internalName": "GUARDSPEC",
+      "name": "Megablock",
+      "spriteId": "guardspec"
+    },
+    "493": {
+      "internalName": "RESETURGE",
+      "name": "Umkehrapell",
+      "spriteId": "reseturge"
+    },
+    "494": {
+      "internalName": "ABILITYURGE",
+      "name": "Fäh.-Appell",
+      "spriteId": "abilityurge"
+    },
+    "495": {
+      "internalName": "ITEMURGE",
+      "name": "Itemapell",
+      "spriteId": "itemurge"
+    },
+    "496": {
+      "internalName": "ITEMDROP",
+      "name": "Itemabwurf",
+      "spriteId": "itemdrop"
+    },
+    "497": {
+      "internalName": "BLUEFLUTE",
+      "name": "Blaue Flöte",
+      "spriteId": "blueflute"
+    },
+    "498": {
+      "internalName": "YELLOWFLUTE",
+      "name": "Gelbe Flöte",
+      "spriteId": "yellowflute"
+    },
+    "499": {
+      "internalName": "REDFLUTE",
+      "name": "Rote Flöte",
+      "spriteId": "redflute"
+    },
+    "500": {
+      "internalName": "POKEDOLL",
+      "name": "Poképuppe",
+      "spriteId": "pokedoll"
+    },
+    "501": {
+      "internalName": "FLUFFYTAIL",
+      "name": "Eneco-Rute",
+      "spriteId": "fluffytail"
+    },
+    "502": {
+      "internalName": "POKETOY",
+      "name": "Pokéwedel",
+      "spriteId": "poketoy"
+    },
+    "503": {
+      "internalName": "BICYCLE",
+      "name": "Fahrrad",
+      "spriteId": "bicycle"
+    },
+    "504": {
+      "internalName": "OLDROD",
+      "name": "Angel",
+      "spriteId": "oldrod"
+    },
+    "505": {
+      "internalName": "GOODROD",
+      "name": "Profiangel",
+      "spriteId": "goodrod"
+    },
+    "506": {
+      "internalName": "SUPERROD",
+      "name": "Angelrute",
+      "spriteId": "superrod"
+    },
+    "507": {
+      "internalName": "ITEMFINDER",
+      "name": "Detektor",
+      "spriteId": "itemfinder"
+    },
+    "508": {
+      "internalName": "DOWSINGMACHINE",
+      "name": "Itemradar",
+      "spriteId": "dowsingmachine"
+    },
+    "509": {
+      "internalName": "POKERADAR",
+      "name": "Pokéradar",
+      "spriteId": "pokeradar"
+    },
+    "510": {
+      "internalName": "TOWNMAP",
+      "name": "Karte",
+      "spriteId": "townmap"
+    },
+    "511": {
+      "internalName": "POKEFLUTE",
+      "name": "Pokéflöte",
+      "spriteId": "pokeflute"
+    },
+    "512": {
+      "internalName": "COINCASE",
+      "name": "Münzkorb",
+      "spriteId": "coincase"
+    },
+    "513": {
+      "internalName": "SOOTSACK",
+      "name": "Aschetasche",
+      "spriteId": "sootsack"
+    },
+    "514": {
+      "internalName": "SILPHSCOPE",
+      "name": "Silph Scope",
+      "spriteId": "silphscope"
+    },
+    "515": {
+      "internalName": "DEVONSCOPE",
+      "name": "Devon-Scope",
+      "spriteId": "devonscope"
+    },
+    "516": {
+      "internalName": "SQUIRTBOTTLE",
+      "name": "Schiggykanne",
+      "spriteId": "squirtbottle"
+    },
+    "517": {
+      "internalName": "SPRAYDUCK",
+      "name": "Entonkanne",
+      "spriteId": "sprayduck"
+    },
+    "518": {
+      "internalName": "WAILMERPAIL",
+      "name": "Wailmerkanne",
+      "spriteId": "wailmerpail"
+    },
+    "519": {
+      "internalName": "GRACIDEA",
+      "name": "Gracidea",
+      "spriteId": "gracidea"
+    },
+    "520": {
+      "internalName": "AURORATICKET",
+      "name": "Auroraticket",
+      "spriteId": "auroraticket"
+    },
+    "521": {
+      "internalName": "OLDSEAMAP",
+      "name": "Alte Seekarte",
+      "spriteId": "oldseamap"
+    },
+    "522": {
+      "internalName": "DNASPLICERS",
+      "name": "DNS-Keil",
+      "spriteId": "dnasplicers"
+    },
+    "523": {
+      "internalName": "REVEALGLASS",
+      "name": "Wahrspiegel",
+      "spriteId": "revealglass"
+    },
+    "524": {
+      "internalName": "OVALCHARM",
+      "name": "Ovalpin",
+      "spriteId": "ovalcharm"
+    },
+    "525": {
+      "internalName": "SHINYCHARM",
+      "name": "Schillerpin",
+      "spriteId": "shinycharm"
+    },
+    "526": {
+      "internalName": "KEEBERRY",
+      "name": "Kee Berry",
+      "spriteId": "keeberry"
+    },
+    "527": {
+      "internalName": "MARANGABERRY",
+      "name": "Maranga Berry",
+      "spriteId": "marangaberry"
+    },
+    "528": {
+      "internalName": "ROSELIBERRY",
+      "name": "Roseli Berry",
+      "spriteId": "roseliberry"
+    },
+    "529": {
+      "internalName": "SAILFOSSIL",
+      "name": "Segelfossil",
+      "spriteId": "sailfossil"
+    },
+    "530": {
+      "internalName": "JAWFOSSIL",
+      "name": "Kieferfossil",
+      "spriteId": "jawfossil"
+    },
+    "531": {
+      "internalName": "ASSAULTVEST",
+      "name": "Assault Vest",
+      "spriteId": "assaultvest"
+    },
+    "532": {
+      "internalName": "LUMINOUSMOSS",
+      "name": "Luminous Moss",
+      "spriteId": "luminousmoss"
+    },
+    "533": {
+      "internalName": "WEAKNESSPOLICY",
+      "name": "Weakness Policy",
+      "spriteId": "weaknesspolicy"
+    },
+    "534": {
+      "internalName": "SAFETYGOGGLES",
+      "name": "Safety Goggles",
+      "spriteId": "safetygoggles"
+    },
+    "535": {
+      "internalName": "SNOWBALL",
+      "name": "Snowball",
+      "spriteId": "snowball"
+    },
+    "536": {
+      "internalName": "FAIRYGEM",
+      "name": "Fairy Gem",
+      "spriteId": "fairygem"
+    },
+    "537": {
+      "internalName": "PIXIEPLATE",
+      "name": "Pixie Plate",
+      "spriteId": "pixieplate"
+    },
+    "538": {
+      "internalName": "ABILITYCAPSULE",
+      "name": "Ability Capsule",
+      "spriteId": "abilitycapsule"
+    },
+    "539": {
+      "internalName": "SACHET",
+      "name": "Sachet",
+      "spriteId": "sachet"
+    },
+    "540": {
+      "internalName": "WHIPPEDDREAM",
+      "name": "Whipped Dream",
+      "spriteId": "whippeddream"
+    },
+    "541": {
+      "internalName": "REDORB",
+      "name": "Red Orb",
+      "spriteId": "redorb"
+    },
+    "542": {
+      "internalName": "BLUEORB",
+      "name": "Blue Orb",
+      "spriteId": "blueorb"
+    },
+    "543": {
+      "internalName": "PRISONBOTTLE",
+      "name": "Prison Bottle",
+      "spriteId": "prisonbottle"
+    },
+    "544": {
+      "internalName": "KLIPPENTICKET",
+      "name": "Klippen-Ticket",
+      "spriteId": "klippenticket"
+    },
+    "545": {
+      "internalName": "ERZHACKE",
+      "name": "Erz-Hacke",
+      "spriteId": "erzhacke"
+    },
+    "546": {
+      "internalName": "BLEI",
+      "name": "Blei-Erz",
+      "spriteId": "blei"
+    },
+    "547": {
+      "internalName": "KUPFER",
+      "name": "Kupfer-Erz",
+      "spriteId": "kupfer"
+    },
+    "548": {
+      "internalName": "EISEN",
+      "name": "Eisen-Erz",
+      "spriteId": "eisen"
+    },
+    "549": {
+      "internalName": "GOLD",
+      "name": "Gold-Erz",
+      "spriteId": "gold"
+    },
+    "550": {
+      "internalName": "URAN",
+      "name": "Uran-Erz",
+      "spriteId": "uran"
+    },
+    "551": {
+      "internalName": "COUPONB",
+      "name": "Fahrradcoupon",
+      "spriteId": "couponb"
+    },
+    "552": {
+      "internalName": "BLUME",
+      "name": "Zahm-Blume",
+      "spriteId": "blume"
+    },
+    "553": {
+      "internalName": "GLETSCHER",
+      "name": "Gletscher-Ticket",
+      "spriteId": "gletscher"
+    },
+    "554": {
+      "internalName": "SCHLUSSEL",
+      "name": "Keller-Schlüssel",
+      "spriteId": "schlussel"
+    },
+    "555": {
+      "internalName": "HM09",
+      "name": "VM07",
+      "spriteId": "hm09"
+    },
+    "556": {
+      "internalName": "SCHLUSSEL2",
+      "name": "Duplex-Schlüssel",
+      "spriteId": "schlussel2"
+    },
+    "557": {
+      "internalName": "PAKET",
+      "name": "Duplex-Paket",
+      "spriteId": "paket"
+    },
+    "558": {
+      "internalName": "KOFFER",
+      "name": "Artefaktenkoffer",
+      "spriteId": "koffer"
+    },
+    "559": {
+      "internalName": "AZURFLUTE",
+      "name": "Azurflöte",
+      "spriteId": "azurflute"
+    },
+    "560": {
+      "internalName": "ELITETICKET",
+      "name": "Elite-Ticket",
+      "spriteId": "eliteticket"
+    },
+    "561": {
+      "internalName": "SCHLUSSEL3",
+      "name": "Champion-Schlüssel",
+      "spriteId": "schlussel3"
+    },
+    "562": {
+      "internalName": "BORCATICKET",
+      "name": "Borca-Ticket",
+      "spriteId": "borcaticket"
+    },
+    "563": {
+      "internalName": "ROTERK",
+      "name": "Roter Kristall",
+      "spriteId": "roterk"
+    },
+    "564": {
+      "internalName": "BLAUERK",
+      "name": "Blauer Kristall",
+      "spriteId": "blauerk"
+    },
+    "565": {
+      "internalName": "GLOCKE",
+      "name": "Ordnungsglocke",
+      "spriteId": "glocke"
+    },
+    "566": {
+      "internalName": "ZCELL",
+      "name": "Zygarde-Würfel",
+      "spriteId": "zcell"
+    },
+    "567": {
+      "internalName": "LUNARWING",
+      "name": "Lunarfeder",
+      "spriteId": "lunarwing"
+    },
+    "568": {
+      "internalName": "REMATCHER",
+      "name": "Rematcher",
+      "spriteId": "rematcher"
+    },
+    "569": {
+      "internalName": "FUTTERSACK",
+      "name": "Futtersack",
+      "spriteId": "futtersack"
+    },
+    "570": {
+      "internalName": "ORB",
+      "name": "Wetterorb",
+      "spriteId": "orb"
+    },
+    "571": {
+      "internalName": "STARCARD",
+      "name": "Starcard",
+      "spriteId": "starcard"
+    },
+    "572": {
+      "internalName": "BUGPOKAL",
+      "name": "Käfer-Pokal",
+      "spriteId": "bugpokal"
+    },
+    "573": {
+      "internalName": "PSYPOKAL",
+      "name": "Psycho-Pokal",
+      "spriteId": "psypokal"
+    },
+    "574": {
+      "internalName": "POIPOKAL",
+      "name": "Gift-Pokal",
+      "spriteId": "poipokal"
+    },
+    "575": {
+      "internalName": "FLYPOKAL",
+      "name": "Flug-Pokal",
+      "spriteId": "flypokal"
+    },
+    "576": {
+      "internalName": "STLPOKAL",
+      "name": "Stahl-Pokal",
+      "spriteId": "stlpokal"
+    },
+    "577": {
+      "internalName": "SCHLUSSEL4",
+      "name": "Lighthouse Key",
+      "spriteId": "schlussel4"
+    },
+    "578": {
+      "internalName": "LONELYMINT",
+      "name": "Lonely Mint",
+      "spriteId": "lonelymint"
+    },
+    "579": {
+      "internalName": "ADAMANTMINT",
+      "name": "Adamant Mint",
+      "spriteId": "adamantmint"
+    },
+    "580": {
+      "internalName": "NAUGHTYMINT",
+      "name": "Naughty Mint",
+      "spriteId": "naughtymint"
+    },
+    "581": {
+      "internalName": "BRAVEMINT",
+      "name": "Brave Mint",
+      "spriteId": "bravemint"
+    },
+    "582": {
+      "internalName": "BOLDMINT",
+      "name": "Bold Mint",
+      "spriteId": "boldmint"
+    },
+    "583": {
+      "internalName": "IMPISHMINT",
+      "name": "Impish Mint",
+      "spriteId": "impishmint"
+    },
+    "584": {
+      "internalName": "LAXMINT",
+      "name": "Lax Mint",
+      "spriteId": "laxmint"
+    },
+    "585": {
+      "internalName": "RELAXEDMINT",
+      "name": "Relaxed Mint",
+      "spriteId": "relaxedmint"
+    },
+    "586": {
+      "internalName": "MODESTMINT",
+      "name": "Modest Mint",
+      "spriteId": "modestmint"
+    },
+    "587": {
+      "internalName": "MILDMINT",
+      "name": "Mild Mint",
+      "spriteId": "mildmint"
+    },
+    "588": {
+      "internalName": "RASHMINT",
+      "name": "Rash Mint",
+      "spriteId": "rashmint"
+    },
+    "589": {
+      "internalName": "QUIETMINT",
+      "name": "Quiet Mint",
+      "spriteId": "quietmint"
+    },
+    "590": {
+      "internalName": "CALMMINT",
+      "name": "Calm Mint",
+      "spriteId": "calmmint"
+    },
+    "591": {
+      "internalName": "GENTLEMINT",
+      "name": "Gentle Mint",
+      "spriteId": "gentlemint"
+    },
+    "592": {
+      "internalName": "CAREFULMINT",
+      "name": "Careful Mint",
+      "spriteId": "carefulmint"
+    },
+    "593": {
+      "internalName": "SASSYMINT",
+      "name": "Sassy Mint",
+      "spriteId": "sassymint"
+    },
+    "594": {
+      "internalName": "TIMIDMINT",
+      "name": "Timid Mint",
+      "spriteId": "timidmint"
+    },
+    "595": {
+      "internalName": "HASTYMINT",
+      "name": "Hasty Mint",
+      "spriteId": "hastymint"
+    },
+    "596": {
+      "internalName": "JOLLYMINT",
+      "name": "Jolly Mint",
+      "spriteId": "jollymint"
+    },
+    "597": {
+      "internalName": "NAIVEMINT",
+      "name": "Naive Mint",
+      "spriteId": "naivemint"
+    },
+    "598": {
+      "internalName": "SERIOUSMINT",
+      "name": "Serious Mint",
+      "spriteId": "seriousmint"
+    },
+    "599": {
+      "internalName": "EXPALL",
+      "name": "Exp. Share",
+      "spriteId": "expall"
+    },
+    "600": {
+      "internalName": "EXPALLOFF",
+      "name": "Exp. Share",
+      "spriteId": "expalloff"
+    },
+    "601": {
+      "internalName": "MEGARING",
+      "name": "Mega Ring",
+      "spriteId": "megaring"
+    },
+    "602": {
+      "internalName": "DIGGERSBITE",
+      "name": "Diggersbite",
+      "spriteId": "diggersbite"
+    },
+    "603": {
+      "internalName": "TALONFLAMITE",
+      "name": "Talonflamite",
+      "spriteId": "talonflamite"
+    },
+    "604": {
+      "internalName": "VIVILLONITE",
+      "name": "Vivillonite",
+      "spriteId": "vivillonite"
+    },
+    "605": {
+      "internalName": "MEOWSTICITE",
+      "name": "Meowsticite",
+      "spriteId": "meowsticite"
+    },
+    "606": {
+      "internalName": "TYRANTRUMITE",
+      "name": "Tyrantrumite",
+      "spriteId": "tyrantrumite"
+    },
+    "607": {
+      "internalName": "AURORUSITE",
+      "name": "Aurorusite",
+      "spriteId": "aurorusite"
+    },
+    "608": {
+      "internalName": "BARBARACITE",
+      "name": "Barbaracite",
+      "spriteId": "barbaracite"
+    },
+    "609": {
+      "internalName": "AROMATISSITE",
+      "name": "Aromatissite",
+      "spriteId": "aromatissite"
+    },
+    "610": {
+      "internalName": "GOODRITE",
+      "name": "Goodrite",
+      "spriteId": "goodrite"
+    },
+    "611": {
+      "internalName": "NOIVERNITE",
+      "name": "Noivernite",
+      "spriteId": "noivernite"
+    },
+    "612": {
+      "internalName": "CLAWITZITE",
+      "name": "Clawitzite",
+      "spriteId": "clawitzite"
+    },
+    "613": {
+      "internalName": "DEDENNITE",
+      "name": "Dedennite",
+      "spriteId": "dedennite"
+    },
+    "614": {
+      "internalName": "HAWLUCHITE",
+      "name": "Hawluchite",
+      "spriteId": "hawluchite"
+    },
+    "615": {
+      "internalName": "TREVENANTITE",
+      "name": "Trevenantite",
+      "spriteId": "trevenantite"
+    },
+    "616": {
+      "internalName": "GOURGITE",
+      "name": "Gourgite",
+      "spriteId": "gourgite"
+    },
+    "617": {
+      "internalName": "SLURPUFFITE",
+      "name": "Slurpuffite",
+      "spriteId": "slurpuffite"
+    },
+    "618": {
+      "internalName": "FME",
+      "name": "FME",
+      "spriteId": "fme"
+    },
+    "619": {
+      "internalName": "TM96",
+      "name": "TM96",
+      "spriteId": "tm96"
+    },
+    "620": {
+      "internalName": "TM97",
+      "name": "TM97",
+      "spriteId": "tm97"
+    },
+    "621": {
+      "internalName": "TM98",
+      "name": "TM98",
+      "spriteId": "tm98"
+    },
+    "622": {
+      "internalName": "TM99",
+      "name": "TM99",
+      "spriteId": "tm99"
+    },
+    "623": {
+      "internalName": "TM100",
+      "name": "TM100",
+      "spriteId": "tm100"
+    },
+    "624": {
+      "internalName": "TM101",
+      "name": "TM101",
+      "spriteId": "tm101"
+    },
+    "625": {
+      "internalName": "TM102",
+      "name": "TM102",
+      "spriteId": "tm102"
+    },
+    "626": {
+      "internalName": "TM103",
+      "name": "TM103",
+      "spriteId": "tm103"
+    },
+    "630": {
+      "internalName": "TM104",
+      "name": "TM104",
+      "spriteId": "tm104"
+    },
+    "631": {
+      "internalName": "TM105",
+      "name": "TM105",
+      "spriteId": "tm105"
+    },
+    "632": {
+      "internalName": "TM106",
+      "name": "TM106",
+      "spriteId": "tm106"
+    },
+    "633": {
+      "internalName": "TM107",
+      "name": "TM107",
+      "spriteId": "tm107"
+    }
+  },
+  "trainers": {},
+  "timestamp": "2025-08-28T06:17:30.335Z"
+}

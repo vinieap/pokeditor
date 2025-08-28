@@ -1,5 +1,8 @@
 @import "tailwindcss" source(".");
 
+/* Enable class-based dark mode */
+@variant dark (&:where(.dark, .dark *));
+
 @theme {
   --font-sans:
     "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
@@ -8,9 +11,94 @@
 
 html,
 body {
-  @apply bg-white dark:bg-gray-950;
+  @apply bg-white text-black dark:bg-gray-900 dark:text-white;
+}
 
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
-  }
+/* Ensure the root element and body get proper dark styling */
+html.dark,
+html.dark body {
+  background-color: #111827 !important; /* gray-900 */
+  color: white !important;
+}
+
+/* Main page containers */
+.min-h-screen {
+  @apply bg-gray-50 dark:bg-gray-900;
+}
+
+/* Global text defaults to ensure readability */
+h1, h2, h3, h4, h5, h6 {
+  @apply text-black dark:text-white font-semibold;
+}
+
+h1 {
+  @apply text-4xl;
+}
+
+h2 {
+  @apply text-3xl;
+}
+
+h3 {
+  @apply text-2xl;
+}
+
+h4 {
+  @apply text-xl;
+}
+
+h5 {
+  @apply text-lg;
+}
+
+p {
+  @apply text-black dark:text-white;
+}
+
+a {
+  @apply text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300;
+}
+
+/* Form elements */
+input, select, textarea {
+  @apply text-black bg-white dark:text-white dark:bg-gray-800 border-gray-300 dark:border-gray-600;
+}
+
+input::placeholder, textarea::placeholder {
+  @apply text-gray-500 dark:text-gray-400;
+}
+
+label {
+  @apply text-black dark:text-white;
+}
+
+/* Code and preformatted text */
+code, pre {
+  @apply text-black dark:text-white;
+}
+
+/* Table text */
+th {
+  @apply text-black dark:text-white font-semibold;
+}
+
+td {
+  @apply text-black dark:text-white;
+}
+
+/* Button text defaults */
+button {
+  @apply text-black dark:text-white;
+}
+
+/* Ensure text in cards/containers is visible */
+.card, [class*="rounded"] {
+  @apply text-black dark:text-white;
+}
+
+/* Special styles */
+.pixelated {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
 }
