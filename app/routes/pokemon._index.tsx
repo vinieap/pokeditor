@@ -4,6 +4,7 @@ import type { Route } from "./+types/pokemon._index";
 import { loadPokemonData, searchPokemon } from "~/lib/data-loader-v2";
 import type { PokemonData } from "~/lib/types-v2";
 import { PokemonSprite } from "~/components/SpriteImage";
+import { ResponsiveSpriteImage } from "~/components/ResponsiveSpriteImage";
 import { getTypeColor } from "~/lib/utils/typeColors";
 
 export function meta({}: Route.MetaArgs) {
@@ -61,10 +62,11 @@ export default function PokemonIndex() {
     >
       <div className="text-center">
         <div className="relative h-24 w-24 mx-auto mb-2 flex items-center justify-center">
-          <PokemonSprite
-            internalName={poke.internalName}
-            name={poke.name}
-            pokemonId={poke.id}
+          <ResponsiveSpriteImage
+            id={poke.id.toString()}
+            alt={poke.displayName || poke.name}
+            size={96}
+            loading="lazy"
             className="w-full h-full object-contain pixelated"
           />
         </div>
@@ -91,10 +93,11 @@ export default function PokemonIndex() {
       className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 hover:shadow-md transition-shadow flex items-center gap-4"
     >
       <div className="relative h-16 w-16 flex-shrink-0 flex items-center justify-center">
-        <PokemonSprite
-          internalName={poke.internalName}
-          name={poke.name}
-          pokemonId={poke.id}
+        <ResponsiveSpriteImage
+          id={poke.id.toString()}
+          alt={poke.displayName || poke.name}
+          size={48}
+          loading="lazy"
           className="w-full h-full object-contain pixelated"
         />
       </div>

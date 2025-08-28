@@ -3,6 +3,7 @@ import { useLoaderData } from "react-router";
 import type { Route } from "./+types/compare";
 import { loadPokemonData } from "~/lib/data-loader-v2";
 import { PokemonSprite } from "~/components/SpriteImage";
+import { ResponsiveSpriteImage } from "~/components/ResponsiveSpriteImage";
 
 const typeColors: Record<string, string> = {
   // Handle both uppercase and proper case
@@ -277,10 +278,11 @@ export default function Compare() {
                     {pokemon ? (
                       <>
                         <div className="w-24 h-24 mx-auto mb-2">
-                          <PokemonSprite
-                            internalName={pokemon.internalName}
-                            name={pokemon.displayName || pokemon.internalName}
-                            pokemonId={pokemon.id}
+                          <ResponsiveSpriteImage
+                            id={pokemon.id.toString()}
+                            alt={pokemon.displayName || pokemon.internalName}
+                            size={96}
+                            loading="lazy"
                             className="w-full h-full object-contain pixelated"
                           />
                         </div>

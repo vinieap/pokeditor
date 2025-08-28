@@ -14,6 +14,7 @@ type TrainerPokemon = TrainerData['party'][0];
 type Move = any;
 type Ability = any;
 import { PokemonSprite } from "~/components/SpriteImage";
+import { ResponsiveSpriteImage } from "~/components/ResponsiveSpriteImage";
 import { getTypeColor } from "~/lib/utils/typeColors";
 
 export function meta({ params, data }: Route.MetaArgs) {
@@ -114,12 +115,22 @@ function PokemonCard({ pokemon, pokemonData, itemData, moveData, abilityData }: 
       <div className="flex gap-4">
         {/* Sprite */}
         <div className="w-24 h-24 bg-gray-100 rounded-lg flex items-center justify-center">
-          <PokemonSprite
-            internalName={pokemon.species}
-            name={displayName}
-            pokemonId={speciesData?.id}
-            className="w-full h-full object-contain pixelated"
-          />
+          {speciesData?.id ? (
+            <ResponsiveSpriteImage
+              id={speciesData.id.toString()}
+              alt={displayName}
+              size={96}
+              loading="lazy"
+              className="w-full h-full object-contain pixelated"
+            />
+          ) : (
+            <PokemonSprite
+              internalName={pokemon.species}
+              name={displayName}
+              pokemonId={speciesData?.id}
+              className="w-full h-full object-contain pixelated"
+            />
+          )}
         </div>
         
         {/* Info */}
@@ -178,7 +189,7 @@ function PokemonCard({ pokemon, pokemonData, itemData, moveData, abilityData }: 
             {pokemon.item && (
               <div>
                 <span className="text-gray-500 dark:text-gray-400">Item:</span>{' '}
-                <span className="font-medium text-gray-900 dark:text-white">{heldItem?.displayName || heldItem?.name || pokemon.item}</span>
+                <span className="font-medium text-gray-900 dark:text-white">{heldItem?.internalName || pokemon.item}</span>
               </div>
             )}
             
@@ -295,7 +306,7 @@ function PokemonCard({ pokemon, pokemonData, itemData, moveData, abilityData }: 
               return (
                 <div key={i} className="bg-gray-50 dark:bg-gray-700 px-2 py-1.5 rounded">
                   <div className="flex items-center justify-between mb-1">
-                    <span className="font-medium text-sm">{move.displayName || move.name}</span>
+                    <span className="font-medium text-sm">{move.internalName}</span>
                     <div className="flex items-center gap-2">
                       <span className={`px-1.5 py-0.5 rounded text-xs font-medium ${getTypeColor(move.type)}`}>
                         {move.type}

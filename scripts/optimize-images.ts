@@ -297,60 +297,27 @@ export function SpriteFromSheet({
 }
 
 async function optimizeAllSprites() {
-  const spritesDir = path.join(__dirname, '..', 'node_modules', 'pokemon-sprites', 'sprites');
   const outputDir = path.join(__dirname, '..', 'public', 'sprites', 'optimized');
   
-  if (!fs.existsSync(outputDir)) {
-    fs.mkdirSync(outputDir, { recursive: true });
+  // Check if sprites are already optimized
+  if (fs.existsSync(outputDir) && fs.existsSync(path.join(outputDir, 'pokemon'))) {
+    const optimizedFiles = fs.readdirSync(path.join(outputDir, 'pokemon', '96', 'png')).filter(f => f.endsWith('.png'));
+    if (optimizedFiles.length > 0) {
+      console.log('✅ Sprites already optimized!');
+      console.log(`📁 Found ${optimizedFiles.length} optimized sprites in: ${outputDir}`);
+      console.log('ℹ️  If you need to re-optimize, delete the optimized directory first.');
+      return;
+    }
   }
   
-  console.log('🖼️  Starting sprite optimization...\n');
-  
-  const pokemonDir = path.join(spritesDir, 'pokemon');
-  const itemsDir = path.join(spritesDir, 'items');
-  
-  const pokemonFiles = fs.readdirSync(pokemonDir)
-    .filter(f => f.endsWith('.png'))
-    .slice(0, 50);
-  
-  console.log(\`Processing \${pokemonFiles.length} Pokemon sprites...\`);
-  
-  for (const file of pokemonFiles) {
-    const inputPath = path.join(pokemonDir, file);
-    const filename = path.basename(file, '.png');
-    
-    await optimizeSprite(
-      inputPath,
-      path.join(outputDir, 'pokemon'),
-      filename
-    );
-    
-    process.stdout.write(\`.\`);
-  }
-  
-  console.log(\`\n✅ Optimized \${pokemonFiles.length} Pokemon sprites\`);
-  
-  console.log('\nCreating sprite sheets for list views...');
-  
-  const firstGenSprites = pokemonFiles
-    .slice(0, 20)
-    .map(f => ({
-      path: path.join(pokemonDir, f),
-      id: path.basename(f, '.png')
-    }));
-  
-  await createSpriteSheet(
-    firstGenSprites,
-    path.join(outputDir, 'sheets', 'pokemon-gen1.webp'),
-    spriteSheetConfig
-  );
-  
-  console.log('✅ Created sprite sheet for Generation 1');
-  
-  await generateResponsiveSpriteComponent();
-  
-  console.log('\n✨ Image optimization complete!');
-  console.log(\`📁 Output directory: \${outputDir}\`);
+  console.log('❌ No source sprites found!');
+  console.log('The pokemon-sprites node module has been removed to save space.');
+  console.log('All sprites have already been optimized and are available in:');
+  console.log(`📁 ${outputDir}`);
+  console.log('\nIf you need to re-optimize sprites:');
+  console.log('1. Add "pokemon-sprites": "github:PokeAPI/sprites" back to package.json');
+  console.log('2. Run npm install');
+  console.log('3. Run this optimization script again');
 }
 
 optimizeAllSprites().catch(console.error);

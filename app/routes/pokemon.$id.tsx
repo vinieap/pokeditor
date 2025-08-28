@@ -10,6 +10,7 @@ import {
 } from "~/lib/data-loader-v2";
 import type { PokemonData, MoveData } from "~/lib/types-v2";
 import { PokemonSprite } from "~/components/SpriteImage";
+import { ResponsiveSpriteImage } from "~/components/ResponsiveSpriteImage";
 import { getTypeColor } from "~/lib/utils/typeColors";
 
 export function meta({ params, data }: Route.MetaArgs) {
@@ -74,10 +75,11 @@ export default function PokemonDetail() {
               {/* Pokemon Image */}
               <div className="flex-shrink-0 text-center">
                 <div className="relative h-48 w-48 mx-auto mb-4 flex items-center justify-center bg-gray-100 dark:bg-gray-700 rounded-lg">
-                  <PokemonSprite
-                    internalName={pokemon.internalName}
-                    name={pokemon.displayName || pokemon.internalName}
-                    pokemonId={pokemon.id}
+                  <ResponsiveSpriteImage
+                    id={pokemon.id.toString()}
+                    alt={pokemon.displayName || pokemon.internalName}
+                    size={192}
+                    loading="eager"
                     className="w-full h-full object-contain pixelated"
                   />
                 </div>
@@ -333,10 +335,11 @@ export default function PokemonDetail() {
                     {/* Current Pokemon */}
                     <div className="text-center">
                       <div className="w-32 h-32 bg-gray-100 rounded-lg flex items-center justify-center mb-2">
-                        <PokemonSprite
-                          internalName={pokemon.internalName}
-                          name={pokemon.displayName || pokemon.internalName}
-                          pokemonId={pokemon.id}
+                        <ResponsiveSpriteImage
+                          id={pokemon.id.toString()}
+                          alt={pokemon.displayName || pokemon.internalName}
+                          size={96}
+                          loading="lazy"
                           className="w-full h-full object-contain"
                         />
                       </div>
@@ -361,10 +364,11 @@ export default function PokemonDetail() {
                             {evoPokemon ? (
                               <Link to={`/pokemon/${evoPokemon.id}`}>
                                 <div className="w-32 h-32 bg-gray-100 rounded-lg flex items-center justify-center mb-2 hover:bg-gray-200 transition-colors">
-                                  <PokemonSprite
-                                    internalName={evoPokemon.internalName}
-                                    name={evoPokemon.displayName || evoPokemon.internalName}
-                                    pokemonId={evoPokemon.id}
+                                  <ResponsiveSpriteImage
+                                    id={evoPokemon.id.toString()}
+                                    alt={evoPokemon.displayName || evoPokemon.internalName}
+                                    size={96}
+                                    loading="lazy"
                                     className="w-full h-full object-contain"
                                   />
                                 </div>
