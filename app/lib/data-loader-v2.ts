@@ -9,6 +9,18 @@ import type {
   TournamentTrainerData
 } from './types-v2';
 
+// Import static data for server-side rendering
+import {
+  loadPokemonDataStatic,
+  loadMovesDataStatic,
+  loadItemsDataStatic,
+  loadTrainersDataStatic,
+  loadTrainerTypesDataStatic,
+  loadEncountersDataStatic,
+  loadTypesDataStatic,
+  loadAbilitiesDataStatic
+} from './data-loader-static';
+
 interface TrainerTypeData {
   id: string;
   name: string;
@@ -82,9 +94,19 @@ async function loadJsonData<T>(
   }
   
   // Start loading
-  loadingPromises[cacheKey] = fetch(`${origin}/data/json/${dataType}.json`)
+  // For server-side rendering in Cloudflare Workers, we need to use the full URL
+  const dataUrl = `${origin}/data/json/${dataType}.json`;
+  
+  loadingPromises[cacheKey] = fetch(dataUrl, {
+    // Add CF properties to bypass cache and ensure fresh data on server
+    cf: {
+      cacheTtl: 300,
+      cacheEverything: true
+    }
+  } as RequestInit)
     .then(res => {
       if (!res.ok) {
+        console.error(`Failed to fetch ${dataUrl}: ${res.status} ${res.statusText}`);
         throw new Error(`Failed to load ${dataType} data`);
       }
       return res.json();
@@ -95,6 +117,7 @@ async function loadJsonData<T>(
       return data;
     })
     .catch(error => {
+      console.error(`Error loading ${dataType} from ${dataUrl}:`, error);
       delete loadingPromises[cacheKey];
       throw error;
     });
@@ -104,18 +127,35 @@ async function loadJsonData<T>(
 
 // Main data loading functions
 export async function loadPokemonData(origin: string) {
+  // Use static imports on server-side (Cloudflare Workers)
+  if (typeof window === 'undefined') {
+    return loadPokemonDataStatic();
+  }
   return loadJsonData<typeof cache.pokemon>('pokemon', origin);
 }
 
 export async function loadMovesData(origin: string) {
+  // Use static imports on server-side (Cloudflare Workers)
+  if (typeof window === 'undefined') {
+    return loadMovesDataStatic();
+  }
   return loadJsonData<typeof cache.moves>('moves', origin);
 }
 
 export async function loadItemsData(origin: string) {
+  // Use static imports on server-side (Cloudflare Workers)
+  if (typeof window === 'undefined') {
+    return loadItemsDataStatic();
+  }
   return loadJsonData<typeof cache.items>('items', origin);
 }
 
 export async function loadTrainersData(origin: string) {
+  // Use static imports on server-side (Cloudflare Workers)
+  if (typeof window === 'undefined') {
+    return loadTrainersDataStatic();
+  }
+  
   if (cache.trainers) {
     return { 
       index: cache.trainers.byId, 
@@ -175,18 +215,34 @@ export async function loadTrainersData(origin: string) {
 }
 
 export async function loadEncountersData(origin: string) {
+  // Use static imports on server-side (Cloudflare Workers)
+  if (typeof window === 'undefined') {
+    return loadEncountersDataStatic();
+  }
   return loadJsonData<typeof cache.encounters>('encounters', origin);
 }
 
 export async function loadTypesData(origin: string) {
+  // Use static imports on server-side (Cloudflare Workers)
+  if (typeof window === 'undefined') {
+    return loadTypesDataStatic();
+  }
   return loadJsonData<typeof cache.types>('types', origin);
 }
 
 export async function loadAbilitiesData(origin: string) {
+  // Use static imports on server-side (Cloudflare Workers)
+  if (typeof window === 'undefined') {
+    return loadAbilitiesDataStatic();
+  }
   return loadJsonData<typeof cache.abilities>('abilities', origin);
 }
 
 export async function loadTrainerTypesData(origin: string) {
+  // Use static imports on server-side (Cloudflare Workers)
+  if (typeof window === 'undefined') {
+    return loadTrainerTypesDataStatic();
+  }
   if (cache.trainerTypes) {
     return { 
       index: cache.trainerTypes.byId, 
