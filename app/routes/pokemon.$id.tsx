@@ -9,8 +9,7 @@ import {
   getPokemonByInternalName 
 } from "~/lib/data-loader-v2";
 import type { PokemonData, MoveData } from "~/lib/types-v2";
-import { PokemonSprite } from "~/components/SpriteImage";
-import { ResponsiveSpriteImage } from "~/components/ResponsiveSpriteImage";
+import { OptimizedPokemonSprite } from "~/components/OptimizedSprite";
 import { getTypeColor } from "~/lib/utils/typeColors";
 
 export function meta({ params, data }: Route.MetaArgs) {
@@ -58,10 +57,196 @@ export default function PokemonDetail() {
   
   // Get evolution Pokemon using the indexed data
   const getEvolutionPokemon = (internalName: string): PokemonData | undefined => {
-    const id = pokemonData?.byInternalName[internalName];
+    // Try exact match first, then with \r suffix (data inconsistency handling)
+    let id = pokemonData?.byInternalName[internalName];
+    if (!id) {
+      id = pokemonData?.byInternalName[internalName + '\r'];
+    }
     return id ? pokemonData?.byId[id] : undefined;
   };
-  
+
+  // Build complete evolution chain
+  const buildEvolutionChain = () => {
+    if (!pokemonData) return null;
+
+    // Build reverse lookup map: what evolves into what
+    const evolutionParents: { [key: string]: { pokemon: PokemonData; method: string; parameter: string }[] } = {};
+    
+    Object.values(pokemonData.byId).forEach((poke) => {
+      if (poke.evolutions && poke.evolutions.length > 0) {
+        poke.evolutions.forEach((evo) => {
+          const evoPokemon = getEvolutionPokemon(evo.species);
+          if (evoPokemon) {
+            if (!evolutionParents[evoPokemon.internalName]) {
+              evolutionParents[evoPokemon.internalName] = [];
+            }
+            evolutionParents[evoPokemon.internalName].push({
+              pokemon: poke,
+              method: evo.method,
+              parameter: evo.parameter
+            });
+          }
+        });
+      }
+    });
+
+    // Find the base form (no parents)
+    const findBaseForm = (poke: PokemonData): PokemonData => {
+      const parents = evolutionParents[poke.internalName];
+      if (!parents || parents.length === 0) {
+        return poke;
+      }
+      // If there are multiple parents (shouldn't happen normally), pick the first
+      return findBaseForm(parents[0].pokemon);
+    };
+
+    const baseForm = findBaseForm(pokemon);
+
+    // Build the evolution tree starting from base form
+    const buildTree = (currentPoke: PokemonData): any => {
+      const node = {
+        pokemon: currentPoke,
+        evolutions: [] as any[]
+      };
+
+      if (currentPoke.evolutions && currentPoke.evolutions.length > 0) {
+        currentPoke.evolutions.forEach((evo) => {
+          const evoPokemon = getEvolutionPokemon(evo.species);
+          if (evoPokemon) {
+            const childNode = buildTree(evoPokemon);
+            childNode.method = evo.method;
+            childNode.parameter = evo.parameter;
+            node.evolutions.push(childNode);
+          }
+        });
+      }
+
+      return node;
+    };
+
+    return buildTree(baseForm);
+  };
+
+  const evolutionChain = buildEvolutionChain();
+
+  // Component to render evolution method text
+  const getEvolutionMethodText = (method: string, parameter: string) => {
+    switch (method) {
+      case 'Level':
+        return `Lv. ${parameter}`;
+      case 'Item':
+        return `Use ${parameter}`;
+      case 'Trade':
+        return 'Trade';
+      case 'Happiness':
+        return 'High Friendship';
+      case 'HasMove':
+        return `Learn ${parameter}`;
+      default:
+        return parameter || method;
+    }
+  };
+
+  // Component to render the complete evolution chain horizontally
+  const renderEvolutionChain = (chain: any): JSX.Element => {
+    const renderLevel = (nodes: any[], level: number = 0): JSX.Element[] => {
+      return nodes.map((node, index) => {
+        const poke = node.pokemon;
+        const isCurrentPokemon = poke.id === pokemon.id;
+        const hasEvolutions = node.evolutions && node.evolutions.length > 0;
+
+        return (
+          <div key={`${poke.id}-${level}-${index}`} className="flex items-center">
+            {/* Pokemon Card */}
+            <div className="flex flex-col items-center">
+              <div className={`relative group ${isCurrentPokemon ? 'ring-4 ring-blue-500' : ''}`}>
+                {isCurrentPokemon && (
+                  <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-blue-500 text-white px-3 py-1 rounded-full text-sm font-medium z-10">
+                    Current
+                  </div>
+                )}
+                <Link 
+                  to={`/pokemon/${poke.id}`} 
+                  className={`block transition-all duration-200 ${isCurrentPokemon ? '' : 'hover:scale-105'}`}
+                >
+                  <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-4 text-center min-w-[120px] border-2 border-transparent hover:border-gray-300">
+                    <div className="w-24 h-24 mx-auto mb-2 bg-gray-100 dark:bg-gray-700 rounded-lg flex items-center justify-center">
+                      <OptimizedPokemonSprite
+                        id={poke.id}
+                        name={poke.displayName || poke.internalName}
+                        size={96}
+                        className="w-full h-full object-contain pixelated"
+                      />
+                    </div>
+                    <p className="font-semibold text-sm text-gray-900 dark:text-white mb-1">
+                      {poke.displayName || poke.internalName}
+                    </p>
+                    <p className="text-xs text-gray-500">#{String(poke.id).padStart(3, '0')}</p>
+                    <div className="flex gap-1 justify-center mt-2">
+                      {poke.types.slice(0, 2).map((type: string) => (
+                        <span
+                          key={type}
+                          className="px-2 py-0.5 rounded-full text-white text-xs font-medium"
+                          style={{ backgroundColor: getTypeColor(type.replace('\r', '')) }}
+                        >
+                          {type.replace('\r', '')}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            </div>
+
+            {/* Evolution Arrow and Next Level */}
+            {hasEvolutions && (
+              <>
+                {node.evolutions.length === 1 ? (
+                  // Single evolution - horizontal flow
+                  <>
+                    <div className="flex flex-col items-center mx-6">
+                      <div className="text-gray-500 text-sm mb-1">
+                        {getEvolutionMethodText(node.evolutions[0].method, node.evolutions[0].parameter)}
+                      </div>
+                      <div className="text-3xl text-gray-400">→</div>
+                    </div>
+                    {renderLevel([node.evolutions[0]], level + 1)}
+                  </>
+                ) : (
+                  // Multiple evolutions - branching layout
+                  <>
+                    <div className="flex flex-col items-center mx-6">
+                      <div className="text-gray-500 text-sm mb-1">Evolves into:</div>
+                      <div className="text-2xl text-gray-400">→</div>
+                    </div>
+                    <div className="flex flex-col gap-4">
+                      {node.evolutions.map((evoNode: any, evoIndex: number) => (
+                        <div key={evoIndex} className="flex items-center">
+                          <div className="flex flex-col items-center mr-4">
+                            <div className="text-gray-500 text-xs">
+                              {getEvolutionMethodText(evoNode.method, evoNode.parameter)}
+                            </div>
+                          </div>
+                          {renderLevel([evoNode], level + 1)}
+                        </div>
+                      ))}
+                    </div>
+                  </>
+                )}
+              </>
+            )}
+          </div>
+        );
+      });
+    };
+
+    return (
+      <div className="flex items-center justify-start">
+        {renderLevel([chain])}
+      </div>
+    );
+  };
+
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       <div className="container mx-auto px-4 py-8">
@@ -75,11 +260,11 @@ export default function PokemonDetail() {
               {/* Pokemon Image */}
               <div className="flex-shrink-0 text-center">
                 <div className="relative h-48 w-48 mx-auto mb-4 flex items-center justify-center bg-gray-100 dark:bg-gray-700 rounded-lg">
-                  <ResponsiveSpriteImage
-                    id={pokemon.id.toString()}
-                    alt={pokemon.displayName || pokemon.internalName}
+                  <OptimizedPokemonSprite
+                    id={pokemon.id}
+                    name={pokemon.displayName || pokemon.internalName}
                     size={192}
-                    loading="eager"
+                    priority={true}
                     className="w-full h-full object-contain pixelated"
                   />
                 </div>
@@ -329,68 +514,19 @@ export default function PokemonDetail() {
             
             {activeTab === "evolution" && (
               <div>
-                <h2 className="text-xl font-bold mb-4">Evolution Chain</h2>
-                {pokemon.evolutions && pokemon.evolutions.length > 0 ? (
-                  <div className="flex items-center gap-4 justify-center flex-wrap">
-                    {/* Current Pokemon */}
-                    <div className="text-center">
-                      <div className="w-32 h-32 bg-gray-100 rounded-lg flex items-center justify-center mb-2">
-                        <ResponsiveSpriteImage
-                          id={pokemon.id.toString()}
-                          alt={pokemon.displayName || pokemon.internalName}
-                          size={96}
-                          loading="lazy"
-                          className="w-full h-full object-contain"
-                        />
-                      </div>
-                      <p className="font-semibold">{pokemon.displayName || pokemon.internalName}</p>
+                <h2 className="text-xl font-bold mb-6">Evolution Chain</h2>
+                {evolutionChain ? (
+                  <div className="bg-gray-50 dark:bg-gray-900/50 rounded-xl p-6 overflow-x-auto">
+                    <div className="flex justify-center min-w-fit">
+                      {renderEvolutionChain(evolutionChain)}
                     </div>
-                    
-                    {/* Evolution */}
-                    {pokemon.evolutions.map((evo, i) => {
-                      const evoPokemon = getEvolutionPokemon(evo.species);
-                      return (
-                        <div key={i} className="flex items-center gap-4">
-                          <div className="text-center">
-                            <p className="text-sm text-gray-500">
-                              {evo.method === 'Level' && `Lv. ${evo.parameter}`}
-                              {evo.method === 'Item' && `Use ${evo.parameter}`}
-                              {evo.method === 'Trade' && 'Trade'}
-                              {evo.method === 'Happiness' && 'High Friendship'}
-                            </p>
-                            <span className="text-2xl">→</span>
-                          </div>
-                          <div className="text-center">
-                            {evoPokemon ? (
-                              <Link to={`/pokemon/${evoPokemon.id}`}>
-                                <div className="w-32 h-32 bg-gray-100 rounded-lg flex items-center justify-center mb-2 hover:bg-gray-200 transition-colors">
-                                  <ResponsiveSpriteImage
-                                    id={evoPokemon.id.toString()}
-                                    alt={evoPokemon.displayName || evoPokemon.internalName}
-                                    size={96}
-                                    loading="lazy"
-                                    className="w-full h-full object-contain"
-                                  />
-                                </div>
-                                <p className="font-semibold text-blue-500 hover:underline">
-                                  {evoPokemon.displayName || evoPokemon.internalName}
-                                </p>
-                              </Link>
-                            ) : (
-                              <div>
-                                <div className="w-32 h-32 bg-gray-100 rounded-lg flex items-center justify-center mb-2">
-                                  <span className="text-gray-400">?</span>
-                                </div>
-                                <p className="font-semibold">{evo.species}</p>
-                              </div>
-                            )}
-                          </div>
-                        </div>
-                      );
-                    })}
                   </div>
                 ) : (
-                  <p className="text-gray-500 text-center">This Pokémon does not evolve.</p>
+                  <div className="text-center py-8">
+                    <div className="bg-gray-50 dark:bg-gray-900/50 rounded-xl p-6">
+                      <p className="text-gray-500">This Pokémon does not evolve.</p>
+                    </div>
+                  </div>
                 )}
               </div>
             )}

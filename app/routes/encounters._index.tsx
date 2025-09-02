@@ -8,7 +8,7 @@ import { PokemonSprite } from "~/components/SpriteImage";
 export function meta() {
   return [
     { title: "Encounters - Pokeditor" },
-    { name: "description", content: "Browse wild Pokémon encounters by location" },
+    { name: "description", content: "Find locations where specific Pokémon can be encountered" },
   ];
 }
 
@@ -252,30 +252,32 @@ function EncounterCard({ encounter, pokemonList }: { encounter: MapEncounters; p
                           }
                           
                           return (
-                            <div key={group.species} className="p-3 bg-gray-50 dark:bg-gray-900 rounded-lg hover:bg-gray-100 transition-colors">
-                              <div className="flex items-start gap-3">
-                                <div className="w-12 h-12 flex-shrink-0">
-                                  <PokemonSprite
-                                    internalName={group.species}
-                                    name={displayName}
-                                    pokemonId={pokemon?.id}
-                                    className="w-full h-full object-contain pixelated"
-                                  />
+                            <div key={group.species} className="p-3 bg-gray-50 dark:bg-gray-900 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors border dark:border-gray-700">
+                              <div className="flex flex-col gap-2">
+                                <div className="flex items-center gap-2">
+                                  <div className="w-10 h-10 flex-shrink-0">
+                                    <PokemonSprite
+                                      internalName={group.species}
+                                      name={displayName}
+                                      pokemonId={pokemon?.id}
+                                      className="w-full h-full object-contain pixelated"
+                                    />
+                                  </div>
+                                  <div className="flex-1 min-w-0">
+                                    <div className={`font-medium ${textSizeClass} text-gray-900 dark:text-gray-100 truncate`} title={displayName}>
+                                      {displayName}
+                                    </div>
+                                  </div>
                                 </div>
-                                <div className="flex-1 min-w-0">
-                                  <div className={`font-medium ${textSizeClass} text-gray-900 whitespace-nowrap overflow-hidden`}>
-                                    {displayName}
-                                  </div>
-                                  <div className="flex items-center gap-3 mt-1">
-                                    <span className="text-xs text-gray-600">
-                                      Lv.{levelText}
+                                <div className="flex items-center justify-between gap-2">
+                                  <span className="text-xs text-gray-600 dark:text-gray-400 whitespace-nowrap">
+                                    Lv.{levelText}
+                                  </span>
+                                  {group.totalProbability > 0 && (
+                                    <span className="text-xs font-semibold text-blue-600 dark:text-blue-400 whitespace-nowrap bg-blue-100 dark:bg-blue-900/30 px-1.5 py-0.5 rounded">
+                                      {Math.round(group.totalProbability * 10) / 10}%
                                     </span>
-                                    {group.totalProbability > 0 && (
-                                      <span className="text-xs font-semibold text-blue-600">
-                                        {group.totalProbability}%
-                                      </span>
-                                    )}
-                                  </div>
+                                  )}
                                 </div>
                               </div>
                             </div>
@@ -313,10 +315,19 @@ export default function EncountersIndex() {
 
   // Filter encounters
   const filteredEncounters = encountersList.filter(encounter => {
-    // Search filter
-    if (searchTerm && !encounter.mapName.toLowerCase().includes(searchTerm.toLowerCase()) &&
-        !encounter.mapId.toLowerCase().includes(searchTerm.toLowerCase())) {
-      return false;
+    // Search filter - now searches by Pokemon name
+    if (searchTerm) {
+      const hasPokemonMatch = Object.values(encounter.encounters).some(methodData =>
+        methodData?.encounters.some(enc => {
+          const pokemon = pokemonList.find(p => 
+            p.internalName === enc.species || p.internalName?.toUpperCase() === enc.species.toUpperCase()
+          );
+          const displayName = pokemon?.name || enc.species.charAt(0).toUpperCase() + enc.species.slice(1).toLowerCase();
+          return displayName.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                 enc.species.toLowerCase().includes(searchTerm.toLowerCase());
+        })
+      );
+      if (!hasPokemonMatch) return false;
     }
 
     // Method filter
@@ -341,7 +352,7 @@ export default function EncountersIndex() {
         {/* Header */}
         <div className="mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-2">Wild Encounters</h1>
-          <p className="text-gray-600">Browse wild Pokémon encounters by location</p>
+          <p className="text-gray-600">Search for Pokémon to find their encounter locations</p>
         </div>
 
         {/* Filters */}
@@ -349,13 +360,13 @@ export default function EncountersIndex() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-2">
-                Search Location
+                Search Pokémon
               </label>
               <input
                 type="text"
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                placeholder="Search by location name..."
+                placeholder="Search by Pokémon name..."
                 className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-900 bg-white dark:bg-gray-800 placeholder-gray-500"
               />
             </div>

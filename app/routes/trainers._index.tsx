@@ -1,9 +1,19 @@
 import { useState, useMemo } from "react";
-import { Link, useLoaderData } from "react-router";
+import { Link, useLoaderData, useNavigation } from "react-router";
 import type { Route } from "./+types/trainers._index";
 import { loadTrainersData, loadTrainerTypesData, loadPokemonData } from "~/lib/data-loader-v2";
 import { PokemonSprite } from "~/components/SpriteImage";
 import { getTypeColor } from "~/lib/utils/typeColors";
+import { useDebouncedSearch } from "~/hooks/useDebounce";
+import { Pagination, usePagination } from "~/components/Pagination";
+import { 
+  GridSkeletonLoader, 
+  ListSkeletonLoader,
+  LoadingState,
+  TrainerCardSkeleton,
+  TrainerListItemSkeleton,
+  StatsSummarySkeleton
+} from "~/components/SkeletonLoader";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -43,9 +53,14 @@ export async function loader({ request }: Route.LoaderArgs) {
 
 export default function TrainersIndex() {
   const { trainers, trainerTypes, pokemonList } = useLoaderData<typeof loader>();
-  const [searchQuery, setSearchQuery] = useState("");
+  const navigation = useNavigation();
+  const { searchValue, debouncedSearchValue, setSearchValue, isSearching } = useDebouncedSearch('', 300);
   const [selectedType, setSelectedType] = useState("all");
   const [viewMode, setViewMode] = useState<"cards" | "list">("cards");
+
+  // Check if we're loading
+  const isLoading = navigation.state === "loading";
+  const { currentPage, setPage, getPaginatedData } = usePagination(50);
 
   // Get unique trainer classes
   const trainerClasses = useMemo(() => {
@@ -56,15 +71,20 @@ export default function TrainersIndex() {
 
   const filteredTrainers = useMemo(() => {
     return trainers.filter(trainer => {
-      const matchesSearch = searchQuery === "" || 
-        trainer.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        trainer.trainerType.toLowerCase().includes(searchQuery.toLowerCase());
+      const matchesSearch = debouncedSearchValue === "" || 
+        trainer.name.toLowerCase().includes(debouncedSearchValue.toLowerCase()) ||
+        trainer.trainerType.toLowerCase().includes(debouncedSearchValue.toLowerCase());
       
       const matchesType = selectedType === "all" || trainer.trainerType === selectedType;
       
       return matchesSearch && matchesType;
     });
-  }, [trainers, searchQuery, selectedType]);
+  }, [trainers, debouncedSearchValue, selectedType]);
+
+  const paginationData = useMemo(() => 
+    getPaginatedData(filteredTrainers), 
+    [filteredTrainers, currentPage]
+  );
 
 
   const getDifficultyColor = (trainer: Trainer) => {
@@ -220,21 +240,29 @@ export default function TrainersIndex() {
         <div className="mb-8">
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-2">Trainer Database</h1>
           <p className="text-gray-600 dark:text-gray-400">
-            Showing {filteredTrainers.length} of {trainers.length} trainers
+            Found {filteredTrainers.length} of {trainers.length} trainers
+            {isSearching && (
+              <span className="ml-2 text-blue-500 text-sm">(searching...)</span>
+            )}
           </p>
         </div>
 
         {/* Controls */}
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 mb-6">
           <div className="flex flex-wrap gap-4 items-center">
-            <div className="flex-1 min-w-[200px]">
+            <div className="flex-1 min-w-[200px] relative">
               <input
                 type="text"
                 placeholder="Search trainers by name or class..."
-                className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-900 dark:text-white bg-white dark:bg-gray-700 placeholder-gray-500 dark:placeholder-gray-400"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
+                className="w-full px-4 py-2 pr-10 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-900 dark:text-white bg-white dark:bg-gray-700 placeholder-gray-500 dark:placeholder-gray-400"
+                value={searchValue}
+                onChange={(e) => setSearchValue(e.target.value)}
               />
+              {isSearching && (
+                <div className="absolute right-3 top-1/2 transform -translate-y-1/2">
+                  <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-blue-500"></div>
+                </div>
+              )}
             </div>
 
             <div className="min-w-[150px]">
@@ -277,37 +305,70 @@ export default function TrainersIndex() {
         </div>
 
         {/* Trainer Type Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-2 mb-6">
-          {Array.from(new Set(trainers.map(t => t.trainerType))).slice(0, 6).map(type => {
-            const count = trainers.filter(t => t.trainerType === type).length;
-            return (
-              <div key={type} className="bg-white dark:bg-gray-800 rounded-lg shadow p-3 text-center">
-                <p className="text-xs font-medium text-gray-600 dark:text-gray-400">{type}</p>
-                <p className="text-lg font-bold text-gray-900 dark:text-white">{count}</p>
+        {isLoading ? (
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-2 mb-6">
+            {Array.from({ length: 6 }).map((_, index) => (
+              <div key={index} className="bg-white dark:bg-gray-800 rounded-lg shadow p-3 text-center">
+                <div className="h-3 w-16 mx-auto mb-2 bg-gradient-to-r from-gray-200 via-gray-300 to-gray-200 animate-pulse rounded" />
+                <div className="h-6 w-8 mx-auto bg-gradient-to-r from-gray-200 via-gray-300 to-gray-200 animate-pulse rounded" />
               </div>
-            );
-          })}
-        </div>
+            ))}
+          </div>
+        ) : (
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-2 mb-6">
+            {Array.from(new Set(trainers.map(t => t.trainerType))).slice(0, 6).map(type => {
+              const count = trainers.filter(t => t.trainerType === type).length;
+              return (
+                <div key={type} className="bg-white dark:bg-gray-800 rounded-lg shadow p-3 text-center">
+                  <p className="text-xs font-medium text-gray-600 dark:text-gray-400">{type}</p>
+                  <p className="text-lg font-bold text-gray-900 dark:text-white">{count}</p>
+                </div>
+              );
+            })}
+          </div>
+        )}
 
         {/* Trainers Display */}
-        {filteredTrainers.length > 0 ? (
+        {isLoading ? (
+          // Show skeleton loaders while loading
           viewMode === "cards" ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-              {filteredTrainers.map(trainer => (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
+              <GridSkeletonLoader count={50} CardSkeleton={TrainerCardSkeleton} />
+            </div>
+          ) : (
+            <div className="space-y-2 mb-8">
+              <ListSkeletonLoader count={50} ItemSkeleton={TrainerListItemSkeleton} />
+            </div>
+          )
+        ) : paginationData.data.length > 0 ? (
+          viewMode === "cards" ? (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
+              {paginationData.data.map(trainer => (
                 <TrainerCard key={trainer.id} trainer={trainer} />
               ))}
             </div>
           ) : (
-            <div className="space-y-2">
-              {filteredTrainers.map(trainer => (
+            <div className="space-y-2 mb-8">
+              {paginationData.data.map(trainer => (
                 <TrainerListItem key={trainer.id} trainer={trainer} />
               ))}
             </div>
           )
         ) : (
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-8 text-center">
+          <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-8 text-center mb-8">
             <p className="text-gray-500 dark:text-gray-400 text-lg">No trainers found matching your criteria</p>
           </div>
+        )}
+
+        {/* Pagination */}
+        {paginationData.totalPages > 1 && (
+          <Pagination
+            currentPage={paginationData.currentPage}
+            totalPages={paginationData.totalPages}
+            totalItems={paginationData.totalItems}
+            itemsPerPage={paginationData.itemsPerPage}
+            onPageChange={setPage}
+          />
         )}
       </div>
     </div>

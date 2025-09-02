@@ -1,0 +1,1158 @@
+{
+  "byId": {
+    "0": {
+      "id": "0",
+      "name": "POKEMONTRAINER_Red",
+      "baseMoney": 0,
+      "skillLevel": 60
+    },
+    "1": {
+      "id": "1",
+      "name": "POKEMONTRAINER_Leaf",
+      "baseMoney": 0,
+      "skillLevel": 60
+    },
+    "2": {
+      "id": "2",
+      "name": "POKEMONTRAINER_Brendan",
+      "baseMoney": 0,
+      "skillLevel": 60
+    },
+    "3": {
+      "id": "3",
+      "name": "POKEMONTRAINER_May",
+      "baseMoney": 0,
+      "skillLevel": 60
+    },
+    "4": {
+      "id": "4",
+      "name": "RIVAL1",
+      "baseMoney": 0,
+      "skillLevel": 36
+    },
+    "5": {
+      "id": "5",
+      "name": "RIVAL2",
+      "baseMoney": 0,
+      "skillLevel": 36
+    },
+    "6": {
+      "id": "6",
+      "name": "AROMALADY",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    "7": {
+      "id": "7",
+      "name": "BEAUTY",
+      "baseMoney": 0,
+      "skillLevel": 56
+    },
+    "8": {
+      "id": "8",
+      "name": "BIKER",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    "9": {
+      "id": "9",
+      "name": "BIRDKEEPER",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    "10": {
+      "id": "10",
+      "name": "BUGCATCHER",
+      "baseMoney": 0,
+      "skillLevel": 16
+    },
+    "11": {
+      "id": "11",
+      "name": "POLICEMAN",
+      "baseMoney": 0,
+      "skillLevel": 88
+    },
+    "12": {
+      "id": "12",
+      "name": "CHANELLER",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    "13": {
+      "id": "13",
+      "name": "CUEBALL",
+      "baseMoney": 0,
+      "skillLevel": 24
+    },
+    "14": {
+      "id": "14",
+      "name": "ENGINEER",
+      "baseMoney": 0,
+      "skillLevel": 48
+    },
+    "15": {
+      "id": "15",
+      "name": "FISHERMAN",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    "16": {
+      "id": "16",
+      "name": "GAMBLER",
+      "baseMoney": 0,
+      "skillLevel": 72
+    },
+    "17": {
+      "id": "17",
+      "name": "GENTLEMAN",
+      "baseMoney": 0,
+      "skillLevel": 72
+    },
+    "18": {
+      "id": "18",
+      "name": "HIKER",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    "19": {
+      "id": "19",
+      "name": "JUGGLER",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    "20": {
+      "id": "20",
+      "name": "LADY",
+      "baseMoney": 0,
+      "skillLevel": 160
+    },
+    "21": {
+      "id": "21",
+      "name": "PAINTER",
+      "baseMoney": 0,
+      "skillLevel": 16
+    },
+    "22": {
+      "id": "22",
+      "name": "POKEMANIAC",
+      "baseMoney": 0,
+      "skillLevel": 64
+    },
+    "23": {
+      "id": "23",
+      "name": "POKEMONBREEDER",
+      "baseMoney": 0,
+      "skillLevel": 48
+    },
+    "24": {
+      "id": "24",
+      "name": "PROFESSOR",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    "25": {
+      "id": "25",
+      "name": "ROCKER",
+      "baseMoney": 0,
+      "skillLevel": 24
+    },
+    "26": {
+      "id": "26",
+      "name": "RUINMANIAC",
+      "baseMoney": 0,
+      "skillLevel": 48
+    },
+    "27": {
+      "id": "27",
+      "name": "SAILOR",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    "28": {
+      "id": "28",
+      "name": "SCIENTIST",
+      "baseMoney": 0,
+      "skillLevel": 48
+    },
+    "29": {
+      "id": "29",
+      "name": "SUPERNERD",
+      "baseMoney": 0,
+      "skillLevel": 48
+    },
+    "30": {
+      "id": "30",
+      "name": "TAMER",
+      "baseMoney": 0,
+      "skillLevel": 40
+    },
+    "31": {
+      "id": "31",
+      "name": "BLACKBELT",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    "32": {
+      "id": "32",
+      "name": "CRUSHGIRL",
+      "baseMoney": 0,
+      "skillLevel": 24
+    },
+    "33": {
+      "id": "33",
+      "name": "CAMPER",
+      "baseMoney": 0,
+      "skillLevel": 16
+    },
+    "34": {
+      "id": "34",
+      "name": "PICNICKER",
+      "baseMoney": 0,
+      "skillLevel": 16
+    },
+    "35": {
+      "id": "35",
+      "name": "COOLTRAINER_M",
+      "baseMoney": 0,
+      "skillLevel": 60
+    },
+    "36": {
+      "id": "36",
+      "name": "COOLTRAINER_F",
+      "baseMoney": 0,
+      "skillLevel": 60
+    },
+    "37": {
+      "id": "37",
+      "name": "YOUNGSTER",
+      "baseMoney": 0,
+      "skillLevel": 16
+    },
+    "38": {
+      "id": "38",
+      "name": "LASS",
+      "baseMoney": 0,
+      "skillLevel": 16
+    },
+    "39": {
+      "id": "39",
+      "name": "POKEMONRANGER_M",
+      "baseMoney": 0,
+      "skillLevel": 60
+    },
+    "40": {
+      "id": "40",
+      "name": "POKEMONRANGER_F",
+      "baseMoney": 0,
+      "skillLevel": 60
+    },
+    "41": {
+      "id": "41",
+      "name": "PSYCHIC_M",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    "42": {
+      "id": "42",
+      "name": "PSYCHIC_F",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    "43": {
+      "id": "43",
+      "name": "SWIMMER_M",
+      "baseMoney": 0,
+      "skillLevel": 16
+    },
+    "44": {
+      "id": "44",
+      "name": "SWIMMER_F",
+      "baseMoney": 0,
+      "skillLevel": 16
+    },
+    "45": {
+      "id": "45",
+      "name": "SWIMMER2_M",
+      "baseMoney": 0,
+      "skillLevel": 16
+    },
+    "46": {
+      "id": "46",
+      "name": "SWIMMER2_F",
+      "baseMoney": 0,
+      "skillLevel": 16
+    },
+    "47": {
+      "id": "47",
+      "name": "TUBER_M",
+      "baseMoney": 0,
+      "skillLevel": 4
+    },
+    "48": {
+      "id": "48",
+      "name": "TUBER_F",
+      "baseMoney": 0,
+      "skillLevel": 4
+    },
+    "49": {
+      "id": "49",
+      "name": "TUBER2_M",
+      "baseMoney": 0,
+      "skillLevel": 4
+    },
+    "50": {
+      "id": "50",
+      "name": "TUBER2_F",
+      "baseMoney": 0,
+      "skillLevel": 4
+    },
+    "51": {
+      "id": "51",
+      "name": "COOLCOUPLE",
+      "baseMoney": 0,
+      "skillLevel": 72
+    },
+    "52": {
+      "id": "52",
+      "name": "CRUSHKIN",
+      "baseMoney": 0,
+      "skillLevel": 48
+    },
+    "53": {
+      "id": "53",
+      "name": "SISANDBRO",
+      "baseMoney": 0,
+      "skillLevel": 16
+    },
+    "54": {
+      "id": "54",
+      "name": "TWINS",
+      "baseMoney": 0,
+      "skillLevel": 24
+    },
+    "55": {
+      "id": "55",
+      "name": "YOUNGCOUPLE",
+      "baseMoney": 0,
+      "skillLevel": 60
+    },
+    "56": {
+      "id": "56",
+      "name": "TEAMROCKET_M",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    "57": {
+      "id": "57",
+      "name": "TEAMROCKET_F",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    "58": {
+      "id": "58",
+      "name": "ROCKETBOSS",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    "59": {
+      "id": "59",
+      "name": "LEADER_Brock",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    "60": {
+      "id": "60",
+      "name": "LEADER_Misty",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    "61": {
+      "id": "61",
+      "name": "LEADER_Surge",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    "62": {
+      "id": "62",
+      "name": "LEADER_Erika",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    "63": {
+      "id": "63",
+      "name": "LEADER_Koga",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    "64": {
+      "id": "64",
+      "name": "LEADER_Sabrina",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    "65": {
+      "id": "65",
+      "name": "LEADER_Blaine",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    "66": {
+      "id": "66",
+      "name": "LEADER_Giovanni",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    "67": {
+      "id": "67",
+      "name": "ELITEFOUR_Lorelei",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    "68": {
+      "id": "68",
+      "name": "ELITEFOUR_Bruno",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    "69": {
+      "id": "69",
+      "name": "ELITEFOUR_Agatha",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    "70": {
+      "id": "70",
+      "name": "ELITEFOUR_Lance",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    "71": {
+      "id": "71",
+      "name": "CHAMPION",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    "72": {
+      "id": "72",
+      "name": "DUPLEXTEAM",
+      "baseMoney": 0,
+      "skillLevel": 60
+    },
+    "73": {
+      "id": "73",
+      "name": "HIKER_1",
+      "baseMoney": 0,
+      "skillLevel": 30
+    },
+    "74": {
+      "id": "74",
+      "name": "DUPLEXVORSTANDTEAM",
+      "baseMoney": 0,
+      "skillLevel": 60
+    },
+    "75": {
+      "id": "75",
+      "name": "DUPLEXMARV",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    "76": {
+      "id": "76",
+      "name": "DUPLEXRANDY",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    "77": {
+      "id": "77",
+      "name": "OSKAR",
+      "baseMoney": 0,
+      "skillLevel": 24
+    },
+    "78": {
+      "id": "78",
+      "name": "DUPLEXVORSTAND",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    "79": {
+      "id": "79",
+      "name": "SNOWBOARDER",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    "80": {
+      "id": "80",
+      "name": "SKII",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    "81": {
+      "id": "81",
+      "name": "DUPLEXVORSTANDV",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    "82": {
+      "id": "82",
+      "name": "RIVAL3",
+      "baseMoney": 0,
+      "skillLevel": 36
+    },
+    "83": {
+      "id": "83",
+      "name": "RIVAL4",
+      "baseMoney": 0,
+      "skillLevel": 36
+    },
+    "84": {
+      "id": "84",
+      "name": "ALEXO",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    "85": {
+      "id": "85",
+      "name": "STEVEN",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    "86": {
+      "id": "86",
+      "name": "TESS",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    "87": {
+      "id": "87",
+      "name": "ELITE_M",
+      "baseMoney": 0,
+      "skillLevel": 60
+    },
+    "88": {
+      "id": "88",
+      "name": "ELITE_F",
+      "baseMoney": 0,
+      "skillLevel": 60
+    },
+    "89": {
+      "id": "89",
+      "name": "KAI",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    "90": {
+      "id": "90",
+      "name": "ADAM",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    "91": {
+      "id": "91",
+      "name": "JANINA",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    "92": {
+      "id": "92",
+      "name": "ASTRID",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    "93": {
+      "id": "93",
+      "name": "FALK",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    "94": {
+      "id": "94",
+      "name": "MARV",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    "95": {
+      "id": "95",
+      "name": "DUPLEXBOSS",
+      "baseMoney": 0,
+      "skillLevel": 100
+    }
+  },
+  "list": [
+    {
+      "id": "0",
+      "name": "POKEMONTRAINER_Red",
+      "baseMoney": 0,
+      "skillLevel": 60
+    },
+    {
+      "id": "1",
+      "name": "POKEMONTRAINER_Leaf",
+      "baseMoney": 0,
+      "skillLevel": 60
+    },
+    {
+      "id": "2",
+      "name": "POKEMONTRAINER_Brendan",
+      "baseMoney": 0,
+      "skillLevel": 60
+    },
+    {
+      "id": "3",
+      "name": "POKEMONTRAINER_May",
+      "baseMoney": 0,
+      "skillLevel": 60
+    },
+    {
+      "id": "4",
+      "name": "RIVAL1",
+      "baseMoney": 0,
+      "skillLevel": 36
+    },
+    {
+      "id": "5",
+      "name": "RIVAL2",
+      "baseMoney": 0,
+      "skillLevel": 36
+    },
+    {
+      "id": "6",
+      "name": "AROMALADY",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    {
+      "id": "7",
+      "name": "BEAUTY",
+      "baseMoney": 0,
+      "skillLevel": 56
+    },
+    {
+      "id": "8",
+      "name": "BIKER",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    {
+      "id": "9",
+      "name": "BIRDKEEPER",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    {
+      "id": "10",
+      "name": "BUGCATCHER",
+      "baseMoney": 0,
+      "skillLevel": 16
+    },
+    {
+      "id": "11",
+      "name": "POLICEMAN",
+      "baseMoney": 0,
+      "skillLevel": 88
+    },
+    {
+      "id": "12",
+      "name": "CHANELLER",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    {
+      "id": "13",
+      "name": "CUEBALL",
+      "baseMoney": 0,
+      "skillLevel": 24
+    },
+    {
+      "id": "14",
+      "name": "ENGINEER",
+      "baseMoney": 0,
+      "skillLevel": 48
+    },
+    {
+      "id": "15",
+      "name": "FISHERMAN",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    {
+      "id": "16",
+      "name": "GAMBLER",
+      "baseMoney": 0,
+      "skillLevel": 72
+    },
+    {
+      "id": "17",
+      "name": "GENTLEMAN",
+      "baseMoney": 0,
+      "skillLevel": 72
+    },
+    {
+      "id": "18",
+      "name": "HIKER",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    {
+      "id": "19",
+      "name": "JUGGLER",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    {
+      "id": "20",
+      "name": "LADY",
+      "baseMoney": 0,
+      "skillLevel": 160
+    },
+    {
+      "id": "21",
+      "name": "PAINTER",
+      "baseMoney": 0,
+      "skillLevel": 16
+    },
+    {
+      "id": "22",
+      "name": "POKEMANIAC",
+      "baseMoney": 0,
+      "skillLevel": 64
+    },
+    {
+      "id": "23",
+      "name": "POKEMONBREEDER",
+      "baseMoney": 0,
+      "skillLevel": 48
+    },
+    {
+      "id": "24",
+      "name": "PROFESSOR",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    {
+      "id": "25",
+      "name": "ROCKER",
+      "baseMoney": 0,
+      "skillLevel": 24
+    },
+    {
+      "id": "26",
+      "name": "RUINMANIAC",
+      "baseMoney": 0,
+      "skillLevel": 48
+    },
+    {
+      "id": "27",
+      "name": "SAILOR",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    {
+      "id": "28",
+      "name": "SCIENTIST",
+      "baseMoney": 0,
+      "skillLevel": 48
+    },
+    {
+      "id": "29",
+      "name": "SUPERNERD",
+      "baseMoney": 0,
+      "skillLevel": 48
+    },
+    {
+      "id": "30",
+      "name": "TAMER",
+      "baseMoney": 0,
+      "skillLevel": 40
+    },
+    {
+      "id": "31",
+      "name": "BLACKBELT",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    {
+      "id": "32",
+      "name": "CRUSHGIRL",
+      "baseMoney": 0,
+      "skillLevel": 24
+    },
+    {
+      "id": "33",
+      "name": "CAMPER",
+      "baseMoney": 0,
+      "skillLevel": 16
+    },
+    {
+      "id": "34",
+      "name": "PICNICKER",
+      "baseMoney": 0,
+      "skillLevel": 16
+    },
+    {
+      "id": "35",
+      "name": "COOLTRAINER_M",
+      "baseMoney": 0,
+      "skillLevel": 60
+    },
+    {
+      "id": "36",
+      "name": "COOLTRAINER_F",
+      "baseMoney": 0,
+      "skillLevel": 60
+    },
+    {
+      "id": "37",
+      "name": "YOUNGSTER",
+      "baseMoney": 0,
+      "skillLevel": 16
+    },
+    {
+      "id": "38",
+      "name": "LASS",
+      "baseMoney": 0,
+      "skillLevel": 16
+    },
+    {
+      "id": "39",
+      "name": "POKEMONRANGER_M",
+      "baseMoney": 0,
+      "skillLevel": 60
+    },
+    {
+      "id": "40",
+      "name": "POKEMONRANGER_F",
+      "baseMoney": 0,
+      "skillLevel": 60
+    },
+    {
+      "id": "41",
+      "name": "PSYCHIC_M",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    {
+      "id": "42",
+      "name": "PSYCHIC_F",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    {
+      "id": "43",
+      "name": "SWIMMER_M",
+      "baseMoney": 0,
+      "skillLevel": 16
+    },
+    {
+      "id": "44",
+      "name": "SWIMMER_F",
+      "baseMoney": 0,
+      "skillLevel": 16
+    },
+    {
+      "id": "45",
+      "name": "SWIMMER2_M",
+      "baseMoney": 0,
+      "skillLevel": 16
+    },
+    {
+      "id": "46",
+      "name": "SWIMMER2_F",
+      "baseMoney": 0,
+      "skillLevel": 16
+    },
+    {
+      "id": "47",
+      "name": "TUBER_M",
+      "baseMoney": 0,
+      "skillLevel": 4
+    },
+    {
+      "id": "48",
+      "name": "TUBER_F",
+      "baseMoney": 0,
+      "skillLevel": 4
+    },
+    {
+      "id": "49",
+      "name": "TUBER2_M",
+      "baseMoney": 0,
+      "skillLevel": 4
+    },
+    {
+      "id": "50",
+      "name": "TUBER2_F",
+      "baseMoney": 0,
+      "skillLevel": 4
+    },
+    {
+      "id": "51",
+      "name": "COOLCOUPLE",
+      "baseMoney": 0,
+      "skillLevel": 72
+    },
+    {
+      "id": "52",
+      "name": "CRUSHKIN",
+      "baseMoney": 0,
+      "skillLevel": 48
+    },
+    {
+      "id": "53",
+      "name": "SISANDBRO",
+      "baseMoney": 0,
+      "skillLevel": 16
+    },
+    {
+      "id": "54",
+      "name": "TWINS",
+      "baseMoney": 0,
+      "skillLevel": 24
+    },
+    {
+      "id": "55",
+      "name": "YOUNGCOUPLE",
+      "baseMoney": 0,
+      "skillLevel": 60
+    },
+    {
+      "id": "56",
+      "name": "TEAMROCKET_M",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    {
+      "id": "57",
+      "name": "TEAMROCKET_F",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    {
+      "id": "58",
+      "name": "ROCKETBOSS",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    {
+      "id": "59",
+      "name": "LEADER_Brock",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    {
+      "id": "60",
+      "name": "LEADER_Misty",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    {
+      "id": "61",
+      "name": "LEADER_Surge",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    {
+      "id": "62",
+      "name": "LEADER_Erika",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    {
+      "id": "63",
+      "name": "LEADER_Koga",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    {
+      "id": "64",
+      "name": "LEADER_Sabrina",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    {
+      "id": "65",
+      "name": "LEADER_Blaine",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    {
+      "id": "66",
+      "name": "LEADER_Giovanni",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    {
+      "id": "67",
+      "name": "ELITEFOUR_Lorelei",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    {
+      "id": "68",
+      "name": "ELITEFOUR_Bruno",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    {
+      "id": "69",
+      "name": "ELITEFOUR_Agatha",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    {
+      "id": "70",
+      "name": "ELITEFOUR_Lance",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    {
+      "id": "71",
+      "name": "CHAMPION",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    {
+      "id": "72",
+      "name": "DUPLEXTEAM",
+      "baseMoney": 0,
+      "skillLevel": 60
+    },
+    {
+      "id": "73",
+      "name": "HIKER_1",
+      "baseMoney": 0,
+      "skillLevel": 30
+    },
+    {
+      "id": "74",
+      "name": "DUPLEXVORSTANDTEAM",
+      "baseMoney": 0,
+      "skillLevel": 60
+    },
+    {
+      "id": "75",
+      "name": "DUPLEXMARV",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    {
+      "id": "76",
+      "name": "DUPLEXRANDY",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    {
+      "id": "77",
+      "name": "OSKAR",
+      "baseMoney": 0,
+      "skillLevel": 24
+    },
+    {
+      "id": "78",
+      "name": "DUPLEXVORSTAND",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    {
+      "id": "79",
+      "name": "SNOWBOARDER",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    {
+      "id": "80",
+      "name": "SKII",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    {
+      "id": "81",
+      "name": "DUPLEXVORSTANDV",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    {
+      "id": "82",
+      "name": "RIVAL3",
+      "baseMoney": 0,
+      "skillLevel": 36
+    },
+    {
+      "id": "83",
+      "name": "RIVAL4",
+      "baseMoney": 0,
+      "skillLevel": 36
+    },
+    {
+      "id": "84",
+      "name": "ALEXO",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    {
+      "id": "85",
+      "name": "STEVEN",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    {
+      "id": "86",
+      "name": "TESS",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    {
+      "id": "87",
+      "name": "ELITE_M",
+      "baseMoney": 0,
+      "skillLevel": 60
+    },
+    {
+      "id": "88",
+      "name": "ELITE_F",
+      "baseMoney": 0,
+      "skillLevel": 60
+    },
+    {
+      "id": "89",
+      "name": "KAI",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    {
+      "id": "90",
+      "name": "ADAM",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    {
+      "id": "91",
+      "name": "JANINA",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    {
+      "id": "92",
+      "name": "ASTRID",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    {
+      "id": "93",
+      "name": "FALK",
+      "baseMoney": 0,
+      "skillLevel": 100
+    },
+    {
+      "id": "94",
+      "name": "MARV",
+      "baseMoney": 0,
+      "skillLevel": 32
+    },
+    {
+      "id": "95",
+      "name": "DUPLEXBOSS",
+      "baseMoney": 0,
+      "skillLevel": 100
+    }
+  ]
+}

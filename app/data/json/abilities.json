@@ -1,0 +1,2452 @@
+{
+  "byId": {
+    "1": {
+      "id": 1,
+      "internalName": "STENCH",
+      "name": "Duftnote",
+      "description": "Hilft"
+    },
+    "2": {
+      "id": 2,
+      "internalName": "DRIZZLE",
+      "name": "Niesel",
+      "description": "Ruft im Kampf Regen herbei.\r"
+    },
+    "3": {
+      "id": 3,
+      "internalName": "SPEEDBOOST",
+      "name": "Temposchub",
+      "description": "Erhöht Initiative nach und nach.\r"
+    },
+    "4": {
+      "id": 4,
+      "internalName": "BATTLEARMOR",
+      "name": "Kampfpanzer",
+      "description": "Wehrt Volltreffer ab.\r"
+    },
+    "5": {
+      "id": 5,
+      "internalName": "STURDY",
+      "name": "Robustheit",
+      "description": "Schutz gegen 1-Treffer-K.O.-Attacken.\r"
+    },
+    "6": {
+      "id": 6,
+      "internalName": "DAMP",
+      "name": "Feuchtigkeit",
+      "description": "Verhindert Selbst- zerstörung der Kämpfenden.\r"
+    },
+    "7": {
+      "id": 7,
+      "internalName": "LIMBER",
+      "name": "Flexibilität",
+      "description": "Verhindert Paralyse.\r"
+    },
+    "8": {
+      "id": 8,
+      "internalName": "SANDVEIL",
+      "name": "Sandschleier",
+      "description": "Erhöht Fluchtwert im Sandsturm.\r"
+    },
+    "9": {
+      "id": 9,
+      "internalName": "STATIC",
+      "name": "Statik",
+      "description": "Kann bei Berührung paralysieren.\r"
+    },
+    "10": {
+      "id": 10,
+      "internalName": "VOLTABSORB",
+      "name": "Voltabsorber",
+      "description": "Wandelt Elektrizität in KP um.\r"
+    },
+    "11": {
+      "id": 11,
+      "internalName": "WATERABSORB",
+      "name": "H2O-Absorber",
+      "description": "Wandelt Schaden durch Wasser-Attacken in KP um.\r"
+    },
+    "12": {
+      "id": 12,
+      "internalName": "OBLIVIOUS",
+      "name": "Dösigkeit",
+      "description": "Verhindert Anziehung.\r"
+    },
+    "13": {
+      "id": 13,
+      "internalName": "CLOUDNINE",
+      "name": "Wolke Sieben",
+      "description": "Keine Wetter-Effekte.\r"
+    },
+    "14": {
+      "id": 14,
+      "internalName": "COMPOUNDEYES",
+      "name": "Facettenauge",
+      "description": "Steigert Genauigkeit.\r"
+    },
+    "15": {
+      "id": 15,
+      "internalName": "INSOMNIA",
+      "name": "Insomnia",
+      "description": "Verhindert Einschlafen.\r"
+    },
+    "16": {
+      "id": 16,
+      "internalName": "COLORCHANGE",
+      "name": "Farbwechsel",
+      "description": "Typ des Anwenders wird zu dem der gegnerischen Att.\r"
+    },
+    "17": {
+      "id": 17,
+      "internalName": "IMMUNITY",
+      "name": "Immunität",
+      "description": "Verhindert Vergiftungen.\r"
+    },
+    "18": {
+      "id": 18,
+      "internalName": "FLASHFIRE",
+      "name": "Feuerfänger",
+      "description": "Verstärkt Feuer-A."
+    },
+    "19": {
+      "id": 19,
+      "internalName": "SHIELDDUST",
+      "name": "Puderabwehr",
+      "description": "Blockiert Zusatz-Effekte gegnerischer Attacken.\r"
+    },
+    "20": {
+      "id": 20,
+      "internalName": "OWNTEMPO",
+      "name": "Tempomacher",
+      "description": "Verhindert Verwirrung.\r"
+    },
+    "21": {
+      "id": 21,
+      "internalName": "SUCTIONCUPS",
+      "name": "Saugnapf",
+      "description": "Negiert Attacken"
+    },
+    "22": {
+      "id": 22,
+      "internalName": "INTIMIDATE",
+      "name": "Bedroher",
+      "description": "Senkt Angriff des Gegners.\r"
+    },
+    "23": {
+      "id": 23,
+      "internalName": "SHADOWTAG",
+      "name": "Wegsperre",
+      "description": "Hindert Gegner an Flucht.\r"
+    },
+    "24": {
+      "id": 24,
+      "internalName": "ROUGHSKIN",
+      "name": "Rauhaut",
+      "description": "Verletzt bei Berührung.\r"
+    },
+    "25": {
+      "id": 25,
+      "internalName": "WONDERGUARD",
+      "name": "Wunderwache",
+      "description": "Nur sehr effektive Treffer schaden.\r"
+    },
+    "26": {
+      "id": 26,
+      "internalName": "LEVITATE",
+      "name": "Schwebe",
+      "description": "Volle Immunität gegen alle Boden-Attacken.\r"
+    },
+    "27": {
+      "id": 27,
+      "internalName": "EFFECTSPORE",
+      "name": "Sporenwirt",
+      "description": "Bei Kontakt evtl. Paraly."
+    },
+    "28": {
+      "id": 28,
+      "internalName": "SYNCHRONIZE",
+      "name": "Synchro",
+      "description": "Gibt Verbrennung"
+    },
+    "29": {
+      "id": 29,
+      "internalName": "CLEARBODY",
+      "name": "Neutraltorso",
+      "description": "Verhindert Absenken der Statuswerte evtl.\r"
+    },
+    "30": {
+      "id": 30,
+      "internalName": "NATURALCURE",
+      "name": "Innere Kraft",
+      "description": "Heilt bei Austausch Statusprobleme.\r"
+    },
+    "31": {
+      "id": 31,
+      "internalName": "LIGHTNINGROD",
+      "name": "Blitzfänger",
+      "description": "Zieht Elektro-Attacken an.\r"
+    },
+    "32": {
+      "id": 32,
+      "internalName": "SERENEGRACE",
+      "name": "Edelmut",
+      "description": "Verstärkt Zusatz-Effekte.\r"
+    },
+    "33": {
+      "id": 33,
+      "internalName": "SWIFTSWIM",
+      "name": "Wassertempo",
+      "description": "Steigert Initiative bei Regen.\r"
+    },
+    "34": {
+      "id": 34,
+      "internalName": "CHLOROPHYLL",
+      "name": "Chlorophyll",
+      "description": "Steigert Initiative bei Sonnenschein.\r"
+    },
+    "35": {
+      "id": 35,
+      "internalName": "ILLUMINATE",
+      "name": "Erleuchtung",
+      "description": "Mehr Begegnungen mit wilden Pokémon.\r"
+    },
+    "36": {
+      "id": 36,
+      "internalName": "TRACE",
+      "name": "Fährte",
+      "description": "Das Pokémon kopiert Fähigkeit des Gegners.\r"
+    },
+    "37": {
+      "id": 37,
+      "internalName": "HUGEPOWER",
+      "name": "Kraftkoloss",
+      "description": "Steigert den Angriffs-Wert eines Pokémon.\r"
+    },
+    "38": {
+      "id": 38,
+      "internalName": "POISONPOINT",
+      "name": "Giftdorn",
+      "description": "Vergiftet den Gegner eventuell bei Berührung.\r"
+    },
+    "39": {
+      "id": 39,
+      "internalName": "INNERFOCUS",
+      "name": "Konzentrator",
+      "description": "Verhindert Zurückschrecken.\r"
+    },
+    "40": {
+      "id": 40,
+      "internalName": "MAGMAARMOR",
+      "name": "Magmapanzer",
+      "description": "Verhindert Einfrieren.\r"
+    },
+    "41": {
+      "id": 41,
+      "internalName": "WATERVEIL",
+      "name": "Aquahülle",
+      "description": "Verhindert Verbrennungen.\r"
+    },
+    "42": {
+      "id": 42,
+      "internalName": "MAGNETPULL",
+      "name": "Magnetfalle",
+      "description": "Verhindert Flucht von Stahl-Pokémon.\r"
+    },
+    "43": {
+      "id": 43,
+      "internalName": "SOUNDPROOF",
+      "name": "Lärmschutz",
+      "description": "Immun gegen Lärm-Attacken.\r"
+    },
+    "44": {
+      "id": 44,
+      "internalName": "RAINDISH",
+      "name": "Regengenuss",
+      "description": "Langsame Wiederherstellung von KP bei Regen.\r"
+    },
+    "45": {
+      "id": 45,
+      "internalName": "SANDSTREAM",
+      "name": "Sandsturm",
+      "description": "Erzeugt einen Sandsturm.\r"
+    },
+    "46": {
+      "id": 46,
+      "internalName": "PRESSURE",
+      "name": "Erzwinger",
+      "description": "Steigert den Verbrauch der AP des Gegners.\r"
+    },
+    "47": {
+      "id": 47,
+      "internalName": "THICKFAT",
+      "name": "Speckschicht",
+      "description": "Schutz vor Hitze und Kälte.\r"
+    },
+    "48": {
+      "id": 48,
+      "internalName": "EARLYBIRD",
+      "name": "Frühwecker",
+      "description": "Schnelles Aufwachen.\r"
+    },
+    "49": {
+      "id": 49,
+      "internalName": "FLAMEBODY",
+      "name": "Flammkörper",
+      "description": "Kann bei Kontakt zu Verbrennung führen.\r"
+    },
+    "50": {
+      "id": 50,
+      "internalName": "RUNAWAY",
+      "name": "Angsthase",
+      "description": "Erleichtert das Entkommen.\r"
+    },
+    "51": {
+      "id": 51,
+      "internalName": "KEENEYE",
+      "name": "Adlerauge",
+      "description": "Verhindert Verlust der Genauigkeit.\r"
+    },
+    "52": {
+      "id": 52,
+      "internalName": "HYPERCUTTER",
+      "name": "Scherenmacht",
+      "description": "Verhindert Angriff-Reduz.\r"
+    },
+    "53": {
+      "id": 53,
+      "internalName": "PICKUP",
+      "name": "Mitnahme",
+      "description": "Kann Items aufnehmen.\r"
+    },
+    "54": {
+      "id": 54,
+      "internalName": "TRUANT",
+      "name": "Schnarchnase",
+      "description": "Greift nur in jedem 2. Zug an.\r"
+    },
+    "55": {
+      "id": 55,
+      "internalName": "HUSTLE",
+      "name": "Übereifer",
+      "description": "Erhöht Angriffs-Wert"
+    },
+    "56": {
+      "id": 56,
+      "internalName": "CUTECHARM",
+      "name": "Charmebolzen",
+      "description": "Kann bei Kontakt betörend wirken.\r"
+    },
+    "57": {
+      "id": 57,
+      "internalName": "PLUS",
+      "name": "Plus",
+      "description": "Steigert Spezial-Angriff"
+    },
+    "58": {
+      "id": 58,
+      "internalName": "MINUS",
+      "name": "Minus",
+      "description": "Steigert Spezial-Angriff"
+    },
+    "59": {
+      "id": 59,
+      "internalName": "FORECAST",
+      "name": "Prognose",
+      "description": "Formeo verändert seine Form abhängig vom Wetter.\r"
+    },
+    "60": {
+      "id": 60,
+      "internalName": "STICKYHOLD",
+      "name": "Wertehalter",
+      "description": "Verhindert Item-Diebstahl.\r"
+    },
+    "61": {
+      "id": 61,
+      "internalName": "SHEDSKIN",
+      "name": "Expidermis",
+      "description": "Pokémon heilt eventuell seine Statusprobleme.\r"
+    },
+    "62": {
+      "id": 62,
+      "internalName": "GUTS",
+      "name": "Adrenalin",
+      "description": "Steigert Angriff bei Statusveränderungen.\r"
+    },
+    "63": {
+      "id": 63,
+      "internalName": "MARVELSCALE",
+      "name": "Notschutz",
+      "description": "Steigert Verteidigung bei Statusveränderungen.\r"
+    },
+    "64": {
+      "id": 64,
+      "internalName": "LIQUIDOOZE",
+      "name": "Kloakensoße",
+      "description": "Schadet Gegnern"
+    },
+    "65": {
+      "id": 65,
+      "internalName": "OVERGROW",
+      "name": "Notdünger",
+      "description": "Stärkt Pflanzen-Attacken in Not.\r"
+    },
+    "66": {
+      "id": 66,
+      "internalName": "BLAZE",
+      "name": "Großbrand",
+      "description": "Stärkt Feuer-Attacken in Not.\r"
+    },
+    "67": {
+      "id": 67,
+      "internalName": "TORRENT",
+      "name": "Sturzbach",
+      "description": "Stärkt Wasser-Attacken in Not.\r"
+    },
+    "68": {
+      "id": 68,
+      "internalName": "SWARM",
+      "name": "Hexaplaga",
+      "description": "Stärkt Käfer-Attacken in Not.\r"
+    },
+    "69": {
+      "id": 69,
+      "internalName": "ROCKHEAD",
+      "name": "Steinhaupt",
+      "description": "Verhindert Schaden"
+    },
+    "70": {
+      "id": 70,
+      "internalName": "DROUGHT",
+      "name": "Dürre",
+      "description": "Erzeugt Sonne im Kampf.\r"
+    },
+    "71": {
+      "id": 71,
+      "internalName": "ARENATRAP",
+      "name": "Auswegslos",
+      "description": "Verhindert Flucht des Gegners.\r"
+    },
+    "72": {
+      "id": 72,
+      "internalName": "VITALSPIRIT",
+      "name": "Munterkeit",
+      "description": "Verhindert Einschlafen.\r"
+    },
+    "73": {
+      "id": 73,
+      "internalName": "WHITESMOKE",
+      "name": "Pulverrauch",
+      "description": "Verhindert das Absenken der Statuswerte.\r"
+    },
+    "74": {
+      "id": 74,
+      "internalName": "PUREPOWER",
+      "name": "Mentalkraft",
+      "description": "Steigert Kraft physischer Attacken.\r"
+    },
+    "75": {
+      "id": 75,
+      "internalName": "SHELLARMOR",
+      "name": "Panzerhaut",
+      "description": "Wehrt Volltreffer ab.\r"
+    },
+    "76": {
+      "id": 76,
+      "internalName": "AIRLOCK",
+      "name": "Klimaschutz",
+      "description": "Eliminiert die Wirkung des Wetters.\r"
+    },
+    "77": {
+      "id": 77,
+      "internalName": "TANGLEDFEET",
+      "name": "Fußangel",
+      "description": "Erhöht Fluchtwert"
+    },
+    "78": {
+      "id": 78,
+      "internalName": "MOTORDRIVE",
+      "name": "Starthilfe",
+      "description": "Erhöht Initiative nach einer Elektro-Attacke.\r"
+    },
+    "79": {
+      "id": 79,
+      "internalName": "RIVALRY",
+      "name": "Rivalität",
+      "description": "Erhöht Angriff"
+    },
+    "80": {
+      "id": 80,
+      "internalName": "STEADFAST",
+      "name": "Felsenfest",
+      "description": "Erhöht Initiative"
+    },
+    "81": {
+      "id": 81,
+      "internalName": "SNOWCLOAK",
+      "name": "Schneemantel",
+      "description": "Erhöht Fluchtwert während Hagelschauer.\r"
+    },
+    "82": {
+      "id": 82,
+      "internalName": "GLUTTONY",
+      "name": "Völlerei",
+      "description": "Ermutigt zum frühzeitigen Verwenden einer Beere.\r"
+    },
+    "83": {
+      "id": 83,
+      "internalName": "ANGERPOINT",
+      "name": "Kurzschluss",
+      "description": "Maximiert Angriff nach Einstecken e. Volltreffers.\r"
+    },
+    "84": {
+      "id": 84,
+      "internalName": "UNBURDEN",
+      "name": "Entlastung",
+      "description": "Erhöht Init."
+    },
+    "85": {
+      "id": 85,
+      "internalName": "HEATPROOF",
+      "name": "Hitzeschutz",
+      "description": "Senkt die Kraft von Feuer-Attacken.\r"
+    },
+    "86": {
+      "id": 86,
+      "internalName": "SIMPLE",
+      "name": "Wankelmut",
+      "description": "Das Pokémon ist anfällig für Statusveränderungen.\r"
+    },
+    "87": {
+      "id": 87,
+      "internalName": "DRYSKIN",
+      "name": "Trockenheit",
+      "description": "Heißes Wetter reduziert KP. Wasser steigert KP.\r"
+    },
+    "88": {
+      "id": 88,
+      "internalName": "DOWNLOAD",
+      "name": "Download",
+      "description": "Passt Kraft entsprechend der gegn. Statuswerte an.\r"
+    },
+    "89": {
+      "id": 89,
+      "internalName": "IRONFIST",
+      "name": "Eisenfaust",
+      "description": "Steigert die Effektivität von Box-Attacken.\r"
+    },
+    "90": {
+      "id": 90,
+      "internalName": "POISONHEAL",
+      "name": "Aufheber",
+      "description": "Steigert KP"
+    },
+    "91": {
+      "id": 91,
+      "internalName": "ADAPTABILITY",
+      "name": "Anpassung",
+      "description": "Steigert Attacken desselben Typs.\r"
+    },
+    "92": {
+      "id": 92,
+      "internalName": "SKILLLINK",
+      "name": "Wertelink",
+      "description": "Erhöht die Häufigkeit von Mehrfach-Attacken.\r"
+    },
+    "93": {
+      "id": 93,
+      "internalName": "HYDRATION",
+      "name": "Hydration",
+      "description": "Heilt Statusprobleme bei Regen.\r"
+    },
+    "94": {
+      "id": 94,
+      "internalName": "SOLARPOWER",
+      "name": "Solarkraft",
+      "description": "Steigert Spezial-Angriff bei Sonne"
+    },
+    "95": {
+      "id": 95,
+      "internalName": "QUICKFEET",
+      "name": "Rasanz",
+      "description": "Erhöht Initiative bei Statusproblemen.\r"
+    },
+    "96": {
+      "id": 96,
+      "internalName": "NORMALIZE",
+      "name": "Regulierung",
+      "description": "Alle Attacken des Pokémon werden zu Normal-Att.\r"
+    },
+    "97": {
+      "id": 97,
+      "internalName": "SNIPER",
+      "name": "Superschütze",
+      "description": "Steigert Attacken nach Volltreffern.\r"
+    },
+    "98": {
+      "id": 98,
+      "internalName": "MAGICGUARD",
+      "name": "Magieschild",
+      "description": "Das Pokémon nimmt nur durch direkte Attacken Schaden.\r"
+    },
+    "99": {
+      "id": 99,
+      "internalName": "NOGUARD",
+      "name": "Schildlos",
+      "description": "Attacken des Pokémon und des Gegners treffen.\r"
+    },
+    "100": {
+      "id": 100,
+      "internalName": "STALL",
+      "name": "Zeitspiel",
+      "description": "Das Pokémon bewegt sich nach weniger agilen Gegn.\r"
+    },
+    "101": {
+      "id": 101,
+      "internalName": "TECHNICIAN",
+      "name": "Techniker",
+      "description": "Steigert Effektivität von schwächeren Attacken.\r"
+    },
+    "102": {
+      "id": 102,
+      "internalName": "LEAFGUARD",
+      "name": "Floraschild",
+      "description": "Heilt Statusprobleme bei Sonne.\r"
+    },
+    "103": {
+      "id": 103,
+      "internalName": "KLUTZ",
+      "name": "Tollpatsch",
+      "description": "Das Pokémon kann keine Items verwenden.\r"
+    },
+    "104": {
+      "id": 104,
+      "internalName": "MOLDBREAKER",
+      "name": "Überbrückung",
+      "description": "Att. können unabhängig d. Fähigkeit verw. werden.\r"
+    },
+    "105": {
+      "id": 105,
+      "internalName": "SUPERLUCK",
+      "name": "Glückspilz",
+      "description": "Erhöht die Chance auf einen Volltreffer.\r"
+    },
+    "106": {
+      "id": 106,
+      "internalName": "AFTERMATH",
+      "name": "Finalschlag",
+      "description": "Schadet dem Gegn."
+    },
+    "107": {
+      "id": 107,
+      "internalName": "ANTICIPATION",
+      "name": "Vorahnung",
+      "description": "Ahnt gefährliche Attacken des Gegners voraus.\r"
+    },
+    "108": {
+      "id": 108,
+      "internalName": "FOREWARN",
+      "name": "Vorwarnung",
+      "description": "Gibt Auskunft über die stärkste gegnerische Att.\r"
+    },
+    "109": {
+      "id": 109,
+      "internalName": "UNAWARE",
+      "name": "Unkenntnis",
+      "description": "Ignoriert Wechsel der Statuswerte des Gegners.\r"
+    },
+    "110": {
+      "id": 110,
+      "internalName": "TINTEDLENS",
+      "name": "Aufwertung",
+      "description": "Steigert \\weniger effektive\\ Attacken.\r"
+    },
+    "111": {
+      "id": 111,
+      "internalName": "FILTER",
+      "name": "Filter",
+      "description": "Senkt die Stärke sehr effektiver Attacken.\r"
+    },
+    "112": {
+      "id": 112,
+      "internalName": "SLOWSTART",
+      "name": "Saumselig",
+      "description": "Halbiert zeitweilig Angriff und Initiative.\r"
+    },
+    "113": {
+      "id": 113,
+      "internalName": "SCRAPPY",
+      "name": "Rauflust",
+      "description": "Ermöglicht es mit Attacken Geist-Gegner zu treffen.\r"
+    },
+    "114": {
+      "id": 114,
+      "internalName": "STORMDRAIN",
+      "name": "Sturmsog",
+      "description": "Zieht offens. Wasser-Att. an"
+    },
+    "115": {
+      "id": 115,
+      "internalName": "ICEBODY",
+      "name": "Eishaut",
+      "description": "Das Pokémon regeneriert während Hagelsturm KP.\r"
+    },
+    "116": {
+      "id": 116,
+      "internalName": "SOLIDROCK",
+      "name": "Felskern",
+      "description": "Senkt die Stärke sehr effektiver Attacken.\r"
+    },
+    "117": {
+      "id": 117,
+      "internalName": "SNOWWARNING",
+      "name": "Hagelalarm",
+      "description": "Pokémon beschwört einen Hagelsturm herauf.\r"
+    },
+    "118": {
+      "id": 118,
+      "internalName": "HONEYGATHER",
+      "name": "Honigmaul",
+      "description": "Pokémon kann Honig sammeln.\r"
+    },
+    "119": {
+      "id": 119,
+      "internalName": "FRISK",
+      "name": "Schnüffler",
+      "description": "Gibt Auskunft über gegnerische Items.\r"
+    },
+    "120": {
+      "id": 120,
+      "internalName": "RECKLESS",
+      "name": "Achtlos",
+      "description": "Steigert Attacken mit Rückstoß-Schaden.\r"
+    },
+    "121": {
+      "id": 121,
+      "internalName": "MULTITYPE",
+      "name": "Variabilität",
+      "description": "Passt seinen Typ der getragenen Tafel an.\r"
+    },
+    "122": {
+      "id": 122,
+      "internalName": "FLOWERGIFT",
+      "name": "Pflanzengabe",
+      "description": "Steigert Effektivität von Team-Pokémon bei Sonne.\r"
+    },
+    "123": {
+      "id": 123,
+      "internalName": "BADDREAMS",
+      "name": "Alptraum",
+      "description": "Senkt die KP eines schlafenden Gegners.\r"
+    },
+    "124": {
+      "id": 124,
+      "internalName": "PICKPOCKET",
+      "name": "Langfinger",
+      "description": "Stiehlt Item"
+    },
+    "125": {
+      "id": 125,
+      "internalName": "SHEERFORCE",
+      "name": "Rohe Gewalt",
+      "description": "Bewirkt einen Kraftschub"
+    },
+    "126": {
+      "id": 126,
+      "internalName": "CONTRARY",
+      "name": "Umkehrung",
+      "description": "Statusveränderungen werden umgekehrt.\r"
+    },
+    "127": {
+      "id": 127,
+      "internalName": "UNNERVE",
+      "name": "Anspannung",
+      "description": "Hindert den Gegner durch Stress am Beerenkonsum.\r"
+    },
+    "128": {
+      "id": 128,
+      "internalName": "DEFIANT",
+      "name": "Siegeswille",
+      "description": "Sinken Statuswerte"
+    },
+    "129": {
+      "id": 129,
+      "internalName": "DEFEATIST",
+      "name": "Schwächling",
+      "description": "Bei halbierter KP-Anzahl sinken die Statuswerte.\r"
+    },
+    "130": {
+      "id": 130,
+      "internalName": "CURSEDBODY",
+      "name": "Tastfluch",
+      "description": "Blockiert gelegentlich Attacken.\r"
+    },
+    "131": {
+      "id": 131,
+      "internalName": "HEALER",
+      "name": "Heilherz",
+      "description": "Heilt gel. Statusprobleme v. Partnern in der Nähe.\r"
+    },
+    "132": {
+      "id": 132,
+      "internalName": "FRIENDGUARD",
+      "name": "Freundeshut",
+      "description": "Verringert den Schaden an Mitstreitern.\r"
+    },
+    "133": {
+      "id": 133,
+      "internalName": "WEAKARMOR",
+      "name": "Bruchrüstung",
+      "description": "Phys. Treffer senken Vert."
+    },
+    "134": {
+      "id": 134,
+      "internalName": "HEAVYMETAL",
+      "name": "Schwermetall",
+      "description": "Verdoppelt das eigene Gewicht.\r"
+    },
+    "135": {
+      "id": 135,
+      "internalName": "LIGHTMETAL",
+      "name": "Leichtmetall",
+      "description": "Halbiert das eigene Gewicht.\r"
+    },
+    "136": {
+      "id": 136,
+      "internalName": "MULTISCALE",
+      "name": "Multischuppe",
+      "description": "Verringert erlittenen Schaden bei vollen KP.\r"
+    },
+    "137": {
+      "id": 137,
+      "internalName": "TOXICBOOST",
+      "name": "Giftwahn",
+      "description": "Verstärkt bei Vergiftung physische Angriffe.\r"
+    },
+    "138": {
+      "id": 138,
+      "internalName": "FLAREBOOST",
+      "name": "Hitzewahn",
+      "description": "Verstärkt Spezial-Att. im Fall von Verbrennungen.\r"
+    },
+    "139": {
+      "id": 139,
+      "internalName": "HARVEST",
+      "name": "Reiche Ernte",
+      "description": "Aufgebrauchte Beeren können mehrmals nachwachsen.\r"
+    },
+    "140": {
+      "id": 140,
+      "internalName": "TELEPATHY",
+      "name": "Telepathie",
+      "description": "Erkennt und pariert Angriffe von Mitstreitern.\r"
+    },
+    "141": {
+      "id": 141,
+      "internalName": "MOODY",
+      "name": "Gefühlswippe",
+      "description": "Erhöht einen Statuswert und senkt einen anderen.\r"
+    },
+    "142": {
+      "id": 142,
+      "internalName": "OVERCOAT",
+      "name": "Wetterfest",
+      "description": "Nimmt keinen Schaden durch Wetterbedingungen.\r"
+    },
+    "143": {
+      "id": 143,
+      "internalName": "POISONTOUCH",
+      "name": "Giftgriff",
+      "description": "Kann Ziel durch bloßes Berühren vergiften.\r"
+    },
+    "144": {
+      "id": 144,
+      "internalName": "REGENERATOR",
+      "name": "Belebekraft",
+      "description": "Heilt beim Austauschen eine geringe Menge an KP.\r"
+    },
+    "145": {
+      "id": 145,
+      "internalName": "BIGPECKS",
+      "name": "Brustbieter",
+      "description": "Hindert Angreifer"
+    },
+    "146": {
+      "id": 146,
+      "internalName": "SANDRUSH",
+      "name": "Sandscharrer",
+      "description": "Erhöht in Sandstürmen die Initiative.\r"
+    },
+    "147": {
+      "id": 147,
+      "internalName": "WONDERSKIN",
+      "name": "Wunderhaut",
+      "description": "Wehrt mit robustem Körper viele Status-Attacken ab.\r"
+    },
+    "148": {
+      "id": 148,
+      "internalName": "ANALYTIC",
+      "name": "Analyse",
+      "description": "Greift das Pokémon zuletzt an"
+    },
+    "149": {
+      "id": 149,
+      "internalName": "ILLUSION",
+      "name": "Trugbild",
+      "description": "Bestreitet Kämpfe in der Gestalt des Listenletzten.\r"
+    },
+    "150": {
+      "id": 150,
+      "internalName": "IMPOSTER",
+      "name": "Doppelgänger",
+      "description": "Kämpft als Kopie seines Gegenübers.\r"
+    },
+    "151": {
+      "id": 151,
+      "internalName": "INFILTRATOR",
+      "name": "Schwebedurch",
+      "description": "Überwindet gegnerische Schilde und greift an.\r"
+    },
+    "152": {
+      "id": 152,
+      "internalName": "MUMMY",
+      "name": "Mumie",
+      "description": "Berührt man es"
+    },
+    "153": {
+      "id": 153,
+      "internalName": "MOXIE",
+      "name": "Hochmut",
+      "description": "Besiegt es ein Pokémon"
+    },
+    "154": {
+      "id": 154,
+      "internalName": "JUSTIFIED",
+      "name": "Redlichkeit",
+      "description": "Angriff steigt nach Einstecken einer Unlicht-Att.\r"
+    },
+    "155": {
+      "id": 155,
+      "internalName": "RATTLED",
+      "name": "Hasenfuß",
+      "description": "Aus Angst vor manchen Attacken steigt die Init.\r"
+    },
+    "156": {
+      "id": 156,
+      "internalName": "MAGICBOUNCE",
+      "name": "Magiespiegel",
+      "description": "Lenkt Status-Attacken auf den Angreifer um.\r"
+    },
+    "157": {
+      "id": 157,
+      "internalName": "SAPSIPPER",
+      "name": "Vegetarier",
+      "description": "Treffer durch Pflanzen-Attacken stärken Angriff.\r"
+    },
+    "158": {
+      "id": 158,
+      "internalName": "PRANKSTER",
+      "name": "Strolch",
+      "description": "Ermöglicht Erstschlag mit Status-Attacken.\r"
+    },
+    "159": {
+      "id": 159,
+      "internalName": "SANDFORCE",
+      "name": "Sandgewalt",
+      "description": "Manche Attacken wirken in Sandstürmen besser.\r"
+    },
+    "160": {
+      "id": 160,
+      "internalName": "IRONBARBS",
+      "name": "Eisenstachel",
+      "description": "Angreifer nehmen durch bloßes Berühren Schaden.\r"
+    },
+    "161": {
+      "id": 161,
+      "internalName": "ZENMODE",
+      "name": "Trance-Modus",
+      "description": "Wechselt seine Gestalt"
+    },
+    "162": {
+      "id": 162,
+      "internalName": "VICTORYSTAR",
+      "name": "Triumphstern",
+      "description": "Erhöht Genauigk. bei sich selbst und Mitstreitern.\r"
+    },
+    "163": {
+      "id": 163,
+      "internalName": "TURBOBLAZE",
+      "name": "Turbobrand",
+      "description": "Att. können ungeachtet d. Fähigkeit verw. werden.\r"
+    },
+    "164": {
+      "id": 164,
+      "internalName": "TERAVOLT",
+      "name": "Teravolt",
+      "description": "Att. können ungeachtet d. Fähigkeit verw. werden.\r"
+    },
+    "165": {
+      "id": 165,
+      "internalName": "AERILATE",
+      "name": "Zenithaut",
+      "description": "Attacken vom Typ Normal nehmen den Typ Flug an.\r"
+    },
+    "166": {
+      "id": 166,
+      "internalName": "AROMAVEIL",
+      "name": "Dufthülle",
+      "description": "Schützt alle Pokémon im Team vor manchen mentalen Angriffen.\r"
+    },
+    "167": {
+      "id": 167,
+      "internalName": "AURABREAK",
+      "name": "Aura-Umkehr",
+      "description": "Kehrt die Wirkung von Auren um.\r"
+    },
+    "168": {
+      "id": 168,
+      "internalName": "BULLETPROOF",
+      "name": "Kugelsicher",
+      "description": "Schützt das Pokémon vor geworfenen Bomben und Kugeln.\r"
+    },
+    "169": {
+      "id": 169,
+      "internalName": "CHEEKPOUCH",
+      "name": "Backentaschen",
+      "description": "Heilt beim Konsum von Beeren KP.\r"
+    },
+    "170": {
+      "id": 170,
+      "internalName": "COMPETITIVE",
+      "name": "Unbeugsamkeit",
+      "description": "Erhöht den Spezial-Angriff"
+    },
+    "171": {
+      "id": 171,
+      "internalName": "DARKAURA",
+      "name": "Dunkelaura",
+      "description": "Erhöht die Stärke von allen Attacken des Typs Unlicht.\r"
+    },
+    "172": {
+      "id": 172,
+      "internalName": "FAIRYAURA",
+      "name": "Feenaura",
+      "description": "Erhöht die Stärke von allen Attacken des Typs Fee.\r"
+    },
+    "173": {
+      "id": 173,
+      "internalName": "FLOWERVEIL",
+      "name": "Blütenhülle",
+      "description": "Schützt Pflanzen-Pokémon vor gesenkten Statuswerten.\r"
+    },
+    "174": {
+      "id": 174,
+      "internalName": "FURCOAT",
+      "name": "Fellkleid",
+      "description": "Halbiert den Schaden durch physische Attacken.\r"
+    },
+    "175": {
+      "id": 175,
+      "internalName": "GALEWINGS",
+      "name": "Orkanschwingen",
+      "description": "Ermöglicht es dem Pokémon"
+    },
+    "176": {
+      "id": 176,
+      "internalName": "GOOEY",
+      "name": "Viskosität",
+      "description": "Die Initiative von Angreifern sinkt durch bloßes Berühren.\r"
+    },
+    "177": {
+      "id": 177,
+      "internalName": "GRASSPELT",
+      "name": "Pflanzenfell",
+      "description": "Erhöht die Verteidigung"
+    },
+    "178": {
+      "id": 178,
+      "internalName": "MAGICIAN",
+      "name": "Zauberer",
+      "description": "Stiehlt Items von Pokémon"
+    },
+    "179": {
+      "id": 179,
+      "internalName": "MEGALAUNCHER",
+      "name": "Megawumme",
+      "description": "Erhöht die Stärke einiger Wellen-"
+    },
+    "180": {
+      "id": 180,
+      "internalName": "PARENTALBOND",
+      "name": "Familienbande",
+      "description": "Zwei Generationen setzen gemeinsam zum Angriff an.\r"
+    },
+    "181": {
+      "id": 181,
+      "internalName": "PIXILATE",
+      "name": "Feenschicht",
+      "description": "Attacken vom Typ Normal nehmen den Typ Fee an.\r"
+    },
+    "182": {
+      "id": 182,
+      "internalName": "PROTEAN",
+      "name": "Wandlungskunst",
+      "description": "Das Pokémon nimmt bei Einsatz einer Attacke deren Typ an.\r"
+    },
+    "183": {
+      "id": 183,
+      "internalName": "REFRIGERATE",
+      "name": "Frostschicht",
+      "description": "Attacken vom Typ Normal nehmen den Typ Eis an.\r"
+    },
+    "184": {
+      "id": 184,
+      "internalName": "STANCECHANGE",
+      "name": "Taktikwechsel",
+      "description": "Das Pokémon nimmt je nach Kampftaktik eine andere Form an.\r"
+    },
+    "185": {
+      "id": 185,
+      "internalName": "STRONGJAW",
+      "name": "Titankiefer",
+      "description": "Der kräftige Kiefer des Pokémon verleiht ihm einen starken Biss.\r"
+    },
+    "186": {
+      "id": 186,
+      "internalName": "SWEETVEIL",
+      "name": "Zuckerhülle",
+      "description": "Alle Pokémon im Team können nicht einschlafen.\r"
+    },
+    "187": {
+      "id": 187,
+      "internalName": "SYMBIOSIS",
+      "name": "Symbiose",
+      "description": "Das Pokémon kann sein Item an einen Mitstreiter weitergeben.\r"
+    },
+    "188": {
+      "id": 188,
+      "internalName": "TOUGHCLAWS",
+      "name": "Krallenwucht",
+      "description": "Erhöht die Stärke von direkten Angriffen."
+    }
+  },
+  "list": [
+    {
+      "id": 1,
+      "internalName": "STENCH",
+      "name": "Duftnote",
+      "description": "Hilft"
+    },
+    {
+      "id": 2,
+      "internalName": "DRIZZLE",
+      "name": "Niesel",
+      "description": "Ruft im Kampf Regen herbei.\r"
+    },
+    {
+      "id": 3,
+      "internalName": "SPEEDBOOST",
+      "name": "Temposchub",
+      "description": "Erhöht Initiative nach und nach.\r"
+    },
+    {
+      "id": 4,
+      "internalName": "BATTLEARMOR",
+      "name": "Kampfpanzer",
+      "description": "Wehrt Volltreffer ab.\r"
+    },
+    {
+      "id": 5,
+      "internalName": "STURDY",
+      "name": "Robustheit",
+      "description": "Schutz gegen 1-Treffer-K.O.-Attacken.\r"
+    },
+    {
+      "id": 6,
+      "internalName": "DAMP",
+      "name": "Feuchtigkeit",
+      "description": "Verhindert Selbst- zerstörung der Kämpfenden.\r"
+    },
+    {
+      "id": 7,
+      "internalName": "LIMBER",
+      "name": "Flexibilität",
+      "description": "Verhindert Paralyse.\r"
+    },
+    {
+      "id": 8,
+      "internalName": "SANDVEIL",
+      "name": "Sandschleier",
+      "description": "Erhöht Fluchtwert im Sandsturm.\r"
+    },
+    {
+      "id": 9,
+      "internalName": "STATIC",
+      "name": "Statik",
+      "description": "Kann bei Berührung paralysieren.\r"
+    },
+    {
+      "id": 10,
+      "internalName": "VOLTABSORB",
+      "name": "Voltabsorber",
+      "description": "Wandelt Elektrizität in KP um.\r"
+    },
+    {
+      "id": 11,
+      "internalName": "WATERABSORB",
+      "name": "H2O-Absorber",
+      "description": "Wandelt Schaden durch Wasser-Attacken in KP um.\r"
+    },
+    {
+      "id": 12,
+      "internalName": "OBLIVIOUS",
+      "name": "Dösigkeit",
+      "description": "Verhindert Anziehung.\r"
+    },
+    {
+      "id": 13,
+      "internalName": "CLOUDNINE",
+      "name": "Wolke Sieben",
+      "description": "Keine Wetter-Effekte.\r"
+    },
+    {
+      "id": 14,
+      "internalName": "COMPOUNDEYES",
+      "name": "Facettenauge",
+      "description": "Steigert Genauigkeit.\r"
+    },
+    {
+      "id": 15,
+      "internalName": "INSOMNIA",
+      "name": "Insomnia",
+      "description": "Verhindert Einschlafen.\r"
+    },
+    {
+      "id": 16,
+      "internalName": "COLORCHANGE",
+      "name": "Farbwechsel",
+      "description": "Typ des Anwenders wird zu dem der gegnerischen Att.\r"
+    },
+    {
+      "id": 17,
+      "internalName": "IMMUNITY",
+      "name": "Immunität",
+      "description": "Verhindert Vergiftungen.\r"
+    },
+    {
+      "id": 18,
+      "internalName": "FLASHFIRE",
+      "name": "Feuerfänger",
+      "description": "Verstärkt Feuer-A."
+    },
+    {
+      "id": 19,
+      "internalName": "SHIELDDUST",
+      "name": "Puderabwehr",
+      "description": "Blockiert Zusatz-Effekte gegnerischer Attacken.\r"
+    },
+    {
+      "id": 20,
+      "internalName": "OWNTEMPO",
+      "name": "Tempomacher",
+      "description": "Verhindert Verwirrung.\r"
+    },
+    {
+      "id": 21,
+      "internalName": "SUCTIONCUPS",
+      "name": "Saugnapf",
+      "description": "Negiert Attacken"
+    },
+    {
+      "id": 22,
+      "internalName": "INTIMIDATE",
+      "name": "Bedroher",
+      "description": "Senkt Angriff des Gegners.\r"
+    },
+    {
+      "id": 23,
+      "internalName": "SHADOWTAG",
+      "name": "Wegsperre",
+      "description": "Hindert Gegner an Flucht.\r"
+    },
+    {
+      "id": 24,
+      "internalName": "ROUGHSKIN",
+      "name": "Rauhaut",
+      "description": "Verletzt bei Berührung.\r"
+    },
+    {
+      "id": 25,
+      "internalName": "WONDERGUARD",
+      "name": "Wunderwache",
+      "description": "Nur sehr effektive Treffer schaden.\r"
+    },
+    {
+      "id": 26,
+      "internalName": "LEVITATE",
+      "name": "Schwebe",
+      "description": "Volle Immunität gegen alle Boden-Attacken.\r"
+    },
+    {
+      "id": 27,
+      "internalName": "EFFECTSPORE",
+      "name": "Sporenwirt",
+      "description": "Bei Kontakt evtl. Paraly."
+    },
+    {
+      "id": 28,
+      "internalName": "SYNCHRONIZE",
+      "name": "Synchro",
+      "description": "Gibt Verbrennung"
+    },
+    {
+      "id": 29,
+      "internalName": "CLEARBODY",
+      "name": "Neutraltorso",
+      "description": "Verhindert Absenken der Statuswerte evtl.\r"
+    },
+    {
+      "id": 30,
+      "internalName": "NATURALCURE",
+      "name": "Innere Kraft",
+      "description": "Heilt bei Austausch Statusprobleme.\r"
+    },
+    {
+      "id": 31,
+      "internalName": "LIGHTNINGROD",
+      "name": "Blitzfänger",
+      "description": "Zieht Elektro-Attacken an.\r"
+    },
+    {
+      "id": 32,
+      "internalName": "SERENEGRACE",
+      "name": "Edelmut",
+      "description": "Verstärkt Zusatz-Effekte.\r"
+    },
+    {
+      "id": 33,
+      "internalName": "SWIFTSWIM",
+      "name": "Wassertempo",
+      "description": "Steigert Initiative bei Regen.\r"
+    },
+    {
+      "id": 34,
+      "internalName": "CHLOROPHYLL",
+      "name": "Chlorophyll",
+      "description": "Steigert Initiative bei Sonnenschein.\r"
+    },
+    {
+      "id": 35,
+      "internalName": "ILLUMINATE",
+      "name": "Erleuchtung",
+      "description": "Mehr Begegnungen mit wilden Pokémon.\r"
+    },
+    {
+      "id": 36,
+      "internalName": "TRACE",
+      "name": "Fährte",
+      "description": "Das Pokémon kopiert Fähigkeit des Gegners.\r"
+    },
+    {
+      "id": 37,
+      "internalName": "HUGEPOWER",
+      "name": "Kraftkoloss",
+      "description": "Steigert den Angriffs-Wert eines Pokémon.\r"
+    },
+    {
+      "id": 38,
+      "internalName": "POISONPOINT",
+      "name": "Giftdorn",
+      "description": "Vergiftet den Gegner eventuell bei Berührung.\r"
+    },
+    {
+      "id": 39,
+      "internalName": "INNERFOCUS",
+      "name": "Konzentrator",
+      "description": "Verhindert Zurückschrecken.\r"
+    },
+    {
+      "id": 40,
+      "internalName": "MAGMAARMOR",
+      "name": "Magmapanzer",
+      "description": "Verhindert Einfrieren.\r"
+    },
+    {
+      "id": 41,
+      "internalName": "WATERVEIL",
+      "name": "Aquahülle",
+      "description": "Verhindert Verbrennungen.\r"
+    },
+    {
+      "id": 42,
+      "internalName": "MAGNETPULL",
+      "name": "Magnetfalle",
+      "description": "Verhindert Flucht von Stahl-Pokémon.\r"
+    },
+    {
+      "id": 43,
+      "internalName": "SOUNDPROOF",
+      "name": "Lärmschutz",
+      "description": "Immun gegen Lärm-Attacken.\r"
+    },
+    {
+      "id": 44,
+      "internalName": "RAINDISH",
+      "name": "Regengenuss",
+      "description": "Langsame Wiederherstellung von KP bei Regen.\r"
+    },
+    {
+      "id": 45,
+      "internalName": "SANDSTREAM",
+      "name": "Sandsturm",
+      "description": "Erzeugt einen Sandsturm.\r"
+    },
+    {
+      "id": 46,
+      "internalName": "PRESSURE",
+      "name": "Erzwinger",
+      "description": "Steigert den Verbrauch der AP des Gegners.\r"
+    },
+    {
+      "id": 47,
+      "internalName": "THICKFAT",
+      "name": "Speckschicht",
+      "description": "Schutz vor Hitze und Kälte.\r"
+    },
+    {
+      "id": 48,
+      "internalName": "EARLYBIRD",
+      "name": "Frühwecker",
+      "description": "Schnelles Aufwachen.\r"
+    },
+    {
+      "id": 49,
+      "internalName": "FLAMEBODY",
+      "name": "Flammkörper",
+      "description": "Kann bei Kontakt zu Verbrennung führen.\r"
+    },
+    {
+      "id": 50,
+      "internalName": "RUNAWAY",
+      "name": "Angsthase",
+      "description": "Erleichtert das Entkommen.\r"
+    },
+    {
+      "id": 51,
+      "internalName": "KEENEYE",
+      "name": "Adlerauge",
+      "description": "Verhindert Verlust der Genauigkeit.\r"
+    },
+    {
+      "id": 52,
+      "internalName": "HYPERCUTTER",
+      "name": "Scherenmacht",
+      "description": "Verhindert Angriff-Reduz.\r"
+    },
+    {
+      "id": 53,
+      "internalName": "PICKUP",
+      "name": "Mitnahme",
+      "description": "Kann Items aufnehmen.\r"
+    },
+    {
+      "id": 54,
+      "internalName": "TRUANT",
+      "name": "Schnarchnase",
+      "description": "Greift nur in jedem 2. Zug an.\r"
+    },
+    {
+      "id": 55,
+      "internalName": "HUSTLE",
+      "name": "Übereifer",
+      "description": "Erhöht Angriffs-Wert"
+    },
+    {
+      "id": 56,
+      "internalName": "CUTECHARM",
+      "name": "Charmebolzen",
+      "description": "Kann bei Kontakt betörend wirken.\r"
+    },
+    {
+      "id": 57,
+      "internalName": "PLUS",
+      "name": "Plus",
+      "description": "Steigert Spezial-Angriff"
+    },
+    {
+      "id": 58,
+      "internalName": "MINUS",
+      "name": "Minus",
+      "description": "Steigert Spezial-Angriff"
+    },
+    {
+      "id": 59,
+      "internalName": "FORECAST",
+      "name": "Prognose",
+      "description": "Formeo verändert seine Form abhängig vom Wetter.\r"
+    },
+    {
+      "id": 60,
+      "internalName": "STICKYHOLD",
+      "name": "Wertehalter",
+      "description": "Verhindert Item-Diebstahl.\r"
+    },
+    {
+      "id": 61,
+      "internalName": "SHEDSKIN",
+      "name": "Expidermis",
+      "description": "Pokémon heilt eventuell seine Statusprobleme.\r"
+    },
+    {
+      "id": 62,
+      "internalName": "GUTS",
+      "name": "Adrenalin",
+      "description": "Steigert Angriff bei Statusveränderungen.\r"
+    },
+    {
+      "id": 63,
+      "internalName": "MARVELSCALE",
+      "name": "Notschutz",
+      "description": "Steigert Verteidigung bei Statusveränderungen.\r"
+    },
+    {
+      "id": 64,
+      "internalName": "LIQUIDOOZE",
+      "name": "Kloakensoße",
+      "description": "Schadet Gegnern"
+    },
+    {
+      "id": 65,
+      "internalName": "OVERGROW",
+      "name": "Notdünger",
+      "description": "Stärkt Pflanzen-Attacken in Not.\r"
+    },
+    {
+      "id": 66,
+      "internalName": "BLAZE",
+      "name": "Großbrand",
+      "description": "Stärkt Feuer-Attacken in Not.\r"
+    },
+    {
+      "id": 67,
+      "internalName": "TORRENT",
+      "name": "Sturzbach",
+      "description": "Stärkt Wasser-Attacken in Not.\r"
+    },
+    {
+      "id": 68,
+      "internalName": "SWARM",
+      "name": "Hexaplaga",
+      "description": "Stärkt Käfer-Attacken in Not.\r"
+    },
+    {
+      "id": 69,
+      "internalName": "ROCKHEAD",
+      "name": "Steinhaupt",
+      "description": "Verhindert Schaden"
+    },
+    {
+      "id": 70,
+      "internalName": "DROUGHT",
+      "name": "Dürre",
+      "description": "Erzeugt Sonne im Kampf.\r"
+    },
+    {
+      "id": 71,
+      "internalName": "ARENATRAP",
+      "name": "Auswegslos",
+      "description": "Verhindert Flucht des Gegners.\r"
+    },
+    {
+      "id": 72,
+      "internalName": "VITALSPIRIT",
+      "name": "Munterkeit",
+      "description": "Verhindert Einschlafen.\r"
+    },
+    {
+      "id": 73,
+      "internalName": "WHITESMOKE",
+      "name": "Pulverrauch",
+      "description": "Verhindert das Absenken der Statuswerte.\r"
+    },
+    {
+      "id": 74,
+      "internalName": "PUREPOWER",
+      "name": "Mentalkraft",
+      "description": "Steigert Kraft physischer Attacken.\r"
+    },
+    {
+      "id": 75,
+      "internalName": "SHELLARMOR",
+      "name": "Panzerhaut",
+      "description": "Wehrt Volltreffer ab.\r"
+    },
+    {
+      "id": 76,
+      "internalName": "AIRLOCK",
+      "name": "Klimaschutz",
+      "description": "Eliminiert die Wirkung des Wetters.\r"
+    },
+    {
+      "id": 77,
+      "internalName": "TANGLEDFEET",
+      "name": "Fußangel",
+      "description": "Erhöht Fluchtwert"
+    },
+    {
+      "id": 78,
+      "internalName": "MOTORDRIVE",
+      "name": "Starthilfe",
+      "description": "Erhöht Initiative nach einer Elektro-Attacke.\r"
+    },
+    {
+      "id": 79,
+      "internalName": "RIVALRY",
+      "name": "Rivalität",
+      "description": "Erhöht Angriff"
+    },
+    {
+      "id": 80,
+      "internalName": "STEADFAST",
+      "name": "Felsenfest",
+      "description": "Erhöht Initiative"
+    },
+    {
+      "id": 81,
+      "internalName": "SNOWCLOAK",
+      "name": "Schneemantel",
+      "description": "Erhöht Fluchtwert während Hagelschauer.\r"
+    },
+    {
+      "id": 82,
+      "internalName": "GLUTTONY",
+      "name": "Völlerei",
+      "description": "Ermutigt zum frühzeitigen Verwenden einer Beere.\r"
+    },
+    {
+      "id": 83,
+      "internalName": "ANGERPOINT",
+      "name": "Kurzschluss",
+      "description": "Maximiert Angriff nach Einstecken e. Volltreffers.\r"
+    },
+    {
+      "id": 84,
+      "internalName": "UNBURDEN",
+      "name": "Entlastung",
+      "description": "Erhöht Init."
+    },
+    {
+      "id": 85,
+      "internalName": "HEATPROOF",
+      "name": "Hitzeschutz",
+      "description": "Senkt die Kraft von Feuer-Attacken.\r"
+    },
+    {
+      "id": 86,
+      "internalName": "SIMPLE",
+      "name": "Wankelmut",
+      "description": "Das Pokémon ist anfällig für Statusveränderungen.\r"
+    },
+    {
+      "id": 87,
+      "internalName": "DRYSKIN",
+      "name": "Trockenheit",
+      "description": "Heißes Wetter reduziert KP. Wasser steigert KP.\r"
+    },
+    {
+      "id": 88,
+      "internalName": "DOWNLOAD",
+      "name": "Download",
+      "description": "Passt Kraft entsprechend der gegn. Statuswerte an.\r"
+    },
+    {
+      "id": 89,
+      "internalName": "IRONFIST",
+      "name": "Eisenfaust",
+      "description": "Steigert die Effektivität von Box-Attacken.\r"
+    },
+    {
+      "id": 90,
+      "internalName": "POISONHEAL",
+      "name": "Aufheber",
+      "description": "Steigert KP"
+    },
+    {
+      "id": 91,
+      "internalName": "ADAPTABILITY",
+      "name": "Anpassung",
+      "description": "Steigert Attacken desselben Typs.\r"
+    },
+    {
+      "id": 92,
+      "internalName": "SKILLLINK",
+      "name": "Wertelink",
+      "description": "Erhöht die Häufigkeit von Mehrfach-Attacken.\r"
+    },
+    {
+      "id": 93,
+      "internalName": "HYDRATION",
+      "name": "Hydration",
+      "description": "Heilt Statusprobleme bei Regen.\r"
+    },
+    {
+      "id": 94,
+      "internalName": "SOLARPOWER",
+      "name": "Solarkraft",
+      "description": "Steigert Spezial-Angriff bei Sonne"
+    },
+    {
+      "id": 95,
+      "internalName": "QUICKFEET",
+      "name": "Rasanz",
+      "description": "Erhöht Initiative bei Statusproblemen.\r"
+    },
+    {
+      "id": 96,
+      "internalName": "NORMALIZE",
+      "name": "Regulierung",
+      "description": "Alle Attacken des Pokémon werden zu Normal-Att.\r"
+    },
+    {
+      "id": 97,
+      "internalName": "SNIPER",
+      "name": "Superschütze",
+      "description": "Steigert Attacken nach Volltreffern.\r"
+    },
+    {
+      "id": 98,
+      "internalName": "MAGICGUARD",
+      "name": "Magieschild",
+      "description": "Das Pokémon nimmt nur durch direkte Attacken Schaden.\r"
+    },
+    {
+      "id": 99,
+      "internalName": "NOGUARD",
+      "name": "Schildlos",
+      "description": "Attacken des Pokémon und des Gegners treffen.\r"
+    },
+    {
+      "id": 100,
+      "internalName": "STALL",
+      "name": "Zeitspiel",
+      "description": "Das Pokémon bewegt sich nach weniger agilen Gegn.\r"
+    },
+    {
+      "id": 101,
+      "internalName": "TECHNICIAN",
+      "name": "Techniker",
+      "description": "Steigert Effektivität von schwächeren Attacken.\r"
+    },
+    {
+      "id": 102,
+      "internalName": "LEAFGUARD",
+      "name": "Floraschild",
+      "description": "Heilt Statusprobleme bei Sonne.\r"
+    },
+    {
+      "id": 103,
+      "internalName": "KLUTZ",
+      "name": "Tollpatsch",
+      "description": "Das Pokémon kann keine Items verwenden.\r"
+    },
+    {
+      "id": 104,
+      "internalName": "MOLDBREAKER",
+      "name": "Überbrückung",
+      "description": "Att. können unabhängig d. Fähigkeit verw. werden.\r"
+    },
+    {
+      "id": 105,
+      "internalName": "SUPERLUCK",
+      "name": "Glückspilz",
+      "description": "Erhöht die Chance auf einen Volltreffer.\r"
+    },
+    {
+      "id": 106,
+      "internalName": "AFTERMATH",
+      "name": "Finalschlag",
+      "description": "Schadet dem Gegn."
+    },
+    {
+      "id": 107,
+      "internalName": "ANTICIPATION",
+      "name": "Vorahnung",
+      "description": "Ahnt gefährliche Attacken des Gegners voraus.\r"
+    },
+    {
+      "id": 108,
+      "internalName": "FOREWARN",
+      "name": "Vorwarnung",
+      "description": "Gibt Auskunft über die stärkste gegnerische Att.\r"
+    },
+    {
+      "id": 109,
+      "internalName": "UNAWARE",
+      "name": "Unkenntnis",
+      "description": "Ignoriert Wechsel der Statuswerte des Gegners.\r"
+    },
+    {
+      "id": 110,
+      "internalName": "TINTEDLENS",
+      "name": "Aufwertung",
+      "description": "Steigert \\weniger effektive\\ Attacken.\r"
+    },
+    {
+      "id": 111,
+      "internalName": "FILTER",
+      "name": "Filter",
+      "description": "Senkt die Stärke sehr effektiver Attacken.\r"
+    },
+    {
+      "id": 112,
+      "internalName": "SLOWSTART",
+      "name": "Saumselig",
+      "description": "Halbiert zeitweilig Angriff und Initiative.\r"
+    },
+    {
+      "id": 113,
+      "internalName": "SCRAPPY",
+      "name": "Rauflust",
+      "description": "Ermöglicht es mit Attacken Geist-Gegner zu treffen.\r"
+    },
+    {
+      "id": 114,
+      "internalName": "STORMDRAIN",
+      "name": "Sturmsog",
+      "description": "Zieht offens. Wasser-Att. an"
+    },
+    {
+      "id": 115,
+      "internalName": "ICEBODY",
+      "name": "Eishaut",
+      "description": "Das Pokémon regeneriert während Hagelsturm KP.\r"
+    },
+    {
+      "id": 116,
+      "internalName": "SOLIDROCK",
+      "name": "Felskern",
+      "description": "Senkt die Stärke sehr effektiver Attacken.\r"
+    },
+    {
+      "id": 117,
+      "internalName": "SNOWWARNING",
+      "name": "Hagelalarm",
+      "description": "Pokémon beschwört einen Hagelsturm herauf.\r"
+    },
+    {
+      "id": 118,
+      "internalName": "HONEYGATHER",
+      "name": "Honigmaul",
+      "description": "Pokémon kann Honig sammeln.\r"
+    },
+    {
+      "id": 119,
+      "internalName": "FRISK",
+      "name": "Schnüffler",
+      "description": "Gibt Auskunft über gegnerische Items.\r"
+    },
+    {
+      "id": 120,
+      "internalName": "RECKLESS",
+      "name": "Achtlos",
+      "description": "Steigert Attacken mit Rückstoß-Schaden.\r"
+    },
+    {
+      "id": 121,
+      "internalName": "MULTITYPE",
+      "name": "Variabilität",
+      "description": "Passt seinen Typ der getragenen Tafel an.\r"
+    },
+    {
+      "id": 122,
+      "internalName": "FLOWERGIFT",
+      "name": "Pflanzengabe",
+      "description": "Steigert Effektivität von Team-Pokémon bei Sonne.\r"
+    },
+    {
+      "id": 123,
+      "internalName": "BADDREAMS",
+      "name": "Alptraum",
+      "description": "Senkt die KP eines schlafenden Gegners.\r"
+    },
+    {
+      "id": 124,
+      "internalName": "PICKPOCKET",
+      "name": "Langfinger",
+      "description": "Stiehlt Item"
+    },
+    {
+      "id": 125,
+      "internalName": "SHEERFORCE",
+      "name": "Rohe Gewalt",
+      "description": "Bewirkt einen Kraftschub"
+    },
+    {
+      "id": 126,
+      "internalName": "CONTRARY",
+      "name": "Umkehrung",
+      "description": "Statusveränderungen werden umgekehrt.\r"
+    },
+    {
+      "id": 127,
+      "internalName": "UNNERVE",
+      "name": "Anspannung",
+      "description": "Hindert den Gegner durch Stress am Beerenkonsum.\r"
+    },
+    {
+      "id": 128,
+      "internalName": "DEFIANT",
+      "name": "Siegeswille",
+      "description": "Sinken Statuswerte"
+    },
+    {
+      "id": 129,
+      "internalName": "DEFEATIST",
+      "name": "Schwächling",
+      "description": "Bei halbierter KP-Anzahl sinken die Statuswerte.\r"
+    },
+    {
+      "id": 130,
+      "internalName": "CURSEDBODY",
+      "name": "Tastfluch",
+      "description": "Blockiert gelegentlich Attacken.\r"
+    },
+    {
+      "id": 131,
+      "internalName": "HEALER",
+      "name": "Heilherz",
+      "description": "Heilt gel. Statusprobleme v. Partnern in der Nähe.\r"
+    },
+    {
+      "id": 132,
+      "internalName": "FRIENDGUARD",
+      "name": "Freundeshut",
+      "description": "Verringert den Schaden an Mitstreitern.\r"
+    },
+    {
+      "id": 133,
+      "internalName": "WEAKARMOR",
+      "name": "Bruchrüstung",
+      "description": "Phys. Treffer senken Vert."
+    },
+    {
+      "id": 134,
+      "internalName": "HEAVYMETAL",
+      "name": "Schwermetall",
+      "description": "Verdoppelt das eigene Gewicht.\r"
+    },
+    {
+      "id": 135,
+      "internalName": "LIGHTMETAL",
+      "name": "Leichtmetall",
+      "description": "Halbiert das eigene Gewicht.\r"
+    },
+    {
+      "id": 136,
+      "internalName": "MULTISCALE",
+      "name": "Multischuppe",
+      "description": "Verringert erlittenen Schaden bei vollen KP.\r"
+    },
+    {
+      "id": 137,
+      "internalName": "TOXICBOOST",
+      "name": "Giftwahn",
+      "description": "Verstärkt bei Vergiftung physische Angriffe.\r"
+    },
+    {
+      "id": 138,
+      "internalName": "FLAREBOOST",
+      "name": "Hitzewahn",
+      "description": "Verstärkt Spezial-Att. im Fall von Verbrennungen.\r"
+    },
+    {
+      "id": 139,
+      "internalName": "HARVEST",
+      "name": "Reiche Ernte",
+      "description": "Aufgebrauchte Beeren können mehrmals nachwachsen.\r"
+    },
+    {
+      "id": 140,
+      "internalName": "TELEPATHY",
+      "name": "Telepathie",
+      "description": "Erkennt und pariert Angriffe von Mitstreitern.\r"
+    },
+    {
+      "id": 141,
+      "internalName": "MOODY",
+      "name": "Gefühlswippe",
+      "description": "Erhöht einen Statuswert und senkt einen anderen.\r"
+    },
+    {
+      "id": 142,
+      "internalName": "OVERCOAT",
+      "name": "Wetterfest",
+      "description": "Nimmt keinen Schaden durch Wetterbedingungen.\r"
+    },
+    {
+      "id": 143,
+      "internalName": "POISONTOUCH",
+      "name": "Giftgriff",
+      "description": "Kann Ziel durch bloßes Berühren vergiften.\r"
+    },
+    {
+      "id": 144,
+      "internalName": "REGENERATOR",
+      "name": "Belebekraft",
+      "description": "Heilt beim Austauschen eine geringe Menge an KP.\r"
+    },
+    {
+      "id": 145,
+      "internalName": "BIGPECKS",
+      "name": "Brustbieter",
+      "description": "Hindert Angreifer"
+    },
+    {
+      "id": 146,
+      "internalName": "SANDRUSH",
+      "name": "Sandscharrer",
+      "description": "Erhöht in Sandstürmen die Initiative.\r"
+    },
+    {
+      "id": 147,
+      "internalName": "WONDERSKIN",
+      "name": "Wunderhaut",
+      "description": "Wehrt mit robustem Körper viele Status-Attacken ab.\r"
+    },
+    {
+      "id": 148,
+      "internalName": "ANALYTIC",
+      "name": "Analyse",
+      "description": "Greift das Pokémon zuletzt an"
+    },
+    {
+      "id": 149,
+      "internalName": "ILLUSION",
+      "name": "Trugbild",
+      "description": "Bestreitet Kämpfe in der Gestalt des Listenletzten.\r"
+    },
+    {
+      "id": 150,
+      "internalName": "IMPOSTER",
+      "name": "Doppelgänger",
+      "description": "Kämpft als Kopie seines Gegenübers.\r"
+    },
+    {
+      "id": 151,
+      "internalName": "INFILTRATOR",
+      "name": "Schwebedurch",
+      "description": "Überwindet gegnerische Schilde und greift an.\r"
+    },
+    {
+      "id": 152,
+      "internalName": "MUMMY",
+      "name": "Mumie",
+      "description": "Berührt man es"
+    },
+    {
+      "id": 153,
+      "internalName": "MOXIE",
+      "name": "Hochmut",
+      "description": "Besiegt es ein Pokémon"
+    },
+    {
+      "id": 154,
+      "internalName": "JUSTIFIED",
+      "name": "Redlichkeit",
+      "description": "Angriff steigt nach Einstecken einer Unlicht-Att.\r"
+    },
+    {
+      "id": 155,
+      "internalName": "RATTLED",
+      "name": "Hasenfuß",
+      "description": "Aus Angst vor manchen Attacken steigt die Init.\r"
+    },
+    {
+      "id": 156,
+      "internalName": "MAGICBOUNCE",
+      "name": "Magiespiegel",
+      "description": "Lenkt Status-Attacken auf den Angreifer um.\r"
+    },
+    {
+      "id": 157,
+      "internalName": "SAPSIPPER",
+      "name": "Vegetarier",
+      "description": "Treffer durch Pflanzen-Attacken stärken Angriff.\r"
+    },
+    {
+      "id": 158,
+      "internalName": "PRANKSTER",
+      "name": "Strolch",
+      "description": "Ermöglicht Erstschlag mit Status-Attacken.\r"
+    },
+    {
+      "id": 159,
+      "internalName": "SANDFORCE",
+      "name": "Sandgewalt",
+      "description": "Manche Attacken wirken in Sandstürmen besser.\r"
+    },
+    {
+      "id": 160,
+      "internalName": "IRONBARBS",
+      "name": "Eisenstachel",
+      "description": "Angreifer nehmen durch bloßes Berühren Schaden.\r"
+    },
+    {
+      "id": 161,
+      "internalName": "ZENMODE",
+      "name": "Trance-Modus",
+      "description": "Wechselt seine Gestalt"
+    },
+    {
+      "id": 162,
+      "internalName": "VICTORYSTAR",
+      "name": "Triumphstern",
+      "description": "Erhöht Genauigk. bei sich selbst und Mitstreitern.\r"
+    },
+    {
+      "id": 163,
+      "internalName": "TURBOBLAZE",
+      "name": "Turbobrand",
+      "description": "Att. können ungeachtet d. Fähigkeit verw. werden.\r"
+    },
+    {
+      "id": 164,
+      "internalName": "TERAVOLT",
+      "name": "Teravolt",
+      "description": "Att. können ungeachtet d. Fähigkeit verw. werden.\r"
+    },
+    {
+      "id": 165,
+      "internalName": "AERILATE",
+      "name": "Zenithaut",
+      "description": "Attacken vom Typ Normal nehmen den Typ Flug an.\r"
+    },
+    {
+      "id": 166,
+      "internalName": "AROMAVEIL",
+      "name": "Dufthülle",
+      "description": "Schützt alle Pokémon im Team vor manchen mentalen Angriffen.\r"
+    },
+    {
+      "id": 167,
+      "internalName": "AURABREAK",
+      "name": "Aura-Umkehr",
+      "description": "Kehrt die Wirkung von Auren um.\r"
+    },
+    {
+      "id": 168,
+      "internalName": "BULLETPROOF",
+      "name": "Kugelsicher",
+      "description": "Schützt das Pokémon vor geworfenen Bomben und Kugeln.\r"
+    },
+    {
+      "id": 169,
+      "internalName": "CHEEKPOUCH",
+      "name": "Backentaschen",
+      "description": "Heilt beim Konsum von Beeren KP.\r"
+    },
+    {
+      "id": 170,
+      "internalName": "COMPETITIVE",
+      "name": "Unbeugsamkeit",
+      "description": "Erhöht den Spezial-Angriff"
+    },
+    {
+      "id": 171,
+      "internalName": "DARKAURA",
+      "name": "Dunkelaura",
+      "description": "Erhöht die Stärke von allen Attacken des Typs Unlicht.\r"
+    },
+    {
+      "id": 172,
+      "internalName": "FAIRYAURA",
+      "name": "Feenaura",
+      "description": "Erhöht die Stärke von allen Attacken des Typs Fee.\r"
+    },
+    {
+      "id": 173,
+      "internalName": "FLOWERVEIL",
+      "name": "Blütenhülle",
+      "description": "Schützt Pflanzen-Pokémon vor gesenkten Statuswerten.\r"
+    },
+    {
+      "id": 174,
+      "internalName": "FURCOAT",
+      "name": "Fellkleid",
+      "description": "Halbiert den Schaden durch physische Attacken.\r"
+    },
+    {
+      "id": 175,
+      "internalName": "GALEWINGS",
+      "name": "Orkanschwingen",
+      "description": "Ermöglicht es dem Pokémon"
+    },
+    {
+      "id": 176,
+      "internalName": "GOOEY",
+      "name": "Viskosität",
+      "description": "Die Initiative von Angreifern sinkt durch bloßes Berühren.\r"
+    },
+    {
+      "id": 177,
+      "internalName": "GRASSPELT",
+      "name": "Pflanzenfell",
+      "description": "Erhöht die Verteidigung"
+    },
+    {
+      "id": 178,
+      "internalName": "MAGICIAN",
+      "name": "Zauberer",
+      "description": "Stiehlt Items von Pokémon"
+    },
+    {
+      "id": 179,
+      "internalName": "MEGALAUNCHER",
+      "name": "Megawumme",
+      "description": "Erhöht die Stärke einiger Wellen-"
+    },
+    {
+      "id": 180,
+      "internalName": "PARENTALBOND",
+      "name": "Familienbande",
+      "description": "Zwei Generationen setzen gemeinsam zum Angriff an.\r"
+    },
+    {
+      "id": 181,
+      "internalName": "PIXILATE",
+      "name": "Feenschicht",
+      "description": "Attacken vom Typ Normal nehmen den Typ Fee an.\r"
+    },
+    {
+      "id": 182,
+      "internalName": "PROTEAN",
+      "name": "Wandlungskunst",
+      "description": "Das Pokémon nimmt bei Einsatz einer Attacke deren Typ an.\r"
+    },
+    {
+      "id": 183,
+      "internalName": "REFRIGERATE",
+      "name": "Frostschicht",
+      "description": "Attacken vom Typ Normal nehmen den Typ Eis an.\r"
+    },
+    {
+      "id": 184,
+      "internalName": "STANCECHANGE",
+      "name": "Taktikwechsel",
+      "description": "Das Pokémon nimmt je nach Kampftaktik eine andere Form an.\r"
+    },
+    {
+      "id": 185,
+      "internalName": "STRONGJAW",
+      "name": "Titankiefer",
+      "description": "Der kräftige Kiefer des Pokémon verleiht ihm einen starken Biss.\r"
+    },
+    {
+      "id": 186,
+      "internalName": "SWEETVEIL",
+      "name": "Zuckerhülle",
+      "description": "Alle Pokémon im Team können nicht einschlafen.\r"
+    },
+    {
+      "id": 187,
+      "internalName": "SYMBIOSIS",
+      "name": "Symbiose",
+      "description": "Das Pokémon kann sein Item an einen Mitstreiter weitergeben.\r"
+    },
+    {
+      "id": 188,
+      "internalName": "TOUGHCLAWS",
+      "name": "Krallenwucht",
+      "description": "Erhöht die Stärke von direkten Angriffen."
+    }
+  ],
+  "byInternalName": {
+    "STENCH": 1,
+    "DRIZZLE": 2,
+    "SPEEDBOOST": 3,
+    "BATTLEARMOR": 4,
+    "STURDY": 5,
+    "DAMP": 6,
+    "LIMBER": 7,
+    "SANDVEIL": 8,
+    "STATIC": 9,
+    "VOLTABSORB": 10,
+    "WATERABSORB": 11,
+    "OBLIVIOUS": 12,
+    "CLOUDNINE": 13,
+    "COMPOUNDEYES": 14,
+    "INSOMNIA": 15,
+    "COLORCHANGE": 16,
+    "IMMUNITY": 17,
+    "FLASHFIRE": 18,
+    "SHIELDDUST": 19,
+    "OWNTEMPO": 20,
+    "SUCTIONCUPS": 21,
+    "INTIMIDATE": 22,
+    "SHADOWTAG": 23,
+    "ROUGHSKIN": 24,
+    "WONDERGUARD": 25,
+    "LEVITATE": 26,
+    "EFFECTSPORE": 27,
+    "SYNCHRONIZE": 28,
+    "CLEARBODY": 29,
+    "NATURALCURE": 30,
+    "LIGHTNINGROD": 31,
+    "SERENEGRACE": 32,
+    "SWIFTSWIM": 33,
+    "CHLOROPHYLL": 34,
+    "ILLUMINATE": 35,
+    "TRACE": 36,
+    "HUGEPOWER": 37,
+    "POISONPOINT": 38,
+    "INNERFOCUS": 39,
+    "MAGMAARMOR": 40,
+    "WATERVEIL": 41,
+    "MAGNETPULL": 42,
+    "SOUNDPROOF": 43,
+    "RAINDISH": 44,
+    "SANDSTREAM": 45,
+    "PRESSURE": 46,
+    "THICKFAT": 47,
+    "EARLYBIRD": 48,
+    "FLAMEBODY": 49,
+    "RUNAWAY": 50,
+    "KEENEYE": 51,
+    "HYPERCUTTER": 52,
+    "PICKUP": 53,
+    "TRUANT": 54,
+    "HUSTLE": 55,
+    "CUTECHARM": 56,
+    "PLUS": 57,
+    "MINUS": 58,
+    "FORECAST": 59,
+    "STICKYHOLD": 60,
+    "SHEDSKIN": 61,
+    "GUTS": 62,
+    "MARVELSCALE": 63,
+    "LIQUIDOOZE": 64,
+    "OVERGROW": 65,
+    "BLAZE": 66,
+    "TORRENT": 67,
+    "SWARM": 68,
+    "ROCKHEAD": 69,
+    "DROUGHT": 70,
+    "ARENATRAP": 71,
+    "VITALSPIRIT": 72,
+    "WHITESMOKE": 73,
+    "PUREPOWER": 74,
+    "SHELLARMOR": 75,
+    "AIRLOCK": 76,
+    "TANGLEDFEET": 77,
+    "MOTORDRIVE": 78,
+    "RIVALRY": 79,
+    "STEADFAST": 80,
+    "SNOWCLOAK": 81,
+    "GLUTTONY": 82,
+    "ANGERPOINT": 83,
+    "UNBURDEN": 84,
+    "HEATPROOF": 85,
+    "SIMPLE": 86,
+    "DRYSKIN": 87,
+    "DOWNLOAD": 88,
+    "IRONFIST": 89,
+    "POISONHEAL": 90,
+    "ADAPTABILITY": 91,
+    "SKILLLINK": 92,
+    "HYDRATION": 93,
+    "SOLARPOWER": 94,
+    "QUICKFEET": 95,
+    "NORMALIZE": 96,
+    "SNIPER": 97,
+    "MAGICGUARD": 98,
+    "NOGUARD": 99,
+    "STALL": 100,
+    "TECHNICIAN": 101,
+    "LEAFGUARD": 102,
+    "KLUTZ": 103,
+    "MOLDBREAKER": 104,
+    "SUPERLUCK": 105,
+    "AFTERMATH": 106,
+    "ANTICIPATION": 107,
+    "FOREWARN": 108,
+    "UNAWARE": 109,
+    "TINTEDLENS": 110,
+    "FILTER": 111,
+    "SLOWSTART": 112,
+    "SCRAPPY": 113,
+    "STORMDRAIN": 114,
+    "ICEBODY": 115,
+    "SOLIDROCK": 116,
+    "SNOWWARNING": 117,
+    "HONEYGATHER": 118,
+    "FRISK": 119,
+    "RECKLESS": 120,
+    "MULTITYPE": 121,
+    "FLOWERGIFT": 122,
+    "BADDREAMS": 123,
+    "PICKPOCKET": 124,
+    "SHEERFORCE": 125,
+    "CONTRARY": 126,
+    "UNNERVE": 127,
+    "DEFIANT": 128,
+    "DEFEATIST": 129,
+    "CURSEDBODY": 130,
+    "HEALER": 131,
+    "FRIENDGUARD": 132,
+    "WEAKARMOR": 133,
+    "HEAVYMETAL": 134,
+    "LIGHTMETAL": 135,
+    "MULTISCALE": 136,
+    "TOXICBOOST": 137,
+    "FLAREBOOST": 138,
+    "HARVEST": 139,
+    "TELEPATHY": 140,
+    "MOODY": 141,
+    "OVERCOAT": 142,
+    "POISONTOUCH": 143,
+    "REGENERATOR": 144,
+    "BIGPECKS": 145,
+    "SANDRUSH": 146,
+    "WONDERSKIN": 147,
+    "ANALYTIC": 148,
+    "ILLUSION": 149,
+    "IMPOSTER": 150,
+    "INFILTRATOR": 151,
+    "MUMMY": 152,
+    "MOXIE": 153,
+    "JUSTIFIED": 154,
+    "RATTLED": 155,
+    "MAGICBOUNCE": 156,
+    "SAPSIPPER": 157,
+    "PRANKSTER": 158,
+    "SANDFORCE": 159,
+    "IRONBARBS": 160,
+    "ZENMODE": 161,
+    "VICTORYSTAR": 162,
+    "TURBOBLAZE": 163,
+    "TERAVOLT": 164,
+    "AERILATE": 165,
+    "AROMAVEIL": 166,
+    "AURABREAK": 167,
+    "BULLETPROOF": 168,
+    "CHEEKPOUCH": 169,
+    "COMPETITIVE": 170,
+    "DARKAURA": 171,
+    "FAIRYAURA": 172,
+    "FLOWERVEIL": 173,
+    "FURCOAT": 174,
+    "GALEWINGS": 175,
+    "GOOEY": 176,
+    "GRASSPELT": 177,
+    "MAGICIAN": 178,
+    "MEGALAUNCHER": 179,
+    "PARENTALBOND": 180,
+    "PIXILATE": 181,
+    "PROTEAN": 182,
+    "REFRIGERATE": 183,
+    "STANCECHANGE": 184,
+    "STRONGJAW": 185,
+    "SWEETVEIL": 186,
+    "SYMBIOSIS": 187,
+    "TOUGHCLAWS": 188
+  }
+}

@@ -15,7 +15,8 @@ type Move = any;
 type Ability = any;
 import { PokemonSprite } from "~/components/SpriteImage";
 import { ResponsiveSpriteImage } from "~/components/ResponsiveSpriteImage";
-import { getTypeColor } from "~/lib/utils/typeColors";
+import { getTypeColor, getTypeColorClass } from "~/lib/utils/typeColors";
+import { calculateTypeEffectiveness } from "~/lib/utils/typeEffectiveness";
 
 export function meta({ params, data }: Route.MetaArgs) {
   const trainer = data?.trainer;
@@ -104,25 +105,40 @@ function PokemonCard({ pokemon, pokemonData, itemData, moveData, abilityData }: 
   moveData: Move[];
   abilityData: Ability[];
 }) {
-  const speciesData = pokemonData.find(p => p.internalName === pokemon.species);
+  const speciesData = pokemonData.find((p: any) => 
+    p.internalName === pokemon.species || 
+    p.internalName === pokemon.species + '\r'
+  );
   const heldItem = itemData.find(i => i.internalName === pokemon.item);
   const displayName = speciesData?.name || pokemon.species;
   
   const nature = natureEffects[pokemon.nature || ''] || { plus: '', minus: '' };
 
+  // Calculate type effectiveness if we have species data with types
+  const typeEffectiveness = speciesData?.types ? (() => {
+    try {
+      return calculateTypeEffectiveness(speciesData.types);
+    } catch (error) {
+      console.error('Error calculating type effectiveness:', error);
+      return null;
+    }
+  })() : null;
+
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4">
       <div className="flex gap-4">
-        {/* Sprite */}
+        {/* Sprite - Now clickable */}
         <div className="w-24 h-24 bg-gray-100 rounded-lg flex items-center justify-center">
           {speciesData?.id ? (
-            <ResponsiveSpriteImage
-              id={speciesData.id.toString()}
-              alt={displayName}
-              size={96}
-              loading="lazy"
-              className="w-full h-full object-contain pixelated"
-            />
+            <Link to={`/pokemon/${speciesData.id}`} className="block w-full h-full hover:scale-105 transition-transform">
+              <ResponsiveSpriteImage
+                id={speciesData.id.toString()}
+                alt={displayName}
+                size={96}
+                loading="lazy"
+                className="w-full h-full object-contain pixelated"
+              />
+            </Link>
           ) : (
             <PokemonSprite
               internalName={pokemon.species}
@@ -136,9 +152,17 @@ function PokemonCard({ pokemon, pokemonData, itemData, moveData, abilityData }: 
         {/* Info */}
         <div className="flex-1">
           <div className="flex items-center gap-2 mb-2">
-            <h3 className="font-semibold text-lg text-gray-900 dark:text-white">
-              {displayName}
-            </h3>
+            {speciesData?.id ? (
+              <Link to={`/pokemon/${speciesData.id}`}>
+                <h3 className="font-semibold text-lg text-gray-900 dark:text-white hover:text-blue-500 transition-colors">
+                  {displayName}
+                </h3>
+              </Link>
+            ) : (
+              <h3 className="font-semibold text-lg text-gray-900 dark:text-white">
+                {displayName}
+              </h3>
+            )}
             {pokemon.nickname && (
               <span className="text-sm text-gray-500 dark:text-gray-400">"{pokemon.nickname}"</span>
             )}
@@ -147,16 +171,74 @@ function PokemonCard({ pokemon, pokemonData, itemData, moveData, abilityData }: 
           </div>
           
           {/* Types */}
-          {speciesData && (
-            <div className="flex gap-1 mb-2">
+          {speciesData && speciesData.types && (
+            <div className="flex gap-1 mb-3">
               {speciesData.types.filter(Boolean).map((type: string, i: number) => (
                 <span 
                   key={i}
-                  className={`px-2 py-0.5 rounded text-xs font-medium ${getTypeColor(type)}`}
+                  className="px-2 py-0.5 rounded text-xs font-medium text-white"
+                  style={{ backgroundColor: getTypeColor(type.replace('\r', '')) }}
                 >
-                  {type}
+                  {type.replace('\r', '')}
                 </span>
               ))}
+            </div>
+          )}
+
+          {/* Type Effectiveness */}
+          {typeEffectiveness && speciesData && (
+            <div className="mb-3 p-3 bg-gray-50 dark:bg-gray-700/50 rounded-lg">
+              <h4 className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Type Matchups</h4>
+              <div className="grid grid-cols-1 gap-2 text-xs">
+                {typeEffectiveness.weakTo.length > 0 && (
+                  <div>
+                    <span className="text-red-600 dark:text-red-400 font-medium">Weak to:</span>{' '}
+                    <div className="inline-flex flex-wrap gap-1">
+                      {typeEffectiveness.weakTo.map(type => (
+                        <span
+                          key={type}
+                          className="px-1.5 py-0.5 rounded text-xs font-medium text-white"
+                          style={{ backgroundColor: getTypeColor(type) }}
+                        >
+                          {type}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+                {typeEffectiveness.resistantTo.length > 0 && (
+                  <div>
+                    <span className="text-green-600 dark:text-green-400 font-medium">Resists:</span>{' '}
+                    <div className="inline-flex flex-wrap gap-1">
+                      {typeEffectiveness.resistantTo.map(type => (
+                        <span
+                          key={type}
+                          className="px-1.5 py-0.5 rounded text-xs font-medium text-white"
+                          style={{ backgroundColor: getTypeColor(type) }}
+                        >
+                          {type}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+                {typeEffectiveness.immuneTo.length > 0 && (
+                  <div>
+                    <span className="text-gray-600 dark:text-gray-400 font-medium">Immune to:</span>{' '}
+                    <div className="inline-flex flex-wrap gap-1">
+                      {typeEffectiveness.immuneTo.map(type => (
+                        <span
+                          key={type}
+                          className="px-1.5 py-0.5 rounded text-xs font-medium text-white"
+                          style={{ backgroundColor: getTypeColor(type) }}
+                        >
+                          {type}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
             </div>
           )}
           
@@ -276,12 +358,12 @@ function PokemonCard({ pokemon, pokemonData, itemData, moveData, abilityData }: 
               </div>
             )}
             
-            {pokemon.evs && pokemon.evs.length > 0 && (
+            {(pokemon as any).evs && (pokemon as any).evs.length > 0 && (
               <div className="text-xs">
                 <span className="text-gray-500 dark:text-gray-400">EVs:</span>{' '}
                 <span className="font-mono">
-                  HP:{pokemon.evs[0]} ATK:{pokemon.evs[1]} DEF:{pokemon.evs[2]}{' '}
-                  SPE:{pokemon.evs[3]} SPA:{pokemon.evs[4]} SPD:{pokemon.evs[5]}
+                  HP:{(pokemon as any).evs[0]} ATK:{(pokemon as any).evs[1]} DEF:{(pokemon as any).evs[2]}{' '}
+                  SPE:{(pokemon as any).evs[3]} SPA:{(pokemon as any).evs[4]} SPD:{(pokemon as any).evs[5]}
                 </span>
               </div>
             )}
@@ -360,7 +442,7 @@ export default function TrainerDetail() {
     );
   }
 
-  const totalLevels = trainer.party.reduce((sum, p) => sum + p.level, 0);
+  const totalLevels = trainer.party.reduce((sum: number, p: any) => sum + p.level, 0);
   const avgLevel = Math.round(totalLevels / trainer.party.length);
 
   return (
@@ -409,8 +491,8 @@ export default function TrainerDetail() {
                 <div className="pt-4 border-t">
                   <h3 className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Battle Items</h3>
                   <div className="flex flex-wrap gap-2">
-                    {trainer.items.map((item, i) => {
-                      const itemData = itemsList.find(it => it.internalName === item);
+                    {trainer.items.map((item: any, i: number) => {
+                      const itemData = itemsList.find((it: any) => it.internalName === item);
                       return (
                         <span 
                           key={i}
@@ -428,7 +510,7 @@ export default function TrainerDetail() {
             {/* Team */}
             <div className="space-y-4">
               <h2 className="text-2xl font-semibold text-gray-900 dark:text-white">Team</h2>
-              {trainer.party.map((pokemon, idx) => (
+              {trainer.party.map((pokemon: any, idx: number) => (
                 <PokemonCard 
                   key={idx}
                   pokemon={pokemon}
@@ -496,26 +578,26 @@ export default function TrainerDetail() {
                 <div className="flex justify-between">
                   <span className="text-sm text-gray-600 dark:text-gray-400">Level Range</span>
                   <span className="font-semibold text-gray-900 dark:text-white">
-                    {Math.min(...trainer.party.map(p => p.level))} - {Math.max(...trainer.party.map(p => p.level))}
+                    {Math.min(...trainer.party.map((p: any) => p.level))} - {Math.max(...trainer.party.map((p: any) => p.level))}
                   </span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-sm text-gray-600 dark:text-gray-400">Has Items</span>
                   <span className="font-semibold text-gray-900 dark:text-white">
-                    {trainer.party.filter(p => p.item).length} Pokémon
+                    {trainer.party.filter((p: any) => p.item).length} Pokémon
                   </span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-sm text-gray-600 dark:text-gray-400">Custom Moves</span>
                   <span className="font-semibold text-gray-900 dark:text-white">
-                    {trainer.party.filter(p => p.moves && p.moves.length > 0).length} Pokémon
+                    {trainer.party.filter((p: any) => p.moves && p.moves.length > 0).length} Pokémon
                   </span>
                 </div>
                 {trainer.party.some(p => p.shiny) && (
                   <div className="flex justify-between">
                     <span className="text-sm text-gray-600 dark:text-gray-400">Shiny Pokémon</span>
                     <span className="font-semibold text-yellow-600">
-                      {trainer.party.filter(p => p.shiny).length} ✨
+                      {trainer.party.filter((p: any) => p.shiny).length} ✨
                     </span>
                   </div>
                 )}
@@ -526,11 +608,11 @@ export default function TrainerDetail() {
             <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
               <h3 className="font-semibold text-gray-900 dark:text-white mb-4">Level Distribution</h3>
               <div className="space-y-2">
-                {trainer.party.map((pokemon, idx) => (
+                {trainer.party.map((pokemon: any, idx: number) => (
                   <div key={idx}>
                     <div className="flex justify-between mb-1">
                       <span className="text-sm text-gray-600 dark:text-gray-400">
-                        {pokemonList.find(p => p.internalName === pokemon.species)?.name || pokemon.species}
+                        {pokemonList.find((p: any) => p.internalName === pokemon.species)?.name || pokemon.species}
                       </span>
                       <span className="text-sm font-semibold">Lv.{pokemon.level}</span>
                     </div>

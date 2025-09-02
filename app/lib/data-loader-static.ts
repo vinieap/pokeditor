@@ -1,11 +1,11 @@
-import pokemonDataJson from '../../public/data/json/pokemon.json';
-import movesDataJson from '../../public/data/json/moves.json';
-import itemsDataJson from '../../public/data/json/items.json';
-import trainersDataJson from '../../public/data/json/trainers.json';
-import trainerTypesDataJson from '../../public/data/json/trainertypes.json';
-import encountersDataJson from '../../public/data/json/encounters.json';
-import typesDataJson from '../../public/data/json/types.json';
-import abilitiesDataJson from '../../public/data/json/abilities.json';
+import pokemonDataJson from '../data/json/pokemon.json';
+import movesDataJson from '../data/json/moves.json';
+import itemsDataJson from '../data/json/items.json';
+import trainersDataJson from '../data/json/trainers.json';
+import trainerTypesDataJson from '../data/json/trainertypes.json';
+import encountersDataJson from '../data/json/encounters.json';
+import typesDataJson from '../data/json/types.json';
+import abilitiesDataJson from '../data/json/abilities.json';
 
 // This module provides static imports of the JSON data for server-side rendering
 // This avoids the need for fetch requests in Cloudflare Workers
@@ -43,7 +43,7 @@ export function loadTrainersDataStatic() {
     Object.entries((trainersDataJson as any).byId).forEach(([key, value]) => {
       const cleanId = key.replace(/\r/g, '');
       cleanedById[cleanId] = {
-        ...value,
+        ...(value as any),
         id: cleanId
       };
       cleanedList.push(cleanedById[cleanId]);

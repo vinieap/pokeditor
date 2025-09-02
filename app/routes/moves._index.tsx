@@ -1,9 +1,18 @@
-import { useState, useMemo } from "react";
-import { Link, useLoaderData } from "react-router";
+import { useState, useMemo, memo } from "react";
+import { Link, useLoaderData, useNavigation } from "react-router";
 import type { Route } from "./+types/moves._index";
 import { loadMovesData } from "~/lib/data-loader-v2";
 import type { Move } from "~/lib/types-v2";
 import { getTypeColorClass } from "~/lib/utils/typeColors";
+import { useDebouncedSearch } from "~/hooks/useDebounce";
+import { Pagination, usePagination } from "~/components/Pagination";
+import { 
+  MoveCardSkeleton, 
+  MoveListItemSkeleton, 
+  GridSkeletonLoader, 
+  ListSkeletonLoader,
+  StatsSummarySkeleton 
+} from "~/components/SkeletonLoader";
 
 
 export function meta({}: Route.MetaArgs) {
@@ -39,10 +48,15 @@ const categoryIcons: Record<string, string> = {
 
 export default function MovesIndex() {
   const { moves } = useLoaderData<typeof loader>();
-  const [searchQuery, setSearchQuery] = useState("");
+  const navigation = useNavigation();
+  const { searchValue, debouncedSearchValue, setSearchValue, isSearching } = useDebouncedSearch('', 300);
   const [selectedType, setSelectedType] = useState("all");
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid");
+  const { currentPage, setPage, getPaginatedData } = usePagination(50);
+
+  // Check if we're loading
+  const isLoading = navigation.state === "loading";
 
   const types = [
     "all", "NORMAL", "FIRE", "WATER", "ELECTRIC", "GRASS", "ICE",
@@ -54,18 +68,23 @@ export default function MovesIndex() {
 
   const filteredMoves = useMemo(() => {
     return moves.filter(move => {
-      const matchesSearch = searchQuery === "" || 
-        (move.displayName || move.internalName).toLowerCase().includes(searchQuery.toLowerCase()) ||
-        move.internalName.toLowerCase().includes(searchQuery.toLowerCase());
+      const matchesSearch = debouncedSearchValue === "" || 
+        (move.displayName || move.internalName).toLowerCase().includes(debouncedSearchValue.toLowerCase()) ||
+        move.internalName.toLowerCase().includes(debouncedSearchValue.toLowerCase());
       
       const matchesType = selectedType === "all" || move.type === selectedType;
       const matchesCategory = selectedCategory === "all" || move.category === selectedCategory;
       
       return matchesSearch && matchesType && matchesCategory;
     });
-  }, [moves, searchQuery, selectedType, selectedCategory]);
+  }, [moves, debouncedSearchValue, selectedType, selectedCategory]);
 
-  const MoveCard = ({ move }: { move: Move }) => (
+  const paginationData = useMemo(() => 
+    getPaginatedData(filteredMoves), 
+    [filteredMoves, currentPage]
+  );
+
+  const MoveCard = memo(({ move }: { move: Move }) => (
     <Link 
       to={`/moves/${move.id}`}
       className="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-xl transition-all p-4"
@@ -101,9 +120,9 @@ export default function MovesIndex() {
       
       <p className="text-gray-600 text-sm line-clamp-2">{move.description}</p>
     </Link>
-  );
+  ));
 
-  const MoveListItem = ({ move }: { move: Move }) => (
+  const MoveListItem = memo(({ move }: { move: Move }) => (
     <Link 
       to={`/moves/${move.id}`}
       className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 hover:shadow-md transition-shadow"
@@ -140,7 +159,7 @@ export default function MovesIndex() {
         </div>
       </div>
     </Link>
-  );
+  ));
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
@@ -149,7 +168,10 @@ export default function MovesIndex() {
         <div className="mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-2">Move Database</h1>
           <p className="text-gray-600">
-            Showing {filteredMoves.length} of {moves.length} moves
+            Found {filteredMoves.length} of {moves.length} moves
+            {isSearching && (
+              <span className="ml-2 text-blue-500 text-sm">(searching...)</span>
+            )}
           </p>
         </div>
 
@@ -157,14 +179,19 @@ export default function MovesIndex() {
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 mb-6">
           <div className="flex flex-wrap gap-4 items-center">
             {/* Search */}
-            <div className="flex-1 min-w-[200px]">
+            <div className="flex-1 min-w-[200px] relative">
               <input
                 type="text"
                 placeholder="Search moves by name..."
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-900 bg-white dark:bg-gray-800 placeholder-gray-500"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
+                className="w-full px-4 py-2 pr-10 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-900 bg-white dark:bg-gray-800 placeholder-gray-500"
+                value={searchValue}
+                onChange={(e) => setSearchValue(e.target.value)}
               />
+              {isSearching && (
+                <div className="absolute right-3 top-1/2 transform -translate-y-1/2">
+                  <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-blue-500"></div>
+                </div>
+              )}
             </div>
 
             {/* Type Filter */}
@@ -223,53 +250,79 @@ export default function MovesIndex() {
         </div>
 
         {/* Stats Summary */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 text-center">
-            <div className="text-3xl mb-2">💥</div>
-            <p className="text-2xl font-bold text-gray-900">
-              {moves.filter(m => m.category === 'Physical').length}
-            </p>
-            <p className="text-sm text-gray-600">Physical Moves</p>
+        {isLoading ? (
+          <StatsSummarySkeleton />
+        ) : (
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+            <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 text-center">
+              <div className="text-3xl mb-2">💥</div>
+              <p className="text-2xl font-bold text-gray-900">
+                {moves.filter(m => m.category === 'Physical').length}
+              </p>
+              <p className="text-sm text-gray-600">Physical Moves</p>
+            </div>
+            <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 text-center">
+              <div className="text-3xl mb-2">✨</div>
+              <p className="text-2xl font-bold text-gray-900">
+                {moves.filter(m => m.category === 'Special').length}
+              </p>
+              <p className="text-sm text-gray-600">Special Moves</p>
+            </div>
+            <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 text-center">
+              <div className="text-3xl mb-2">🔄</div>
+              <p className="text-2xl font-bold text-gray-900">
+                {moves.filter(m => m.category === 'Status').length}
+              </p>
+              <p className="text-sm text-gray-600">Status Moves</p>
+            </div>
+            <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 text-center">
+              <div className="text-3xl mb-2">⚡</div>
+              <p className="text-2xl font-bold text-gray-900">
+                {moves.filter(m => m.priority > 0).length}
+              </p>
+              <p className="text-sm text-gray-600">Priority Moves</p>
+            </div>
           </div>
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 text-center">
-            <div className="text-3xl mb-2">✨</div>
-            <p className="text-2xl font-bold text-gray-900">
-              {moves.filter(m => m.category === 'Special').length}
-            </p>
-            <p className="text-sm text-gray-600">Special Moves</p>
-          </div>
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 text-center">
-            <div className="text-3xl mb-2">🔄</div>
-            <p className="text-2xl font-bold text-gray-900">
-              {moves.filter(m => m.category === 'Status').length}
-            </p>
-            <p className="text-sm text-gray-600">Status Moves</p>
-          </div>
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 text-center">
-            <div className="text-3xl mb-2">⚡</div>
-            <p className="text-2xl font-bold text-gray-900">
-              {moves.filter(m => m.priority > 0).length}
-            </p>
-            <p className="text-sm text-gray-600">Priority Moves</p>
-          </div>
-        </div>
+        )}
 
         {/* Moves Grid/List */}
-        {filteredMoves.length > 0 ? (
+        {isLoading ? (
+          // Show skeleton loaders while loading
+          viewMode === "grid" ? (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mb-8">
+              <GridSkeletonLoader count={50} CardSkeleton={MoveCardSkeleton} />
+            </div>
+          ) : (
+            <div className="space-y-2 mb-8">
+              <ListSkeletonLoader count={50} ItemSkeleton={MoveListItemSkeleton} />
+            </div>
+          )
+        ) : paginationData.data.length > 0 ? (
           <div className={viewMode === "grid" 
-            ? "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4" 
-            : "space-y-2"
+            ? "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mb-8" 
+            : "space-y-2 mb-8"
           }>
-            {filteredMoves.map(move => 
+            {paginationData.data.map(move => 
               viewMode === "grid" 
                 ? <MoveCard key={move.id} move={move} />
                 : <MoveListItem key={move.id} move={move} />
             )}
           </div>
         ) : (
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-8 text-center">
+          <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-8 text-center mb-8">
             <p className="text-gray-500 text-lg">No moves found matching your criteria</p>
           </div>
+        )}
+
+        {/* Pagination */}
+        {paginationData.totalPages > 1 && (
+          <Pagination
+            currentPage={paginationData.currentPage}
+            totalPages={paginationData.totalPages}
+            totalItems={paginationData.totalItems}
+            itemsPerPage={paginationData.itemsPerPage}
+            onPageChange={setPage}
+          />
         )}
       </div>
     </div>
